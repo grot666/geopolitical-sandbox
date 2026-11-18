@@ -166,3 +166,7 @@
 .line-index i{width:10px;height:3px;margin-top:6px;border-radius:2px;flex-shrink:0}
 .line-index span small{display:block;font-size:8.5px;color:#64798b}
 @media(max-width:620px){.line-card{left:8px;right:8px;bottom:62px;width:auto}}
+
+/* Dense regions: below zoom 3, low-score local conflicts drop their score badge and pulse ring (hover/tap still shows the HUD). */
+.leaflet-container:not([data-zoom-band=normal]) .gravity-marker.minor b,.leaflet-container:not([data-zoom-band=normal]) .gravity-marker.minor>span:after{display:none}
+.leaflet-container:not([data-zoom-band=normal]) .gravity-marker.minor i{width:7px;height:7px}

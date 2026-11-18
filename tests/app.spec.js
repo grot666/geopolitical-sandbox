@@ -47,4 +47,4 @@ test('no third-party requests by default; OSM only after opt-in with attribution
  await page.getByLabel(/本地矢量/).check();await expect(page.locator('.leaflet-tile')).toHaveCount(0);
  await page.unroute('https://tile.openstreetmap.org/**');await page.route('https://tile.openstreetmap.org/**',r=>r.abort());await page.getByLabel(/OpenStreetMap/).click();await expect(page.locator('.tile-warning')).toContainText('已自动切回本地底图');await expect(page.getByLabel(/本地矢量/)).toBeChecked();
  await page.reload();await expect(page.getByLabel(/本地矢量/)).toBeChecked();
- await page.route(/world\.geojson/,r=>r.abort());await page.reload();await expect(page.locator('.tile-warning')).toBeVisible();await expect(page.locator('.gravity-marker')).toHaveCount(9)});
+ await page.route(/world\.geojson/,r=>r.abort());await page.reload();await expect(page.locator('.tile-warning')).toBeVisible();await expect(page.locator('.gravity-marker')).toHaveCount(29)});

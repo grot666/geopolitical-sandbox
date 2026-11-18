@@ -133,5 +133,347 @@
     "evidence": "允许人类正常交互浏览、须显示署名与正常Referer；禁止批量抓取、预取与离线下载；无服务保证。",
     "verification": "本轮打开正文",
     "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "aj-sudan",
+    "title": "Al Jazeera · 苏丹军在科尔多凡的推进",
+    "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf",
+    "asOf": "2026-11-14",
+    "evidence": "苏丹武装部队（SAF）及盟军打破RSF对欧拜伊德的包围，推进至西科尔多凡，夺取 al-Khuwai。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "sudanspost-map",
+    "title": "Sudans Post · 苏丹控制区地图（截至11月17日）",
+    "url": "https://www.sudanspost.com/territorial-control-map-sudan-conflict-as-of-november-17-2026/",
+    "asOf": "2026-11-17",
+    "evidence": "SAF控制北科尔多凡大部并推进至纳胡德以东约60公里；RSF仍控制西科尔多凡大部与几乎全部达尔富尔（2025年10月攻占法希尔）。地图为媒体估计。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "amnesty-sudan",
+    "title": "Amnesty · RSF无人机袭击欧拜伊德平民",
+    "url": "https://www.amnesty.org/en/latest/news/2026/11/sudan-devastating-rsf-drone-strikes-on-civilians-in-el-obeid-should-be-investigated-as-war-crimes/",
+    "asOf": "2026-11",
+    "evidence": "国际特赦调查2026年6–8月九次RSF无人机袭击，造成37名平民死亡；呼吁按战争罪调查。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "aa-sudan",
+    "title": "Anadolu · 苏丹军夺取西科尔多凡三地",
+    "url": "https://www.aa.com.tr/en/middle-east/sudanese-army-seizes-3-areas-in-west-kordofan-amid-fighting-with-rsf-military-sources/4125446",
+    "asOf": "2026-11-14",
+    "evidence": "引联合国估计：2023年4月以来战争致数万人死亡、近1300万人流离失所。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "acled-badme",
+    "title": "ACLED · 巴德梅周边局势（埃塞—厄立特里亚）",
+    "url": "https://acleddata.com/expert-comment/what-happening-and-around-badme-border-between-ethiopia-and-eritrea",
+    "asOf": "2026-11",
+    "evidence": "约11月15日厄立特里亚国防军重新进入巴德梅；双方在边境集结并有持续炮击，全面直接冲突风险高。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "ctp-ethiopia",
+    "title": "Critical Threats · 埃塞俄比亚战争安全评估（11月17日）",
+    "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-17-2026",
+    "asOf": "2026-11-17",
+    "evidence": "法诺（AFNM）与联邦军在阿姆哈拉交战；多方报道厄立特里亚动员（萨瓦基地活动增加，未能确认性质）。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "aa-ethiopia",
+    "title": "Anadolu · 埃塞指控厄立特里亚主导提格雷攻势",
+    "url": "https://www.aa.com.tr/en/africa/ethiopia-accuses-eritrea-of-leading-tigray-rebel-offensive-with-egyptian-support/4125272",
+    "asOf": "2026-11",
+    "evidence": "埃塞总参谋长指控厄立特里亚主导、埃及提供后勤；属埃塞官方指控，厄方否认。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "bbc-mali",
+    "title": "BBC · 马里JNIM封锁巴马科",
+    "url": "https://www.bbc.com/news/articles/cx21g1pdm92o",
+    "asOf": "2026",
+    "evidence": "BBC核实：巴马科以西约45公里数十辆车被焚；JNIM自2025年起实施燃料封锁。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "apa-mali",
+    "title": "APAnews · 11月1505辆油罐车抵达巴马科",
+    "url": "https://fr.apanews.net/security/mali-1-505-citernes-de-carburant-a-bamako/",
+    "asOf": "2026-11-16",
+    "evidence": "11月以来1505辆油罐车在军队护送下抵达巴马科；运输走廊仍面临袭击风险。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "r2p-sahel",
+    "title": "GCR2P · 中萨赫勒（马里、布基纳法索、尼日尔）",
+    "url": "https://www.globalr2p.org/countries/mali/",
+    "asOf": "2026",
+    "evidence": "JNIM与“伊斯兰国萨赫勒省”扩张；2026年4月25日JNIM与FLA协同进攻；联合国记录2026年1–3月平民死亡2640人；报告提及马里军队与“非洲军团”侵权。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "aj-burkina",
+    "title": "Al Jazeera · 布基纳法索武装团体互斗、国家失地",
+    "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground",
+    "asOf": "2026-11-13",
+    "evidence": "布基纳法索境内敌对武装团体相互攻击，国家控制范围收缩。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "aj-drc",
+    "title": "Al Jazeera · 刚果（金）多条和平进程未能止暴",
+    "url": "https://www.aljazeera.com/news/2026/11/18/dr-congos-rival-peace-efforts-fail-to-halt-violence-in-the-east",
+    "asOf": "2026-11-18",
+    "evidence": "华盛顿协议（2025年12月）与多哈框架（2025年11月15日）并行；11月初卡比拉领导的FRN在南基伍沿3号国道推进，政府军称已阻止。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "state-drc",
+    "title": "美国国务院 · 刚果（金）政府与AFC/M23多哈进程联合声明",
+    "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/joint-statement-between-the-representatives-of-the-government-of-the-democratic-republic-of-the-congo-and-the-representatives-of-the-alliance-fleuve-congo-march-23-movement-afc-m23-on-the-doha-proce",
+    "asOf": "2026-08",
+    "evidence": "2026年8月17–21日双方及卡塔尔、美国等制定路线图；首个停火核查任务定于8月24日赴米农布韦。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "sg-somalia",
+    "title": "Somali Guardian · 政府与青年党争夺巴斯拉",
+    "url": "https://www.somaliguardian.com/news/somalia-news/somalias-govt-al-shabaab-battle-basra-second-week/",
+    "asOf": "2026-11",
+    "evidence": "摩加迪沙西北巴斯拉一带战斗持续第二周。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "garowe-somalia",
+    "title": "Garowe Online · 青年党夺取希兰州战略村庄",
+    "url": "https://www.garoweonline.com/en/news/somalia/somalia-al-shabaab-captures-strategic-village-advances-towards-mataban",
+    "asOf": "2026-11",
+    "evidence": "青年党在希兰州推进、逼近马塔班。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "reuters-nigeria",
+    "title": "Reuters · 尼日利亚排除与伊斯兰武装停火",
+    "url": "https://www.reuters.com/3fec1b0a85a0/world/africa/nigeria-rules-out-ceasefire-with-islamists-vows-sustained-military-offensive-2026-11-05/",
+    "asOf": "2026-11-05",
+    "evidence": "尼日利亚军方表示不寻求停火，将持续打击叛乱与武装犯罪团伙。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "reliefweb-nigeria",
+    "title": "ReliefWeb · 尼日利亚安全月报（2026年10月）",
+    "url": "https://reliefweb.int/report/nigeria/nigeria-monthly-security-overview-october-2026",
+    "asOf": "2026-10",
+    "evidence": "西北部（尤其扎姆法拉）匪帮设卡、焚车与绑架加剧；东北部ISWAP持续袭击军营。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "libya-truce",
+    "title": "Khaleej Times（转载）· 的黎波里主要派系停火",
+    "url": "https://easyreader.org/article/page/khaleejtimes/world/libya-fighting-calms-after-truce",
+    "asOf": "2026-11",
+    "evidence": "11月的黎波里亲德贝巴力量与威慑部队（Rada）激战后停火，中立部队进驻接触点。伤亡数字各方报道不一。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "acled-moz",
+    "title": "ACLED · 莫桑比克冲突监测（2026年11月）",
+    "url": "https://acleddata.com/update/mozambique-conflict-monitor-update-november-2026",
+    "asOf": "2026-11",
+    "evidence": "德尔加杜角省武装分子袭击村庄、劫掠与绑架持续。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "publico-moz",
+    "title": "PÚBLICO · 德尔加杜角十天内至少19人遇害",
+    "url": "https://www.publico.pt/2026/11/07/mundo/noticia/ataques-extremistas-cabo-delgado-fazem-menos-19-mortos-dez-dias-quase-civis-2194143",
+    "asOf": "2026-11-07",
+    "evidence": "极端分子袭击在十天内造成至少19人死亡，几乎均为平民（媒体统计）。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "tamazuj-ss",
+    "title": "Radio Tamazuj · 马沙尔受审期间提出安全关切",
+    "url": "https://www.radiotamazuj.org/en/news/article/machar-raises-fresh-security-concerns-as-trial-continues",
+    "asOf": "2026-11",
+    "evidence": "第一副总统马沙尔与七名SPLM/A-IO被告因2025年3月纳西尔驻地袭击受审；检方称257名士兵死亡，马沙尔否认指挥“白军”。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "kosovo-energy",
+    "title": "bne IntelliNews · 科索沃禁止与塞尔维亚关联企业电力交易",
+    "url": "https://www.intellinews.com/kosovo-bans-electricity-trading-by-companies-linked-to-serbia-declares-60-day-energy-emergency-485434/",
+    "asOf": "2026-11",
+    "evidence": "塞尔维亚封锁跨境输电线路后，科索沃宣布60天能源紧急状态并禁止相关交易。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "kosovo-mitrovica",
+    "title": "24 ore · 科索沃警方叫停塞尔维亚在北部的竞选集会",
+    "url": "https://24-ore.com/en/police-stop-serbias-pre-election-campaign-in-northern-kosovo/",
+    "asOf": "2026-11",
+    "evidence": "北米特罗维察集会被叫停，随后附近斗殴致两人受伤。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "aj-rs",
+    "title": "Al Jazeera Balkans · 塞族共和国新议会组成",
+    "url": "https://balkans.aljazeera.net/news/balkan/2026/11/16/vladajuca-koalicija-u-rs-u-potpisala-sporazum-o-formiranju-nove-vlasti",
+    "asOf": "2026-11-16",
+    "evidence": "多迪克领导的执政联盟在83席议会中掌握56席（三分之二），可修改实体宪法。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "dw-rs",
+    "title": "DW · 多迪克迈向三分之二多数",
+    "url": "https://www.dw.com/hr/nova-skup%C5%A1tinska-ve%C4%87ina-dodikovog-snsd-a-mogla-bi-otvoriti-put-ustavnim-promjenama-u-republici-srpskoj/a-79954804",
+    "asOf": "2026-11",
+    "evidence": "分析人士担心修宪可能削弱代顿框架下的保护机制。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "ap-serbia",
+    "title": "AP · 塞尔维亚学生运动赢得选举",
+    "url": "https://apnews.com/article/serbia-election-students-vucic-fdf5def8a20aebc8ae139fd719478775",
+    "asOf": "2026-10",
+    "evidence": "10月25日选举，学生名单击败武契奇所在党；武契奇承认失败。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "ap-serbia-parl",
+    "title": "AP · 塞尔维亚新议会首次开会",
+    "url": "https://apnews.com/article/serbia-parliament-students-vucic-6614f11c13762d535c732210592f2011",
+    "asOf": "2026-11",
+    "evidence": "新议会开会组阁；新内阁获批前进步党看守政府仍在任。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "nyt-venezuela",
+    "title": "AP/NYT（Inquirer转载）· 美国推动与委内瑞拉签署驻军地位协定",
+    "url": "https://www.inquirer.com/news/nation-world/venezuela-us-military-presence-long-term-trump-rodriguez-rubio-machado-maduro-drug-boats-20261103.html",
+    "asOf": "2026-11-03",
+    "evidence": "1月3日美军行动抓获马杜罗；国务院主导SOFA谈判，官员称基地问题“还很遥远”；美方参与针对阿普雷州ELN营地的打击（据NYT）。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "haiti-brief",
+    "title": "Haiti Policy House · 2026年11月海地形势简报",
+    "url": "https://www.haitipolicyhouse.org/briefing-room/nov-2026-wf9r0espeb79n29",
+    "asOf": "2026-11",
+    "evidence": "联合国授权的打击帮派部队（GSF）在太子港开展行动，帮派仍控制首都大部分地区。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "haiti-gsf",
+    "title": "Ayiti Info+ · 打击帮派部队在太阳城的行动",
+    "url": "https://www.ayiti-info.com/article.php?slug=cite-soleil-operation-frg-armes-saisies-12-novembre-2026",
+    "asOf": "2026-11-12",
+    "evidence": "11月12日太阳城行动，缴获武器弹药。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "ap-catatumbo",
+    "title": "AP · 卡塔通博无人机袭击致四名士兵死亡",
+    "url": "https://apnews.com/article/colombia-catatumbo-ataque-drones-4037b69a5147a849d936e8471aaf62b2",
+    "asOf": "2026-11",
+    "evidence": "蒂布附近巡逻队遭无人机投掷爆炸物袭击，4死5伤。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "caracol-catatumbo",
+    "title": "Caracol Radio · 卡塔通博冲突进入第22个月",
+    "url": "https://caracol.com.co/2026/11/16/el-catatumbo-completa-22-meses-de-conflicto-armado/",
+    "asOf": "2026-11-16",
+    "evidence": "ELN与FARC异见团体争夺卡塔通博，平民遭无人机袭击、流离与封锁。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "ecuador-emergency",
+    "title": "El Universo · 厄瓜多尔在八省延长紧急状态30天",
+    "url": "https://www.eluniverso.com/politica/seguridad/gobierno-renueva-por-30-dias-el-estado-de-excepcion-en-ocho-provincias-nota/",
+    "asOf": "2026-11-11",
+    "evidence": "瓜亚斯、埃斯梅拉达斯、马纳比、皮钦查等八省延长例外状态，理由为持续的有组织犯罪暴力。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "mexico-iaw",
+    "title": "IAW · 墨西哥内部安全危机",
+    "url": "https://www.iawatch.org/en/conflicts/crisis-de-seguridad-interna-en-mexico/",
+    "asOf": "2026-11",
+    "evidence": "锡那罗亚暴力回升（10月191起凶杀）；美国以制裁、起诉与打击威胁施压，但尚无对墨领土打击记录。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "ef-mexico",
+    "title": "El Financiero（引NYT）· 特朗普暂缓对墨空袭",
+    "url": "https://www.elfinanciero.com.mx/nacional/2026/09/23/trump-freno-ataques-aereos-contra-mexico-por-endurecimiento-contra-carteles-de-sheinbaum-segun-nyt/",
+    "asOf": "2026-09-23",
+    "evidence": "报道称因墨方加强打击，美方暂缓计划中的空袭。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "icj-guyana",
+    "title": "国际法院 · 1899年仲裁裁决案（圭亚那诉委内瑞拉）",
+    "url": "https://icj-cij.org/case/171",
+    "asOf": "2026",
+    "evidence": "案件页面；实体辩论已于2026年5月结束，判决日期未公布。",
+    "verification": "官方页面检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "dpi-guyana",
+    "title": "圭亚那政府新闻处 · 阿里总统对国际法院案件有信心",
+    "url": "https://dpi.gov.gy/pres-ali-reaffirms-confidence-in-guyanas-icj-case/",
+    "asOf": "2026-11",
+    "evidence": "圭方预计判决在2026年11月至2027年1月之间。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "andina-peru",
+    "title": "Andina · 秘鲁延长利马与卡亚俄紧急状态60天",
+    "url": "https://andina.pe/agencia/noticia-gobierno-prorroga-estado-emergencia-lima-metropolitana-y-callao-60-dias-1097278.aspx",
+    "asOf": "2026-10",
+    "evidence": "自10月28日起延长60天，警方主导、军队支援打击敲诈与有组织犯罪。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
   }
 ]

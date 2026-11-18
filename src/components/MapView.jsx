@@ -15,13 +15,13 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 export const OSM={url:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',host:'tile.openstreetmap.org'};
 // Gentle arc between two points (lat/lon space) so overlapping projections stay readable.
 export {arc} from '../lines';
-function Fly({target}){const map=useMap();useEffect(()=>{if(!target||target.id==='world'){map.fitBounds([[-56,-170],[74,180]],{padding:[12,30],maxZoom:2,animate:!!target});}else if(target.bounds)map.flyToBounds(target.bounds,{padding:[16,16],duration:1.2,maxZoom:5});else map.flyTo(target.center,target.zoom,{duration:1.2});},[target,map]);return null;}
+function Fly({target}){const map=useMap();useEffect(()=>{if(!target||target.id==='world'){map.fitBounds([[-56,-170],[74,180]],{padding:[12,30],maxZoom:2,animate:!!target});}else if(target.bounds)map.flyToBounds(target.bounds,{padding:[16,16],duration:1.2,maxZoom:target.maxZoom||5});else map.flyTo(target.center,target.zoom,{duration:1.2});},[target,map]);return null;}
 function LabelLayer({markers,pills=[],bilingual,showWatermarks,layoutKey}){const map=useMap();useEffect(()=>{if(!map.getPane('labels')){const pane=map.createPane('labels');pane.style.zIndex=450;pane.style.pointerEvents='none';}
  const group=L.layerGroup().addTo(map);let frame;
  const draw=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{group.clearLayers();const z=map.getZoom(),size=map.getSize();const proj=ll=>map.latLngToContainerPoint(ll);
   const c=map.getContainer(),cr=c.getBoundingClientRect();const reserved=[...c.parentElement.querySelectorAll('.map-label,.map-legend,.terrain-legend,.resource-legend,.map-attribution,.tile-warning,.leaflet-control-zoom')].map(e=>{const r=e.getBoundingClientRect();return {x:r.x-cr.x-4,y:r.y-cr.y-4,w:r.width+8,h:r.height+8}}).filter(b=>b.w>8);
   const placed=placeLabels(orderLabels(mapLabels.countries,mapLabels.geo,z,showWatermarks?watermarks:[]),proj,size,[...markers.map(m=>({...proj(m.position),r:m.r*(z<1.25?.68:1),top:12,right:14})),...(z>=PILL_ZOOM?pills:[]).map(q=>({...proj(q.position),w:charWidth(q.label,9)+18,h:18}))],3,reserved,bilingual);
-  c.dataset.labelCount=placed.length;c.dataset.zoomBand=z<1.25?'low':'normal';c.dataset.watermarks=placed.filter(p=>p.kind==='watermark').length;c.dataset.bilingual=placed.filter(p=>p.sub&&p.kind==='country').length;
+  c.dataset.labelCount=placed.length;c.dataset.zoomBand=z<1.25?'low':z<3?'wide':'normal';c.dataset.watermarks=placed.filter(p=>p.kind==='watermark').length;c.dataset.bilingual=placed.filter(p=>p.sub&&p.kind==='country').length;
   for(const it of placed){const st=labelStyle(it);const sub=it.sub?`<small>${esc(it.sub)}</small>`:'';const el=`<span class="${st.cls}${it.sub?' has-sub':''}" style="font-size:${st.fs}px;letter-spacing:${st.ls}px;transform:translate(calc(-50% + ${it.dx}px),calc(-50% + ${it.dy}px))" data-label="${esc(it.name)}"${it.disputed?` title="${esc(it.disputed)}"`:''}>${esc(it.name)}${sub}</span>`;
    L.marker(it.position,{pane:'labels',interactive:false,keyboard:false,icon:L.divIcon({className:'label-anchor',html:el,iconSize:[0,0]})}).addTo(group);}
  });};
@@ -77,8 +77,8 @@ export default function MapView({nodes,weights,selected,choose,target,layers,dis
   <LineLayer lines={lines} hot={lineHot} setHot={setLineHot} pick={pickLines}/>
   <Projection faction={faction} nodes={nodes}/>
   {/* Large invisible sensing radius: easier hover/tap than the small visual dot. */}
-  <Pane name="node-hits" style={{zIndex:430}}>{nodes.map(n=><CircleMarker key={'hit'+n.id} pane="node-hits" bubblingMouseEvents={false} className="hit-area" center={n.position} radius={26} pathOptions={{stroke:false,fillColor:'#fff',fillOpacity:0}} eventHandlers={{mouseover:()=>setHover(n),mouseout:()=>setHover(null),click:()=>choose(n)}}/>)}</Pane>
-  {nodes.map(n=>{const val=score(n.scores,weights),size=markerSize(val);const cls='gravity-marker '+n.status+(n.user?' user':'')+(selected?.id===n.id?' is-selected':'')+(targets.has(n.id)?' is-projected':'')+(faction&&!targets.has(n.id)?' is-dimmed':'');
+  <Pane name="node-hits" style={{zIndex:430}}>{nodes.map(n=><CircleMarker key={'hit'+n.id} pane="node-hits" bubblingMouseEvents={false} className="hit-area" center={n.position} radius={Math.min(26,markerSize(score(n.scores,weights))/2+10)} pathOptions={{stroke:false,fillColor:'#fff',fillOpacity:0}} eventHandlers={{mouseover:()=>setHover(n),mouseout:()=>setHover(null),click:()=>choose(n)}}/>)}</Pane>
+  {nodes.map(n=>{const val=score(n.scores,weights),size=markerSize(val);const cls='gravity-marker '+n.status+(val<50?' minor':'')+(n.user?' user':'')+(selected?.id===n.id?' is-selected':'')+(targets.has(n.id)?' is-projected':'')+(faction&&!targets.has(n.id)?' is-dimmed':'');
    return <Marker key={n.id} position={n.position} title={n.name+(n.user?'（用户注入·未核实）':'')} alt={n.name} zIndexOffset={Math.round(val*10)} icon={L.divIcon({className:cls,html:`<span style="--size:${size}px"><i></i><b>${Math.round(val)}</b></span>`,iconSize:[size,size],iconAnchor:[size/2,size/2]})} eventHandlers={{click:()=>choose(n),mouseover:()=>setHover(n),mouseout:()=>setHover(null)}}/>})}
   {children}
  </MapContainer>;

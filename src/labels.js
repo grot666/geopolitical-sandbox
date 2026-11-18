@@ -18,7 +18,7 @@ export function measure(it,pad=3,bi=false){
  return {st,w:w+pad*2,h:h+pad*2,sub};
 }
 // Countries hosting research hotspots are placed early so they win space next to their markers.
-export const FOCUS=new Set(['UKR','IRN','ISR','PRK','KOR','TWN','YEM','SAU','PAN','VEN','POL']);
+export const FOCUS=new Set(['UKR','IRN','ISR','PRK','KOR','TWN','YEM','SAU','PAN','VEN','POL','SRB','KOS','BIH','SDN','SDS','MLI','SOM','ERI','LBY','MOZ','HTI','COL','ECU','GUY']);
 export function orderLabels(countries,geo,zoom,watermarks=[]){
  const rank=x=>x.kind==='strait'?(zoom>=3.25?15:40):x.kind==='ocean'?18:x.kind==='sea'?32:x.kind==='region'?60:0;
  const c=countries.map(x=>{const focus=FOCUS.has(x.id);return {...x,kind:'country',focus,order:x.major?x.priority/10:focus?5+x.priority/100:22+x.priority/10};});
@@ -53,6 +53,8 @@ export function placeLabels(items,project,size,avoid=[],pad=3,reserved=[],bi=fal
    for(const [dx,dy] of [...offsets,[w*.25,0],[-w*.25,0]]){const b={x:p.x-w/2+dx,y:p.y-h/2+dy,w,h};if(!fits(b))continue;const ov=markerBoxes.reduce((a,o)=>a+overlap(o,b),0);if(!best||ov<best.ov)best={dx,dy,b,ov};}
    // On the tiny world view, drop heavily covered secondary labels instead of showing a half-hidden word.
    if(best&&(it.zoom??9)<1.25&&!ANCHORS.has(it.id)&&best.ov>.3*w*h)best=null;
+   // Below zoom 2.5 dense marker clusters (Balkans, Andes) would half-cover small hotspot names; drop those too.
+   if(best&&(it.zoom??9)<2.5&&!it.major&&best.ov>.3*w*h)best=null;
    if(best){boxes.push(best.b);placed.push({...it,sub,dx:best.dx,dy:best.dy,box:best.b});}
   }
  }

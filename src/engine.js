@@ -7,4 +7,5 @@ export function score(scores,weights){
  return Math.round(keys.reduce((s,k,i)=>s+scores[k]*weights[i],0)/sum*10)/10;
 }
 export function rank(nodes,weights){return [...nodes].sort((a,b)=>score(b.scores,weights)-score(a.scores,weights)||a.id.localeCompare(b.id));}
-export function markerSize(value){return 12+value*.25;}
+// Low-score local conflicts get visibly smaller dots so dense regions stay readable.
+export function markerSize(value){return value<45?8+value*.3:12+value*.25;}
