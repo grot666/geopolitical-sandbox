@@ -1,228 +1,229 @@
 [
-  {
-    "id": "hormuz",
-    "name": "霍尔木兹海峡",
-    "subtitle": "MIDDLE EAST · ENERGY SECURITY",
-    "position": [
-      26.6,
-      56.3
-    ],
-    "status": "crisis",
-    "scores": {
-      "kineticIntensity": 72,
-      "systemicSpillover": 97,
-      "greatPowerInvolvement": 96,
-      "geographicLeverage": 99
-    },
-    "rationale": {
-      "kineticIntensity": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
-      "systemicSpillover": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
-      "greatPowerInvolvement": "美国、以色列与伊朗拥有不同目标；伊朗核项目不等于已拥有核武器。海湾国家也通过外交抑制升级。",
-      "geographicLeverage": "波斯湾出口集中于霍尔木兹；伊朗沿岸与阿曼半岛夹持狭窄出海口。地理约束提高封锁成本，但不决定政治结果。"
-    },
-    "analysis": {
-      "what": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
-      "geography": "波斯湾出口集中于霍尔木兹；伊朗沿岸与阿曼半岛夹持狭窄出海口。地理约束提高封锁成本，但不决定政治结果。",
-      "resources": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
-      "politics": "美国、以色列与伊朗拥有不同目标；伊朗核项目不等于已拥有核武器。海湾国家也通过外交抑制升级。"
-    },
-    "sources": [
-      "reuters-iran",
-      "eia"
-    ],
-    "asOf": "2026-11-17",
-    "retrievedAt": "2026-11-18",
-    "confidence": "中",
-    "epistemic": "分析师估计 · 非实测指数",
-    "parentEvent": "iran",
-    "category": "chokepoint"
+ {
+  "id": "hormuz",
+  "name": "霍尔木兹海峡",
+  "subtitle": "MIDDLE EAST · ENERGY SECURITY",
+  "position": [
+   26.6,
+   56.3
+  ],
+  "status": "crisis",
+  "scores": {
+   "kineticIntensity": 72,
+   "systemicSpillover": 97,
+   "greatPowerInvolvement": 96,
+   "geographicLeverage": 99
   },
-  {
-    "id": "mandeb",
-    "name": "曼德海峡",
-    "subtitle": "MARITIME · TRADE ARTERIES",
-    "position": [
-      12.6,
-      43.4
-    ],
-    "status": "crisis",
-    "scores": {
-      "kineticIntensity": 58,
-      "systemicSpillover": 85,
-      "greatPowerInvolvement": 79,
-      "geographicLeverage": 98
-    },
-    "rationale": {
-      "kineticIntensity": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
-      "systemicSpillover": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
-      "greatPowerInvolvement": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。",
-      "geographicLeverage": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。"
-    },
-    "analysis": {
-      "what": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
-      "geography": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。",
-      "resources": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
-      "politics": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。"
-    },
-    "sources": [
-      "eia",
-      "reuters-iran"
-    ],
-    "asOf": "2026-11-17",
-    "retrievedAt": "2026-11-18",
-    "confidence": "中",
-    "epistemic": "分析师估计 · 非实测指数",
-    "parentEvent": "redsea",
-    "category": "chokepoint"
+  "rationale": {
+   "kineticIntensity": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
+   "systemicSpillover": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
+   "greatPowerInvolvement": "美国、以色列与伊朗拥有不同目标；伊朗核项目不等于已拥有核武器。海湾国家也通过外交抑制升级。",
+   "geographicLeverage": "波斯湾出口集中于霍尔木兹；伊朗沿岸与阿曼半岛夹持狭窄出海口。地理约束提高封锁成本，但不决定政治结果。"
   },
-  {
-    "id": "suez",
-    "name": "苏伊士运河",
-    "subtitle": "MARITIME · TRADE ARTERIES",
-    "position": [
-      30.5,
-      32.3
-    ],
-    "status": "crisis",
-    "scores": {
-      "kineticIntensity": 58,
-      "systemicSpillover": 85,
-      "greatPowerInvolvement": 79,
-      "geographicLeverage": 98
-    },
-    "rationale": {
-      "kineticIntensity": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
-      "systemicSpillover": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
-      "greatPowerInvolvement": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。",
-      "geographicLeverage": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。"
-    },
-    "analysis": {
-      "what": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
-      "geography": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。",
-      "resources": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
-      "politics": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。"
-    },
-    "sources": [
-      "eia",
-      "reuters-iran"
-    ],
-    "asOf": "2026-11-17",
-    "retrievedAt": "2026-11-18",
-    "confidence": "中",
-    "epistemic": "分析师估计 · 非实测指数",
-    "parentEvent": "redsea",
-    "category": "chokepoint"
+  "analysis": {
+   "what": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
+   "geography": "波斯湾出口集中于霍尔木兹；伊朗沿岸与阿曼半岛夹持狭窄出海口。地理约束提高封锁成本，但不决定政治结果。",
+   "resources": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
+   "politics": "美国、以色列与伊朗拥有不同目标；伊朗核项目不等于已拥有核武器。海湾国家也通过外交抑制升级。"
   },
-  {
-    "id": "malacca-c",
-    "name": "马六甲水道",
-    "subtitle": "SOUTHEAST ASIA · ENERGY CORRIDOR",
-    "position": [
-      2.5,
-      101.5
-    ],
-    "status": "latent",
-    "scores": {
-      "kineticIntensity": 9,
-      "systemicSpillover": 93,
-      "greatPowerInvolvement": 71,
-      "geographicLeverage": 100
-    },
-    "rationale": {
-      "kineticIntensity": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
-      "systemicSpillover": "东亚油气进口与全球集装箱航运叠加；不能把过境量等同于当地消费量。",
-      "greatPowerInvolvement": "沿岸国主权与航行安全合作、大国海军存在构成复杂网络。",
-      "geographicLeverage": "狭窄水道连接印度洋与南海；替代航道通常距离更长。"
-    },
-    "analysis": {
-      "what": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
-      "geography": "狭窄水道连接印度洋与南海；替代航道通常距离更长。",
-      "resources": "东亚油气进口与全球集装箱航运叠加；不能把过境量等同于当地消费量。",
-      "politics": "沿岸国主权与航行安全合作、大国海军存在构成复杂网络。"
-    },
-    "sources": [
-      "eia"
-    ],
-    "asOf": "2026-11-16",
-    "retrievedAt": "2026-11-18",
-    "confidence": "高",
-    "epistemic": "分析师估计 · 非实测指数",
-    "parentEvent": "malacca",
-    "category": "chokepoint"
+  "sources": [
+   "reuters-iran",
+   "eia"
+  ],
+  "asOf": "2026-11-17",
+  "retrievedAt": "2026-11-18",
+  "confidence": "中",
+  "epistemic": "分析师估计 · 非实测指数",
+  "parentEvent": "iran",
+  "category": "chokepoint"
+ },
+ {
+  "id": "mandeb",
+  "name": "曼德海峡",
+  "subtitle": "MARITIME · TRADE ARTERIES",
+  "position": [
+   12.6,
+   43.4
+  ],
+  "status": "crisis",
+  "scores": {
+   "kineticIntensity": 58,
+   "systemicSpillover": 85,
+   "greatPowerInvolvement": 79,
+   "geographicLeverage": 98
   },
-  {
-    "id": "panama-c",
-    "name": "巴拿马船闸",
-    "subtitle": "AMERICAS · INTEROCEANIC TRADE",
-    "position": [
-      9.1,
-      -79.7
-    ],
-    "status": "structural",
-    "scores": {
-      "kineticIntensity": 4,
-      "systemicSpillover": 66,
-      "greatPowerInvolvement": 51,
-      "geographicLeverage": 94
-    },
-    "rationale": {
-      "kineticIntensity": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
-      "systemicSpillover": "粮食、集装箱与能源货物依赖通航能力；油品统计不能替代总贸易。",
-      "greatPowerInvolvement": "巴拿马主管机构、航运公司及贸易大国利益交织，主权与商业运营须区分。",
-      "geographicLeverage": "船闸、湖泊与水资源制约通航；运河是两洋捷径而非天然海峡。"
-    },
-    "analysis": {
-      "what": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
-      "geography": "船闸、湖泊与水资源制约通航；运河是两洋捷径而非天然海峡。",
-      "resources": "粮食、集装箱与能源货物依赖通航能力；油品统计不能替代总贸易。",
-      "politics": "巴拿马主管机构、航运公司及贸易大国利益交织，主权与商业运营须区分。"
-    },
-    "sources": [
-      "eia"
-    ],
-    "asOf": "2026-11-16",
-    "retrievedAt": "2026-11-18",
-    "confidence": "中",
-    "epistemic": "分析师估计 · 非实测指数",
-    "parentEvent": "panama",
-    "category": "chokepoint"
+  "rationale": {
+   "kineticIntensity": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+   "systemicSpillover": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
+   "greatPowerInvolvement": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。",
+   "geographicLeverage": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。"
   },
-  {
-    "id": "bosporus",
-    "name": "土耳其海峡",
-    "subtitle": "EUROPE · CONTINENTAL SECURITY",
-    "position": [
-      41,
-      29
-    ],
-    "status": "crisis",
-    "scores": {
-      "kineticIntensity": 96,
-      "systemicSpillover": 81,
-      "greatPowerInvolvement": 95,
-      "geographicLeverage": 68
-    },
-    "rationale": {
-      "kineticIntensity": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
-      "systemicSpillover": "电网、粮食、化肥与黑海物流构成主要外溢渠道。欧洲能源结构调整并未消除冲击。",
-      "greatPowerInvolvement": "俄罗斯为核武国家；欧美援助与制裁、乌克兰自主决策共同作用。北约援助不等于所有成员直接参战。",
-      "geographicLeverage": "东欧平原、河流与黑海港口塑造补给、防御纵深和出口通道。"
-    },
-    "analysis": {
-      "what": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
-      "geography": "东欧平原、河流与黑海港口塑造补给、防御纵深和出口通道。",
-      "resources": "电网、粮食、化肥与黑海物流构成主要外溢渠道。欧洲能源结构调整并未消除冲击。",
-      "politics": "俄罗斯为核武国家；欧美援助与制裁、乌克兰自主决策共同作用。北约援助不等于所有成员直接参战。"
-    },
-    "sources": [
-      "un-ukraine",
-      "eia"
-    ],
-    "asOf": "2026-11-17",
-    "retrievedAt": "2026-11-18",
-    "confidence": "高",
-    "epistemic": "分析师估计 · 非实测指数",
-    "parentEvent": "ukraine",
-    "category": "chokepoint"
-  }
+  "analysis": {
+   "what": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+   "geography": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。",
+   "resources": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
+   "politics": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。"
+  },
+  "sources": [
+   "eia",
+   "reuters-iran"
+  ],
+  "asOf": "2026-11-17",
+  "retrievedAt": "2026-11-18",
+  "confidence": "中",
+  "epistemic": "分析师估计 · 非实测指数",
+  "parentEvent": "redsea",
+  "category": "chokepoint"
+ },
+ {
+  "id": "suez",
+  "name": "苏伊士运河",
+  "subtitle": "MARITIME · TRADE ARTERIES",
+  "position": [
+   30.5,
+   32.3
+  ],
+  "status": "crisis",
+  "scores": {
+   "kineticIntensity": 58,
+   "systemicSpillover": 85,
+   "greatPowerInvolvement": 79,
+   "geographicLeverage": 98
+  },
+  "rationale": {
+   "kineticIntensity": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+   "systemicSpillover": "EIA 2026Q3苏伊士运河+SUMED管道油流约710万桶/日；仅为油流，不代表全部集装箱贸易。",
+   "greatPowerInvolvement": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。",
+   "geographicLeverage": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。"
+  },
+  "analysis": {
+   "what": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+   "geography": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。",
+   "resources": "EIA 2026Q3苏伊士运河+SUMED管道油流约710万桶/日；仅为油流，不代表全部集装箱贸易。",
+   "politics": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。"
+  },
+  "sources": [
+   "eia",
+   "reuters-iran"
+  ],
+  "asOf": "2026-11-17",
+  "retrievedAt": "2026-11-18",
+  "confidence": "中",
+  "epistemic": "分析师估计 · 非实测指数",
+  "parentEvent": "redsea",
+  "category": "chokepoint"
+ },
+ {
+  "id": "malacca-c",
+  "name": "马六甲水道",
+  "subtitle": "SOUTHEAST ASIA · ENERGY CORRIDOR",
+  "position": [
+   2.5,
+   101.5
+  ],
+  "status": "latent",
+  "scores": {
+   "kineticIntensity": 9,
+   "systemicSpillover": 93,
+   "greatPowerInvolvement": 71,
+   "geographicLeverage": 100
+  },
+  "rationale": {
+   "kineticIntensity": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
+   "systemicSpillover": "东亚油气进口与全球集装箱航运叠加；不能把过境量等同于当地消费量。",
+   "greatPowerInvolvement": "沿岸国主权与航行安全合作、大国海军存在构成复杂网络。",
+   "geographicLeverage": "狭窄水道连接印度洋与南海；替代航道通常距离更长。"
+  },
+  "analysis": {
+   "what": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
+   "geography": "狭窄水道连接印度洋与南海；替代航道通常距离更长。",
+   "resources": "东亚油气进口与全球集装箱航运叠加；不能把过境量等同于当地消费量。",
+   "politics": "沿岸国主权与航行安全合作、大国海军存在构成复杂网络。"
+  },
+  "sources": [
+   "eia"
+  ],
+  "asOf": "2026-11-16",
+  "retrievedAt": "2026-11-18",
+  "confidence": "高",
+  "epistemic": "分析师估计 · 非实测指数",
+  "parentEvent": "malacca",
+  "category": "chokepoint"
+ },
+ {
+  "id": "panama-c",
+  "name": "巴拿马船闸",
+  "subtitle": "AMERICAS · INTEROCEANIC TRADE",
+  "position": [
+   9.1,
+   -79.7
+  ],
+  "status": "structural",
+  "scores": {
+   "kineticIntensity": 4,
+   "systemicSpillover": 66,
+   "greatPowerInvolvement": 51,
+   "geographicLeverage": 94
+  },
+  "rationale": {
+   "kineticIntensity": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
+   "systemicSpillover": "粮食、集装箱与能源货物依赖通航能力；油品统计不能替代总贸易。",
+   "greatPowerInvolvement": "巴拿马主管机构、航运公司及贸易大国利益交织，主权与商业运营须区分。",
+   "geographicLeverage": "船闸、湖泊与水资源制约通航；运河是两洋捷径而非天然海峡。"
+  },
+  "analysis": {
+   "what": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
+   "geography": "船闸、湖泊与水资源制约通航；运河是两洋捷径而非天然海峡。",
+   "resources": "粮食、集装箱与能源货物依赖通航能力；油品统计不能替代总贸易。",
+   "politics": "巴拿马主管机构、航运公司及贸易大国利益交织，主权与商业运营须区分。"
+  },
+  "sources": [
+   "eia"
+  ],
+  "asOf": "2026-11-16",
+  "retrievedAt": "2026-11-18",
+  "confidence": "中",
+  "epistemic": "分析师估计 · 非实测指数",
+  "parentEvent": "panama",
+  "category": "chokepoint"
+ },
+ {
+  "id": "bosporus",
+  "name": "土耳其海峡",
+  "subtitle": "EUROPE · CONTINENTAL SECURITY",
+  "position": [
+   41,
+   29
+  ],
+  "status": "crisis",
+  "scores": {
+   "kineticIntensity": 96,
+   "systemicSpillover": 81,
+   "greatPowerInvolvement": 95,
+   "geographicLeverage": 68
+  },
+  "rationale": {
+   "kineticIntensity": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
+   "systemicSpillover": "EIA 2026Q3土耳其海峡油流约340万桶/日；粮食、化肥与黑海物流构成主要外溢渠道。",
+   "greatPowerInvolvement": "俄罗斯为核武国家；欧美援助与制裁、乌克兰自主决策共同作用。北约援助不等于所有成员直接参战。",
+   "geographicLeverage": "东欧平原、河流与黑海港口塑造补给、防御纵深和出口通道。"
+  },
+  "analysis": {
+   "what": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
+   "geography": "东欧平原、河流与黑海港口塑造补给、防御纵深和出口通道。",
+   "resources": "EIA 2026Q3土耳其海峡油流约340万桶/日；粮食、化肥与黑海物流构成主要外溢渠道。",
+   "politics": "俄罗斯为核武国家；欧美援助与制裁、乌克兰自主决策共同作用。北约援助不等于所有成员直接参战。"
+  },
+  "sources": [
+   "un-ukraine",
+   "eia",
+   "un-sc"
+  ],
+  "asOf": "2026-11-17",
+  "retrievedAt": "2026-11-18",
+  "confidence": "高",
+  "epistemic": "分析师估计 · 非实测指数",
+  "parentEvent": "ukraine",
+  "category": "chokepoint"
+ }
 ]

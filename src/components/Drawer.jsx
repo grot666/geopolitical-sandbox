@@ -4,8 +4,10 @@ import engine from '../data/engine.json';
 import {score} from '../engine';
 import {Badge,SourceLinks} from './common';
 import {allFactions} from './Cockpit';
-export default function Drawer({node:n,rank,weights,label,onClose,openMethod,project}){
+import {principles} from './LogicPanel';
+export default function Drawer({node:n,rank,weights,label,onClose,openMethod,project,openLogic}){
  const ref=useRef(null);useEffect(()=>{ref.current?.focus()},[n]);
+ const logics=principles.flatMap(l=>l.examples.filter(x=>x.node===n.id).map(x=>({l,x})));
  const related=allFactions.flatMap(f=>f.projections.filter(p=>p.target===n.id).map(p=>({f,p})));
  return <><div className="drawer-scrim" onClick={onClose}/>
  <aside className="detail-drawer" role="dialog" aria-modal="true" aria-label={n.name+' 深度分析'} tabIndex={-1} ref={ref}>
@@ -27,6 +29,7 @@ export default function Drawer({node:n,rank,weights,label,onClose,openMethod,pro
      <p className="persp-note">对称呈现各方的安全焦虑与目标；“目标”尽量引用其公开表态，其余为分析重构，不代表本工具认同任何一方。</p>
      <div className="persp-grid">{n.perspectives.map(x=><article key={x.actor}><b>{x.actor}</b><small>底层焦虑</small><p>{x.anxiety}</p><small>核心目标</small><p>{x.goal}</p></article>)}</div></section>}
    </div>
+   {logics.length>0&&<><h3>驱动逻辑<small>哪些底层逻辑在起作用（分析框架）</small></h3><div className="node-logic">{logics.map(({l,x})=><button key={l.id} onClick={()=>openLogic&&openLogic(l.id)}><b>{l.name}</b><span>{x.why}</span></button>)}</div></>}
    <h3>证据与来源</h3>
    {n.user?<SourceLinks items={n.sources}/>:<SourceLinks ids={n.sources}/>}
    <p className="small-disclaimer">{n.user?'注入来源链接未经核实，打开前请自行判断。':'事实摘要来自所列来源；因果分析、四维评分、多方视角和信心等级是本工具的分析判断。来源日期不等于实时状态。'}</p>

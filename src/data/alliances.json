@@ -1,121 +1,121 @@
 {
-  "note": "精选首都间关系示意；不是完整成员清单、基地图或势力范围边界。北约第五条与双边条约有各自法律条件。",
-  "nodes": [
-    {
-      "id": "us",
-      "name": "美国",
-      "position": [
-        38.9,
-        -77
-      ]
-    },
-    {
-      "id": "eu",
-      "name": "欧盟机构",
-      "position": [
-        50.8,
-        4.3
-      ]
-    },
-    {
-      "id": "uk",
-      "name": "英国",
-      "position": [
-        51.5,
-        -0.1
-      ]
-    },
-    {
-      "id": "jp",
-      "name": "日本",
-      "position": [
-        35.7,
-        139.7
-      ]
-    },
-    {
-      "id": "kr",
-      "name": "韩国",
-      "position": [
-        37.6,
-        127
-      ]
-    },
-    {
-      "id": "au",
-      "name": "澳大利亚",
-      "position": [
-        -35.3,
-        149
-      ]
-    },
-    {
-      "id": "tr",
-      "name": "土耳其",
-      "position": [
-        39.9,
-        32.9
-      ]
-    },
-    {
-      "id": "cn",
-      "name": "中国",
-      "position": [
-        39.9,
-        116.4
-      ]
-    },
-    {
-      "id": "ru",
-      "name": "俄罗斯",
-      "position": [
-        55.8,
-        37.6
-      ]
-    }
-  ],
-  "edges": [
-    {
-      "from": "us",
-      "to": "eu",
-      "label": "跨大西洋安全合作 · 欧盟本身非北约成员",
-      "source": "nato"
-    },
-    {
-      "from": "us",
-      "to": "uk",
-      "label": "北约成员关系",
-      "source": "nato"
-    },
-    {
-      "from": "us",
-      "to": "tr",
-      "label": "北约成员关系",
-      "source": "nato"
-    },
-    {
-      "from": "us",
-      "to": "jp",
-      "label": "双边安全合作",
-      "source": "taiwan"
-    },
-    {
-      "from": "us",
-      "to": "kr",
-      "label": "双边安全合作",
-      "source": "taiwan"
-    },
-    {
-      "from": "us",
-      "to": "au",
-      "label": "双边安全合作",
-      "source": "taiwan"
-    },
-    {
-      "from": "cn",
-      "to": "ru",
-      "label": "战略伙伴关系 · 非共同防御同盟",
-      "source": "taiwan"
-    }
-  ]
+ "note": "精选首都间关系示意；不是完整成员清单、基地图或势力范围边界。北约第五条与双边条约有各自法律条件。",
+ "nodes": [
+  {
+   "id": "us",
+   "name": "美国",
+   "position": [
+    38.9,
+    -77
+   ]
+  },
+  {
+   "id": "eu",
+   "name": "欧盟机构",
+   "position": [
+    50.8,
+    4.3
+   ]
+  },
+  {
+   "id": "uk",
+   "name": "英国",
+   "position": [
+    51.5,
+    -0.1
+   ]
+  },
+  {
+   "id": "jp",
+   "name": "日本",
+   "position": [
+    35.7,
+    139.7
+   ]
+  },
+  {
+   "id": "kr",
+   "name": "韩国",
+   "position": [
+    37.6,
+    127
+   ]
+  },
+  {
+   "id": "au",
+   "name": "澳大利亚",
+   "position": [
+    -35.3,
+    149
+   ]
+  },
+  {
+   "id": "tr",
+   "name": "土耳其",
+   "position": [
+    39.9,
+    32.9
+   ]
+  },
+  {
+   "id": "cn",
+   "name": "中国",
+   "position": [
+    39.9,
+    116.4
+   ]
+  },
+  {
+   "id": "ru",
+   "name": "俄罗斯",
+   "position": [
+    55.8,
+    37.6
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "us",
+   "to": "eu",
+   "label": "跨大西洋安全合作 · 欧盟本身非北约成员",
+   "source": "nato"
+  },
+  {
+   "from": "us",
+   "to": "uk",
+   "label": "北约成员关系",
+   "source": "nato"
+  },
+  {
+   "from": "us",
+   "to": "tr",
+   "label": "北约成员关系",
+   "source": "nato"
+  },
+  {
+   "from": "us",
+   "to": "jp",
+   "label": "双边安全合作",
+   "source": "state-cda"
+  },
+  {
+   "from": "us",
+   "to": "kr",
+   "label": "双边安全合作",
+   "source": "state-cda"
+  },
+  {
+   "from": "us",
+   "to": "au",
+   "label": "双边安全合作",
+   "source": "state-cda"
+  },
+  {
+   "from": "cn",
+   "to": "ru",
+   "label": "战略伙伴关系 · 非共同防御同盟",
+   "source": "kremlin-cn-ru"
+  }
+ ]
 }

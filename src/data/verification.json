@@ -1,0 +1,3819 @@
+{
+ "asOf": "2026-11-18",
+ "method": "逐条核对：优先打开原文；被Cloudflare等拦截的页面不绕过，标为检索摘要；无法核实的删除或降级为分析判断。状态：verified-opened 本轮打开正文；verified-snippet 仅检索摘要；corrected 本轮已更正；analysis 分析判断（不作事实声明）；bibliographic 经典文献书目。",
+ "summary": {
+  "verified-opened": 125,
+  "analysis": 101,
+  "corrected": 31,
+  "verified-snippet": 17
+ },
+ "corrections": [
+  {
+   "target": "node",
+   "id": "libya",
+   "change": "“11月的黎波里激战”实为2025年5月旧闻（转载页头部显示当日日期）。改写为东西分治结构性节点，冲突强度35→10，补充11月15日美军非洲司令部会谈、11月16日埃及情报局长会谈。",
+   "sources": [
+    "libya-observer",
+    "lana-egypt",
+    "libya-truce"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "somalia",
+   "change": "巴斯拉激战发生于2026年8月底而非11月；补充11月15日青年党夺取科马德。",
+   "sources": [
+    "sg-somalia",
+    "garowe-somalia"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "south-sudan",
+   "change": "马沙尔身份改为“前第一副总统”；补充庭审延至11月18日。",
+   "sources": [
+    "tamazuj-ss"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "kosovo",
+   "change": "北米特罗维察集会被叫停发生在10月25日塞尔维亚选举前（来源页面日期与内容不一致）；删除“两人受伤”。能源紧急状态（11月16日）保留并核实。",
+   "sources": [
+    "kosovo-mitrovica",
+    "kosovo-energy"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "serbia",
+   "change": "删除“原执政党看守政府仍在任”与“冲击电视台”等未核实说法；改用选举委员会官方结果140对103席，新议会11月17日成立。AP来源被拦截，已替换。",
+   "sources": [
+    "rik-serbia",
+    "srb-gov-mandates",
+    "reuters-serbia-parl"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "venezuela",
+   "change": "删除“美方协助打击阿普雷州ELN营地/提供无人机与情报”（NYT原文未见）；改为NYT所载6月空袭击毙“阿拉瓜火车”创始人之一等事实。",
+   "sources": [
+    "nyt-venezuela"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "ethiopia-eritrea",
+   "change": "“埃方未确认”改为“埃及与厄立特里亚均否认”；补充ACLED所载10月12日扎兰贝萨、11月7日拉马、约11月15日巴德梅；新增半岛电视台10月9日来源。",
+   "sources": [
+    "acled-badme",
+    "aj-ethiopia-oct"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "sudan",
+   "change": "死亡与流离失所人数标注联合国与半岛电视台口径差异。",
+   "sources": [
+    "aa-sudan",
+    "aj-sudan"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "mali-sahel",
+   "change": "油罐车数字限定为“11月以来1505辆”（并补充10月约4000辆）；BBC来源日期更正为2026年5月21日；新增RFI基达尔来源。",
+   "sources": [
+    "apa-mali",
+    "bbc-mali",
+    "rfi-kidal"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "catatumbo",
+   "change": "AP来源被拦截，替换为哥伦比亚总统府11月12日公告。",
+   "sources": [
+    "presidencia-catatumbo"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "haiti",
+   "change": "“帮派控制首都大部”改为“大片地区”；补充GSF任期延至2027年3月及10月18日伏击事件。",
+   "sources": [
+    "haiti-brief"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "mexico",
+   "change": "“暂缓空袭”明确标为转述报道（未打开NYT原文）；补充截至11月未见公开承认的美方对墨领土打击。",
+   "sources": [
+    "ef-mexico",
+    "mexico-iaw"
+   ]
+  },
+  {
+   "target": "node",
+   "id": "essequibo",
+   "change": "国际法院庭审日期具体为2026年5月4–11日；判决预期改为圭方9月所称“新年初”。",
+   "sources": [
+    "dpi-guyana"
+   ]
+  },
+  {
+   "target": "terrain",
+   "id": "tw-strait",
+   "change": "台湾海峡宽度“约130–180公里”改为“最窄处约160公里（Britannica）”。",
+   "sources": [
+    "britannica-taiwan-strait"
+   ]
+  },
+  {
+   "target": "alliance",
+   "id": "us-jp/us-kr/us-au",
+   "change": "联盟连线原错误引用台湾新闻来源，改为美国国务院集体防御安排页面。",
+   "sources": [
+    "state-cda"
+   ]
+  },
+  {
+   "target": "alliance",
+   "id": "cn-ru",
+   "change": "中俄连线原错误引用台湾新闻来源，改为克里姆林宫2022年联合声明（本轮页面500错误，标为检索摘要）。",
+   "sources": [
+    "kremlin-cn-ru"
+   ]
+  },
+  {
+   "target": "resource",
+   "id": "qatar-gas",
+   "change": "卡塔尔LNG节点原误用原油数据，改为EIA LNG数据（2025上半年霍尔木兹LNG约114亿立方英尺/日）。",
+   "sources": [
+    "eia-chokepoints"
+   ]
+  },
+  {
+   "target": "resource",
+   "id": "br-grain",
+   "change": "巴西粮食节点原复制矿产文本并引用USGS，改为USDA油籽数据。",
+   "sources": [
+    "usda-oilseeds"
+   ]
+  },
+  {
+   "target": "resource",
+   "id": "black-grain/fertilizer",
+   "change": "黑海粮食与化肥原引用EIA，改为联合国安理会通报；化肥保留为定性分析。",
+   "sources": [
+    "un-sc"
+   ]
+  },
+  {
+   "target": "route",
+   "id": "black",
+   "change": "黑海粮食航线来源由EIA改为联合国安理会通报。",
+   "sources": [
+    "un-sc"
+   ]
+  },
+  {
+   "target": "chokepoint",
+   "id": "suez",
+   "change": "苏伊士节点原复制曼德海峡数字，改为苏伊士+SUMED约710万桶/日。",
+   "sources": [
+    "eia"
+   ]
+  },
+  {
+   "target": "source",
+   "id": "dates",
+   "change": "更正来源日期：索马里卫报8月30日、BBC马里5月21日、Anadolu SAFE 2025年9月10日、圭亚那DPI 9月13日等；沙特通讯社空页面改为Jadwa PDF。",
+   "sources": [
+    "sg-somalia",
+    "bbc-mali",
+    "aa-safe",
+    "dpi-guyana",
+    "spa-saudi"
+   ]
+  },
+  {
+   "target": "faction",
+   "id": "US/EU",
+   "change": "原“鹰派/MAGA/民主党/利益集团”等意识形态分类改为利益联盟模型，每个派系列出利益来源、载体、带日期的指标与来源。",
+   "sources": []
+  }
+ ],
+ "unverified": [
+  {
+   "item": "伊朗战时权力结构中“最高领袖为将领背书”",
+   "why": "路透原文被拦截，仅检索摘要",
+   "sources": [
+    "reuters-irgc"
+   ]
+  },
+  {
+   "item": "以色列各党席位",
+   "why": "Times of Israel页面本轮被拦截，席位数来自检索摘要/早前打开",
+   "sources": [
+    "toi-israel"
+   ]
+  },
+  {
+   "item": "中俄2022年联合声明",
+   "why": "克里姆林宫页面返回500",
+   "sources": [
+    "kremlin-cn-ru"
+   ]
+  },
+  {
+   "item": "欧盟俄气禁令日期",
+   "why": "理事会与EUR-Lex正文抓取失败，依据官方检索摘要",
+   "sources": [
+    "consilium-gas"
+   ]
+  },
+  {
+   "item": "SAFE匈牙利54亿欧元",
+   "why": "Euronews被拦截",
+   "sources": [
+    "euronews-safe"
+   ]
+  },
+  {
+   "item": "美方“暂缓对墨空袭”",
+   "why": "NYT原文未打开，经El Financiero转述",
+   "sources": [
+    "ef-mexico"
+   ]
+  },
+  {
+   "item": "埃塞Debre Werq等前线说法",
+   "why": "CTP标注为未经证实",
+   "sources": [
+    "ctp-ethiopia"
+   ]
+  },
+  {
+   "item": "朝鲜半岛节点",
+   "why": "本轮重新抓取超时，沿用上轮打开的内容",
+   "sources": [
+    "korea"
+   ]
+  },
+  {
+   "item": "塞尔维亚新议会（路透）与武契奇认输",
+   "why": "转载页正文需脚本加载；以选举委员会官方结果为准",
+   "sources": [
+    "reuters-serbia-parl",
+    "aj-serbia"
+   ]
+  },
+  {
+   "item": "对台军售“筹码”说法",
+   "why": "路透转载检索摘要",
+   "sources": [
+    "reuters-apec"
+   ]
+  },
+  {
+   "item": "海湾/日本出口/伊朗务实派等低信心派系",
+   "why": "缺少直接的当期指标，主要为结构分析",
+   "sources": []
+  }
+ ],
+ "claims": [
+  {
+   "id": "ev-iran-what",
+   "target": "node",
+   "targetId": "iran",
+   "field": "analysis.what",
+   "text": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
+   "type": "fact",
+   "sources": [
+    "reuters-iran",
+    "eia",
+    "eia-chokepoints"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-iran-kinetic",
+   "target": "node",
+   "targetId": "iran",
+   "field": "rationale.kineticIntensity",
+   "text": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
+   "type": "fact",
+   "sources": [
+    "reuters-iran",
+    "eia",
+    "eia-chokepoints"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-iran-analysis",
+   "target": "node",
+   "targetId": "iran",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ukraine-what",
+   "target": "node",
+   "targetId": "ukraine",
+   "field": "analysis.what",
+   "text": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
+   "type": "fact",
+   "sources": [
+    "un-ukraine",
+    "eia",
+    "un-sc"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ukraine-kinetic",
+   "target": "node",
+   "targetId": "ukraine",
+   "field": "rationale.kineticIntensity",
+   "text": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
+   "type": "fact",
+   "sources": [
+    "un-ukraine",
+    "eia",
+    "un-sc"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ukraine-analysis",
+   "target": "node",
+   "targetId": "ukraine",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-redsea-what",
+   "target": "node",
+   "targetId": "redsea",
+   "field": "analysis.what",
+   "text": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+   "type": "fact",
+   "sources": [
+    "eia",
+    "reuters-iran"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-redsea-kinetic",
+   "target": "node",
+   "targetId": "redsea",
+   "field": "rationale.kineticIntensity",
+   "text": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+   "type": "fact",
+   "sources": [
+    "eia",
+    "reuters-iran"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-redsea-analysis",
+   "target": "node",
+   "targetId": "redsea",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-taiwan-what",
+   "target": "node",
+   "targetId": "taiwan",
+   "field": "analysis.what",
+   "text": "11月10日路透报道西太平洋演训。当前数据未证明海峡全面热战；高结构评分不是战争发生概率。",
+   "type": "fact",
+   "sources": [
+    "taiwan",
+    "sia-bcg",
+    "reuters-apec"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-taiwan-kinetic",
+   "target": "node",
+   "targetId": "taiwan",
+   "field": "rationale.kineticIntensity",
+   "text": "11月10日路透报道西太平洋演训。当前数据未证明海峡全面热战；高结构评分不是战争发生概率。",
+   "type": "fact",
+   "sources": [
+    "taiwan",
+    "sia-bcg",
+    "reuters-apec"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-taiwan-analysis",
+   "target": "node",
+   "targetId": "taiwan",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-korea-what",
+   "target": "node",
+   "targetId": "korea",
+   "field": "analysis.what",
+   "text": "11月2日报道朝鲜对美韩Iron Mace演习的回应。核威慑与军事演习不等于已爆发全面战争。",
+   "type": "fact",
+   "sources": [
+    "korea"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-korea-kinetic",
+   "target": "node",
+   "targetId": "korea",
+   "field": "rationale.kineticIntensity",
+   "text": "11月2日报道朝鲜对美韩Iron Mace演习的回应。核威慑与军事演习不等于已爆发全面战争。",
+   "type": "fact",
+   "sources": [
+    "korea"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-korea-analysis",
+   "target": "node",
+   "targetId": "korea",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-latam-what",
+   "target": "node",
+   "targetId": "latam",
+   "field": "analysis.what",
+   "text": "USGS 2026年度摘要提供2025年矿产估计。锂三角是资源竞争节点，不是热战标签。",
+   "type": "fact",
+   "sources": [
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-latam-kinetic",
+   "target": "node",
+   "targetId": "latam",
+   "field": "rationale.kineticIntensity",
+   "text": "USGS 2026年度摘要提供2025年矿产估计。锂三角是资源竞争节点，不是热战标签。",
+   "type": "fact",
+   "sources": [
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-latam-analysis",
+   "target": "node",
+   "targetId": "latam",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-brazil-what",
+   "target": "node",
+   "targetId": "brazil",
+   "field": "analysis.what",
+   "text": "USGS年度基线显示巴西具有多种关键矿产；此节点不表示已发生军事危机。",
+   "type": "fact",
+   "sources": [
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-brazil-kinetic",
+   "target": "node",
+   "targetId": "brazil",
+   "field": "rationale.kineticIntensity",
+   "text": "USGS年度基线显示巴西具有多种关键矿产；此节点不表示已发生军事危机。",
+   "type": "fact",
+   "sources": [
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-brazil-analysis",
+   "target": "node",
+   "targetId": "brazil",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-malacca-what",
+   "target": "node",
+   "targetId": "malacca",
+   "field": "analysis.what",
+   "text": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-malacca-kinetic",
+   "target": "node",
+   "targetId": "malacca",
+   "field": "rationale.kineticIntensity",
+   "text": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-malacca-analysis",
+   "target": "node",
+   "targetId": "malacca",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-panama-what",
+   "target": "node",
+   "targetId": "panama",
+   "field": "analysis.what",
+   "text": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-panama-kinetic",
+   "target": "node",
+   "targetId": "panama",
+   "field": "rationale.kineticIntensity",
+   "text": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-panama-analysis",
+   "target": "node",
+   "targetId": "panama",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-sudan-what",
+   "target": "node",
+   "targetId": "sudan",
+   "field": "analysis.what",
+   "text": "2023年4月爆发的SAF与RSF战争仍在持续。11月SAF与盟军打破对欧拜伊德的包围，推进至西科尔多凡 al-Khuwai，目标是纳胡德；RSF仍控制西科尔多凡大部与几乎全部达尔富尔。",
+   "type": "fact",
+   "sources": [
+    "aj-sudan",
+    "sudanspost-map",
+    "amnesty-sudan",
+    "aa-sudan"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-sudan-kinetic",
+   "target": "node",
+   "targetId": "sudan",
+   "field": "rationale.kineticIntensity",
+   "text": "SAF与盟军11月在北/西科尔多凡推进，RSF以无人机袭击欧拜伊德；高强度、多战线。",
+   "type": "fact",
+   "sources": [
+    "aj-sudan",
+    "sudanspost-map",
+    "amnesty-sudan",
+    "aa-sudan"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-sudan-analysis",
+   "target": "node",
+   "targetId": "sudan",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ethiopia-eritrea-what",
+   "target": "node",
+   "targetId": "ethiopia-eritrea",
+   "field": "analysis.what",
+   "text": "9月下旬重启的北部战争已成多战线冲突；10月初两国断交。埃塞军10月12日夺回扎兰贝萨、11月7日夺回拉马，厄军约11月15日重占巴德梅；阿姆哈拉法诺与联邦军持续交战。埃塞指控厄立特里亚主导叛军攻势、埃及提供支持，两国均否认。",
+   "type": "fact",
+   "sources": [
+    "acled-badme",
+    "ctp-ethiopia",
+    "aa-ethiopia",
+    "aj-ethiopia-oct"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ethiopia-eritrea-kinetic",
+   "target": "node",
+   "targetId": "ethiopia-eritrea",
+   "field": "rationale.kineticIntensity",
+   "text": "ACLED：约11月15日厄军重新进入巴德梅；埃塞军11月7日夺回拉马、10月12日夺回扎兰贝萨。多线作战，尚未确认两国全面战争。",
+   "type": "fact",
+   "sources": [
+    "acled-badme",
+    "ctp-ethiopia",
+    "aa-ethiopia",
+    "aj-ethiopia-oct"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ethiopia-eritrea-analysis",
+   "target": "node",
+   "targetId": "ethiopia-eritrea",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mali-sahel-what",
+   "target": "node",
+   "targetId": "mali-sahel",
+   "field": "analysis.what",
+   "text": "基地组织关联的JNIM自2025年9月起封锁运往马里的燃料，2026年4月与图阿雷格FLA协同袭击多地。燃料在军队护送下成批运入巴马科（11月以来1505辆油罐车，10月约4000辆），但首都并未完全被围。10月6日军队重夺基达尔，FLA与JNIM未战撤离。",
+   "type": "fact",
+   "sources": [
+    "bbc-mali",
+    "apa-mali",
+    "r2p-sahel",
+    "rfi-kidal"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mali-sahel-kinetic",
+   "target": "node",
+   "targetId": "mali-sahel",
+   "field": "rationale.kineticIntensity",
+   "text": "JNIM对巴马科实施燃料封锁超过一年，2026年4月与FLA协同进攻（BBC 5月报道）；10月6日军政府与“非洲军团”重夺基达尔（RFI）。",
+   "type": "fact",
+   "sources": [
+    "bbc-mali",
+    "apa-mali",
+    "r2p-sahel",
+    "rfi-kidal"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mali-sahel-analysis",
+   "target": "node",
+   "targetId": "mali-sahel",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-burkina-what",
+   "target": "node",
+   "targetId": "burkina",
+   "field": "analysis.what",
+   "text": "布基纳法索北部与东部大片地区处于武装团体压力之下；吉博长期被围。自9月初起JNIM与“伊斯兰国萨赫勒省”相互交战（半岛电视台11月13日），国家控制范围收缩。",
+   "type": "fact",
+   "sources": [
+    "aj-burkina",
+    "r2p-sahel"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-burkina-kinetic",
+   "target": "node",
+   "targetId": "burkina",
+   "field": "rationale.kineticIntensity",
+   "text": "JNIM等武装持续进攻并围困城镇，敌对武装团体之间也爆发冲突。",
+   "type": "fact",
+   "sources": [
+    "aj-burkina",
+    "r2p-sahel"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-burkina-analysis",
+   "target": "node",
+   "targetId": "burkina",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-drc-east-what",
+   "target": "node",
+   "targetId": "drc-east",
+   "field": "analysis.what",
+   "text": "多哈框架协议（2025年11月15日）与华盛顿协议（2025年12月）分别处理刚果政府与AFC/M23、刚果与卢旺达问题。停火核查于2026年8月开始，但11月南基伍仍有战斗，非盟指出落实有限。",
+   "type": "fact",
+   "sources": [
+    "aj-drc",
+    "state-drc"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-drc-east-kinetic",
+   "target": "node",
+   "targetId": "drc-east",
+   "field": "rationale.kineticIntensity",
+   "text": "多哈与华盛顿进程并行但战斗未停：11月初卡比拉领导的FRN在南基伍沿3号国道推进。",
+   "type": "fact",
+   "sources": [
+    "aj-drc",
+    "state-drc"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-drc-east-analysis",
+   "target": "node",
+   "targetId": "drc-east",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-somalia-what",
+   "target": "node",
+   "targetId": "somalia",
+   "field": "analysis.what",
+   "text": "2026年8月底政府军与青年党在摩加迪沙西北巴斯拉激战两周以上；11月中旬青年党在中部推进，11月15日据报夺取科马德（Coomaad）。",
+   "type": "fact",
+   "sources": [
+    "sg-somalia",
+    "garowe-somalia"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-somalia-kinetic",
+   "target": "node",
+   "targetId": "somalia",
+   "field": "rationale.kineticIntensity",
+   "text": "8月底巴斯拉曾爆发持续两周以上的战斗；11月15日青年党夺取科马德（Coomaad）等地（Garowe Online）。尚无直接进攻首都的报道。",
+   "type": "fact",
+   "sources": [
+    "sg-somalia",
+    "garowe-somalia"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-somalia-analysis",
+   "target": "node",
+   "targetId": "somalia",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-nigeria-what",
+   "target": "node",
+   "targetId": "nigeria",
+   "field": "analysis.what",
+   "text": "11月ISWAP继续在博尔诺州袭击军营，军方空袭；西北部扎姆法拉等地匪帮设卡、焚车与绑架加剧。军方表示不寻求停火。",
+   "type": "fact",
+   "sources": [
+    "reuters-nigeria",
+    "reliefweb-nigeria"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-nigeria-kinetic",
+   "target": "node",
+   "targetId": "nigeria",
+   "field": "rationale.kineticIntensity",
+   "text": "东北部ISWAP与博科圣地袭击军营，空袭持续；西北部匪帮设卡绑架。ReliefWeb：10月612起事件、至少835人死亡。",
+   "type": "fact",
+   "sources": [
+    "reuters-nigeria",
+    "reliefweb-nigeria"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-nigeria-analysis",
+   "target": "node",
+   "targetId": "nigeria",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-libya-what",
+   "target": "node",
+   "targetId": "libya",
+   "field": "analysis.what",
+   "text": "利比亚仍处于东西分治：的黎波里德贝巴政府与东部哈夫塔尔阵营并立。11月15日美军非洲司令部司令与德贝巴讨论军事机构统一与2027年联合演习；11月16日德贝巴会见埃及情报局长。2025年5月的黎波里民兵激战后停火，可作为首都安全格局的历史基线。",
+   "type": "fact",
+   "sources": [
+    "libya-observer",
+    "lana-egypt",
+    "libya-truce"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-libya-kinetic",
+   "target": "node",
+   "targetId": "libya",
+   "field": "rationale.kineticIntensity",
+   "text": "本轮未核实到2026年11月的大规模武装冲突；此前所列“的黎波里激战”实为2025年5月旧闻，已更正。",
+   "type": "fact",
+   "sources": [
+    "libya-observer",
+    "lana-egypt",
+    "libya-truce"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-libya-analysis",
+   "target": "node",
+   "targetId": "libya",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mozambique-what",
+   "target": "node",
+   "targetId": "mozambique",
+   "field": "analysis.what",
+   "text": "11月德尔加杜角省多地遭袭击、劫掠与绑架。ACLED：10月武装分子在九个县活动，并有约5.3万美元赎金案例。",
+   "type": "fact",
+   "sources": [
+    "acled-moz",
+    "publico-moz"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mozambique-kinetic",
+   "target": "node",
+   "targetId": "mozambique",
+   "field": "rationale.kineticIntensity",
+   "text": "武装分子持续袭击村庄、绑架；十天内至少19人遇害（媒体统计）。",
+   "type": "fact",
+   "sources": [
+    "acled-moz",
+    "publico-moz"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mozambique-analysis",
+   "target": "node",
+   "targetId": "mozambique",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-south-sudan-what",
+   "target": "node",
+   "targetId": "south-sudan",
+   "field": "analysis.what",
+   "text": "前第一副总统马沙尔与七名SPLM/A-IO被告因2025年3月纳西尔驻地袭击受审（检方称257名士兵死亡），庭审延期至11月18日。政治危机可能危及2018年和平协议。",
+   "type": "fact",
+   "sources": [
+    "tamazuj-ss"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-south-sudan-kinetic",
+   "target": "node",
+   "targetId": "south-sudan",
+   "field": "rationale.kineticIntensity",
+   "text": "前第一副总统马沙尔因纳西尔袭击案受审（庭审延至11月18日）；本快照未核实当前大规模战斗，故标为潜伏。",
+   "type": "fact",
+   "sources": [
+    "tamazuj-ss"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-south-sudan-analysis",
+   "target": "node",
+   "targetId": "south-sudan",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-kosovo-what",
+   "target": "node",
+   "targetId": "kosovo",
+   "field": "analysis.what",
+   "text": "10月25日塞尔维亚选举前，科索沃警方叫停塞尔维亚在北部的竞选集会。11月16日，库尔蒂政府称塞尔维亚阻断400千伏跨境输电线路，宣布能源紧急状态并限制与塞关联企业的电力交易。",
+   "type": "fact",
+   "sources": [
+    "kosovo-energy",
+    "kosovo-mitrovica"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-kosovo-kinetic",
+   "target": "node",
+   "targetId": "kosovo",
+   "field": "rationale.kineticIntensity",
+   "text": "10月塞尔维亚选举前北米特罗维察竞选集会被叫停；未见武装冲突。",
+   "type": "fact",
+   "sources": [
+    "kosovo-energy",
+    "kosovo-mitrovica"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-kosovo-analysis",
+   "target": "node",
+   "targetId": "kosovo",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-bosnia-rs-what",
+   "target": "node",
+   "targetId": "bosnia-rs",
+   "field": "analysis.what",
+   "text": "11月多迪克领导的执政联盟在塞族共和国议会获得83席中的56席（三分之二），可修改实体宪法；分析人士担心削弱代顿框架下的保护机制。",
+   "type": "fact",
+   "sources": [
+    "aj-rs",
+    "dw-rs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-bosnia-rs-kinetic",
+   "target": "node",
+   "targetId": "bosnia-rs",
+   "field": "rationale.kineticIntensity",
+   "text": "无武装冲突；风险来自宪政与分离主义举措。",
+   "type": "fact",
+   "sources": [
+    "aj-rs",
+    "dw-rs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-bosnia-rs-analysis",
+   "target": "node",
+   "targetId": "bosnia-rs",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-serbia-what",
+   "target": "node",
+   "targetId": "serbia",
+   "field": "analysis.what",
+   "text": "10月25日议会选举中学生名单赢得250席中的140席（2354417票），武契奇的“统一塞尔维亚”获103席，武契奇承认失败。新议会11月17日成立，正在组建政府。",
+   "type": "fact",
+   "sources": [
+    "rik-serbia",
+    "srb-gov-mandates",
+    "reuters-serbia-parl",
+    "aj-serbia"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-serbia-kinetic",
+   "target": "node",
+   "targetId": "serbia",
+   "field": "rationale.kineticIntensity",
+   "text": "选举后总体为和平的政治转型，未见武装冲突。",
+   "type": "fact",
+   "sources": [
+    "rik-serbia",
+    "srb-gov-mandates",
+    "reuters-serbia-parl",
+    "aj-serbia"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-serbia-analysis",
+   "target": "node",
+   "targetId": "serbia",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-venezuela-what",
+   "target": "node",
+   "targetId": "venezuela",
+   "field": "analysis.what",
+   "text": "2026年1月3日美军行动抓获马杜罗，罗德里格斯任临时总统。美国务院主导驻军地位协定（SOFA）谈判，美方称基地问题“还很遥远”；美使馆已重开。马查多10月底回国，尚无选举日期。",
+   "type": "fact",
+   "sources": [
+    "nyt-venezuela"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-venezuela-kinetic",
+   "target": "node",
+   "targetId": "venezuela",
+   "field": "rationale.kineticIntensity",
+   "text": "1月美军行动抓获马杜罗后，以谈判与有限行动为主；6月一次空袭击毙“阿拉瓜火车”创始人之一（中情局情报，委军参与）。",
+   "type": "fact",
+   "sources": [
+    "nyt-venezuela"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-venezuela-analysis",
+   "target": "node",
+   "targetId": "venezuela",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-haiti-what",
+   "target": "node",
+   "targetId": "haiti",
+   "field": "analysis.what",
+   "text": "联合国授权的打击帮派部队（GSF）11月在太阳城、贝尔艾尔等地行动并缴获武器；10月18日伏击事件中四名萨尔瓦多技术人员失踪或遇害；帮派仍控制太子港大片地区。",
+   "type": "fact",
+   "sources": [
+    "haiti-brief",
+    "haiti-gsf"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-haiti-kinetic",
+   "target": "node",
+   "targetId": "haiti",
+   "field": "rationale.kineticIntensity",
+   "text": "帮派控制首都大片地区；联合国授权的打击帮派部队（GSF，任期9月29日延至2027年3月）持续行动。",
+   "type": "fact",
+   "sources": [
+    "haiti-brief",
+    "haiti-gsf"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-haiti-analysis",
+   "target": "node",
+   "targetId": "haiti",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-catatumbo-what",
+   "target": "node",
+   "targetId": "catatumbo",
+   "field": "analysis.what",
+   "text": "2025年1月起ELN与FARC异见团体争夺卡塔通博，11月无人机袭击住宅与军队巡逻，平民流离与被封锁。",
+   "type": "fact",
+   "sources": [
+    "presidencia-catatumbo",
+    "caracol-catatumbo"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-catatumbo-kinetic",
+   "target": "node",
+   "targetId": "catatumbo",
+   "field": "rationale.kineticIntensity",
+   "text": "ELN与FARC异见团体交战第22个月；11月12日蒂布无人机袭击致4名军人死亡，总统下令发动攻势。",
+   "type": "fact",
+   "sources": [
+    "presidencia-catatumbo",
+    "caracol-catatumbo"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-catatumbo-analysis",
+   "target": "node",
+   "targetId": "catatumbo",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ecuador-what",
+   "target": "node",
+   "targetId": "ecuador",
+   "field": "analysis.what",
+   "text": "11月诺沃亚政府在瓜亚斯、埃斯梅拉达斯等八省延长例外状态30天，军警联合打击帮派。",
+   "type": "fact",
+   "sources": [
+    "ecuador-emergency"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ecuador-kinetic",
+   "target": "node",
+   "targetId": "ecuador",
+   "field": "rationale.kineticIntensity",
+   "text": "八省延长例外状态，军警联合行动；为有组织犯罪暴力而非武装冲突。",
+   "type": "fact",
+   "sources": [
+    "ecuador-emergency"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-ecuador-analysis",
+   "target": "node",
+   "targetId": "ecuador",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mexico-what",
+   "target": "node",
+   "targetId": "mexico",
+   "field": "analysis.what",
+   "text": "锡那罗亚集团内斗导致暴力回升（10月锡那罗亚191起凶杀），马萨特兰再遭袭击。美方以制裁、起诉与打击威胁施压；据报因墨方加强打击而暂缓空袭（转述报道，未打开原文）。",
+   "type": "fact",
+   "sources": [
+    "mexico-iaw",
+    "ef-mexico"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mexico-kinetic",
+   "target": "node",
+   "targetId": "mexico",
+   "field": "rationale.kineticIntensity",
+   "text": "锡那罗亚暴力回升（10月191起凶杀）；尚无美国对墨领土打击记录。",
+   "type": "fact",
+   "sources": [
+    "mexico-iaw",
+    "ef-mexico"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-mexico-analysis",
+   "target": "node",
+   "targetId": "mexico",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-essequibo-what",
+   "target": "node",
+   "targetId": "essequibo",
+   "field": "analysis.what",
+   "text": "国际法院“1899年仲裁裁决”案实体庭审于2026年5月4–11日举行，判决日期未公布；圭亚那总统阿里9月称预计在新年初宣判。",
+   "type": "fact",
+   "sources": [
+    "icj-guyana",
+    "dpi-guyana"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-essequibo-kinetic",
+   "target": "node",
+   "targetId": "essequibo",
+   "field": "rationale.kineticIntensity",
+   "text": "未见武装冲突；国际法院判决待发布。",
+   "type": "fact",
+   "sources": [
+    "icj-guyana",
+    "dpi-guyana"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-essequibo-analysis",
+   "target": "node",
+   "targetId": "essequibo",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-peru-what",
+   "target": "node",
+   "targetId": "peru",
+   "field": "analysis.what",
+   "text": "利马与卡亚俄紧急状态自10月28日延长60天，警方主导、军队支援打击敲诈与有组织犯罪。",
+   "type": "fact",
+   "sources": [
+    "andina-peru"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-peru-kinetic",
+   "target": "node",
+   "targetId": "peru",
+   "field": "rationale.kineticIntensity",
+   "text": "利马与卡亚俄紧急状态延长，敲诈与凶杀为主要问题；非武装冲突。",
+   "type": "fact",
+   "sources": [
+    "andina-peru"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "ev-peru-analysis",
+   "target": "node",
+   "targetId": "peru",
+   "field": "scores/rationale/perspectives",
+   "text": "四维评分、地理与资源解读、多方视角",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-gulf-oil-fact",
+   "target": "resource",
+   "targetId": "gulf-oil",
+   "field": "rationale.systemicSpillover",
+   "text": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
+   "type": "fact",
+   "sources": [
+    "reuters-iran",
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-gulf-oil-analysis",
+   "target": "resource",
+   "targetId": "gulf-oil",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-qatar-gas-fact",
+   "target": "resource",
+   "targetId": "qatar-gas",
+   "field": "rationale.systemicSpillover",
+   "text": "EIA：2025上半年经霍尔木兹的LNG约114亿立方英尺/日，超过全球LNG贸易两成，其中近三分之一运往中国；卡塔尔LNG没有绕开霍尔木兹的出口路线。",
+   "type": "fact",
+   "sources": [
+    "reuters-iran",
+    "eia-chokepoints",
+    "eia-lng-2025"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-qatar-gas-analysis",
+   "target": "resource",
+   "targetId": "qatar-gas",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-tw-chip-fact",
+   "target": "resource",
+   "targetId": "tw-chip",
+   "field": "rationale.systemicSpillover",
+   "text": "先进晶圆制造与电子供应链高度集中；此处未把未经核验的先进制程百分比当作当前实测值。",
+   "type": "fact",
+   "sources": [
+    "taiwan"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-tw-chip-analysis",
+   "target": "resource",
+   "targetId": "tw-chip",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-kr-chip-fact",
+   "target": "resource",
+   "targetId": "kr-chip",
+   "field": "rationale.systemicSpillover",
+   "text": "韩国芯片、工业出口与东北亚航运面临潜在冲击，属于结构脆弱性而非已发生损失。",
+   "type": "fact",
+   "sources": [
+    "korea"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-kr-chip-analysis",
+   "target": "resource",
+   "targetId": "kr-chip",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-andes-fact",
+   "target": "resource",
+   "targetId": "andes",
+   "field": "rationale.systemicSpillover",
+   "text": "锂、铜的矿权、水资源、精炼能力与长期合同共同决定供应，不可将地下资源量直接当出口能力。",
+   "type": "fact",
+   "sources": [
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-andes-analysis",
+   "target": "resource",
+   "targetId": "andes",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-br-min-fact",
+   "target": "resource",
+   "targetId": "br-min",
+   "field": "rationale.systemicSpillover",
+   "text": "稀土的储量不等于现有精炼产能；大豆与化肥供应构成相互依赖。",
+   "type": "fact",
+   "sources": [
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-br-min-analysis",
+   "target": "resource",
+   "targetId": "br-min",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-br-grain-fact",
+   "target": "resource",
+   "targetId": "br-grain",
+   "field": "rationale.systemicSpillover",
+   "text": "USDA：2026/27年度巴西主要油籽出口预测1.1857亿吨（全球2.2276亿吨），中国进口预测1.2123亿吨。",
+   "type": "fact",
+   "sources": [
+    "usda-oilseeds"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-br-grain-analysis",
+   "target": "resource",
+   "targetId": "br-grain",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-black-grain-fact",
+   "target": "resource",
+   "targetId": "black-grain",
+   "field": "rationale.systemicSpillover",
+   "text": "联合国安理会会议上波兰代表称对黑海贸易航线的袭击威胁粮食出口；欧洲能源结构调整并未消除冲击。",
+   "type": "fact",
+   "sources": [
+    "un-sc",
+    "un-ukraine"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-black-grain-analysis",
+   "target": "resource",
+   "targetId": "black-grain",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-fertilizer-fact",
+   "target": "resource",
+   "targetId": "fertilizer",
+   "field": "rationale.systemicSpillover",
+   "text": "化肥与天然气、黑海物流相关，此处为定性分析，未引用具体产量。欧洲能源结构调整并未消除冲击。",
+   "type": "fact",
+   "sources": [
+    "un-sc",
+    "un-ukraine"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "resource-fertilizer-analysis",
+   "target": "resource",
+   "targetId": "fertilizer",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-hormuz-fact",
+   "target": "chokepoint",
+   "targetId": "hormuz",
+   "field": "rationale.systemicSpillover",
+   "text": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
+   "type": "fact",
+   "sources": [
+    "reuters-iran",
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-hormuz-analysis",
+   "target": "chokepoint",
+   "targetId": "hormuz",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-mandeb-fact",
+   "target": "chokepoint",
+   "targetId": "mandeb",
+   "field": "rationale.systemicSpillover",
+   "text": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
+   "type": "fact",
+   "sources": [
+    "eia",
+    "reuters-iran"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-mandeb-analysis",
+   "target": "chokepoint",
+   "targetId": "mandeb",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-suez-fact",
+   "target": "chokepoint",
+   "targetId": "suez",
+   "field": "rationale.systemicSpillover",
+   "text": "EIA 2026Q3苏伊士运河+SUMED管道油流约710万桶/日；仅为油流，不代表全部集装箱贸易。",
+   "type": "fact",
+   "sources": [
+    "eia",
+    "reuters-iran"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-suez-analysis",
+   "target": "chokepoint",
+   "targetId": "suez",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-malacca-c-fact",
+   "target": "chokepoint",
+   "targetId": "malacca-c",
+   "field": "rationale.systemicSpillover",
+   "text": "东亚油气进口与全球集装箱航运叠加；不能把过境量等同于当地消费量。",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-malacca-c-analysis",
+   "target": "chokepoint",
+   "targetId": "malacca-c",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-panama-c-fact",
+   "target": "chokepoint",
+   "targetId": "panama-c",
+   "field": "rationale.systemicSpillover",
+   "text": "粮食、集装箱与能源货物依赖通航能力；油品统计不能替代总贸易。",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-panama-c-analysis",
+   "target": "chokepoint",
+   "targetId": "panama-c",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-bosporus-fact",
+   "target": "chokepoint",
+   "targetId": "bosporus",
+   "field": "rationale.systemicSpillover",
+   "text": "EIA 2026Q3土耳其海峡油流约340万桶/日；粮食、化肥与黑海物流构成主要外溢渠道。",
+   "type": "fact",
+   "sources": [
+    "un-ukraine",
+    "eia",
+    "un-sc"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "chokepoint-bosporus-analysis",
+   "target": "chokepoint",
+   "targetId": "bosporus",
+   "field": "scores",
+   "text": "评分继承关联地区（分析估计）",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "corridor-cor-hormuz",
+   "target": "corridor",
+   "targetId": "cor-hormuz",
+   "field": "fact",
+   "text": "战前（2025上半年）约2090万桶/日；2026Q3约910万桶/日（EIA，AIS数据存在不确定性）。",
+   "type": "fact",
+   "sources": [
+    "eia-chokepoints",
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "corridor-cor-chips",
+   "target": "corridor",
+   "targetId": "cor-chips",
+   "field": "fact",
+   "text": "SIA/BCG（2021）：2019年10纳米以下先进产能约92%在台湾、8%在韩国（历史基线）。示意线不代表具体物流路线。",
+   "type": "fact",
+   "sources": [
+    "sia-bcg"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "corridor-cor-ree",
+   "target": "corridor",
+   "targetId": "cor-ree",
+   "field": "fact",
+   "text": "IEA：2024年中国约占全球稀土精炼91%、烧结永磁体94%。USGS：2025年中国稀土矿产量约27万吨（全球约39万吨）。",
+   "type": "fact",
+   "sources": [
+    "iea-ree",
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "corridor-cor-redsea",
+   "target": "corridor",
+   "targetId": "cor-redsea",
+   "field": "fact",
+   "text": "2026Q3曼德海峡约630万桶/日、苏伊士+SUMED约710万桶/日（EIA）；仅为油流，不代表全部集装箱贸易。",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "corridor-cor-lithium",
+   "target": "corridor",
+   "targetId": "cor-lithium",
+   "field": "fact",
+   "text": "USGS：智利、阿根廷合计锂储量约占全球37%（2025年估计）。示意线不代表具体物流路线。",
+   "type": "fact",
+   "sources": [
+    "usgs"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "route-energy",
+   "target": "route",
+   "targetId": "energy",
+   "field": "positions",
+   "text": "示意航线：海湾—东亚能源通道",
+   "type": "analysis",
+   "sources": [
+    "eia"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "示意走向，非AIS航迹"
+  },
+  {
+   "id": "route-suez-route",
+   "target": "route",
+   "targetId": "suez-route",
+   "field": "positions",
+   "text": "示意航线：亚欧红海通道",
+   "type": "analysis",
+   "sources": [
+    "eia"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "示意走向，非AIS航迹"
+  },
+  {
+   "id": "route-cape",
+   "target": "route",
+   "targetId": "cape",
+   "field": "positions",
+   "text": "示意航线：好望角替代通道",
+   "type": "analysis",
+   "sources": [
+    "eia"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "示意走向，非AIS航迹"
+  },
+  {
+   "id": "route-black",
+   "target": "route",
+   "targetId": "black",
+   "field": "positions",
+   "text": "示意航线：黑海粮食出口通道",
+   "type": "analysis",
+   "sources": [
+    "un-sc"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "示意走向，非AIS航迹"
+  },
+  {
+   "id": "route-pan",
+   "target": "route",
+   "targetId": "pan",
+   "field": "positions",
+   "text": "示意航线：两洋通道",
+   "type": "analysis",
+   "sources": [
+    "eia"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "示意走向，非AIS航迹"
+  },
+  {
+   "id": "alliance-us-eu",
+   "target": "alliance",
+   "targetId": "us-eu",
+   "field": "label",
+   "text": "跨大西洋安全合作 · 欧盟本身非北约成员",
+   "type": "fact",
+   "sources": [
+    "nato"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "alliance-us-uk",
+   "target": "alliance",
+   "targetId": "us-uk",
+   "field": "label",
+   "text": "北约成员关系",
+   "type": "fact",
+   "sources": [
+    "nato"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "alliance-us-tr",
+   "target": "alliance",
+   "targetId": "us-tr",
+   "field": "label",
+   "text": "北约成员关系",
+   "type": "fact",
+   "sources": [
+    "nato"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "alliance-us-jp",
+   "target": "alliance",
+   "targetId": "us-jp",
+   "field": "label",
+   "text": "双边安全合作",
+   "type": "fact",
+   "sources": [
+    "state-cda"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "alliance-us-kr",
+   "target": "alliance",
+   "targetId": "us-kr",
+   "field": "label",
+   "text": "双边安全合作",
+   "type": "fact",
+   "sources": [
+    "state-cda"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "alliance-us-au",
+   "target": "alliance",
+   "targetId": "us-au",
+   "field": "label",
+   "text": "双边安全合作",
+   "type": "fact",
+   "sources": [
+    "state-cda"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "alliance-cn-ru",
+   "target": "alliance",
+   "targetId": "cn-ru",
+   "field": "label",
+   "text": "战略伙伴关系 · 非共同防御同盟",
+   "type": "fact",
+   "sources": [
+    "kremlin-cn-ru"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "terrain-himalaya",
+   "target": "terrain",
+   "targetId": "himalaya",
+   "field": "note",
+   "text": "高海拔屏障限制大规模陆路通行与补给。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-zagros",
+   "target": "terrain",
+   "targetId": "zagros",
+   "field": "note",
+   "text": "伊朗西南山地屏障，俯瞰波斯湾沿岸。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-andes",
+   "target": "terrain",
+   "targetId": "andes",
+   "field": "note",
+   "text": "高原、盐湖与山口影响锂铜开发与跨境运输。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-carpathians",
+   "target": "terrain",
+   "targetId": "carpathians",
+   "field": "note",
+   "text": "东欧平原西南侧天然屏障与通道走廊。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-caucasus",
+   "target": "terrain",
+   "targetId": "caucasus",
+   "field": "note",
+   "text": "黑海与里海之间的陆桥屏障。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-taurus",
+   "target": "terrain",
+   "targetId": "taurus",
+   "field": "note",
+   "text": "安纳托利亚南缘屏障。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-nep",
+   "target": "terrain",
+   "targetId": "nep",
+   "field": "note",
+   "text": "平坦开阔地形缺少天然屏障，历史上是陆路机动走廊。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-tw-strait",
+   "target": "terrain",
+   "targetId": "tw-strait",
+   "field": "note",
+   "text": "最窄处约160公里（Britannica），各来源测量口径不同；海上屏障增加跨海投送难度。",
+   "type": "fact",
+   "sources": [
+    "britannica-taiwan-strait"
+   ],
+   "status": "corrected",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "terrain-dmz",
+   "target": "terrain",
+   "targetId": "dmz",
+   "field": "note",
+   "text": "高度设防的分界线，邻近首尔都市圈；位置为示意。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "terrain-first-chain",
+   "target": "terrain",
+   "targetId": "first-chain",
+   "field": "note",
+   "text": "岛屿链条塑造西太平洋出海口与海空通道。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "手工简化示意"
+  },
+  {
+   "id": "faction-us-defense-ind0",
+   "target": "faction",
+   "targetId": "us-defense",
+   "field": "indicators",
+   "text": "美国2025年军费：9540亿美元，同比-7.5%，占GDP 3.1%，约占全球三分之一",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-defense-ind1",
+   "target": "faction",
+   "targetId": "us-defense",
+   "field": "indicators",
+   "text": "全球军费格局：全球2.887万亿美元，同比+2.9%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-defense-model",
+   "target": "faction",
+   "targetId": "us-defense",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-us-energy-ind0",
+   "target": "faction",
+   "targetId": "us-energy",
+   "field": "indicators",
+   "text": "美国LNG出口：2025年约151亿立方英尺/日，同比+26%，创纪录",
+   "type": "fact",
+   "sources": [
+    "eia-lng-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-energy-ind1",
+   "target": "faction",
+   "targetId": "us-energy",
+   "field": "indicators",
+   "text": "霍尔木兹油流：2026年第三季度约910万桶/日（战前约2090万）",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-energy-model",
+   "target": "faction",
+   "targetId": "us-energy",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-us-tech-finance-ind0",
+   "target": "faction",
+   "targetId": "us-tech-finance",
+   "field": "indicators",
+   "text": "先进制程集中度（历史基线）：2019年10纳米以下产能约92%在台湾、8%在韩国",
+   "type": "fact",
+   "sources": [
+    "sia-bcg"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-tech-finance-ind1",
+   "target": "faction",
+   "targetId": "us-tech-finance",
+   "field": "indicators",
+   "text": "对台军售作为“筹码”：特朗普5月称暂缓新的对台军售，视为谈判筹码",
+   "type": "fact",
+   "sources": [
+    "reuters-apec"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-tech-finance-model",
+   "target": "faction",
+   "targetId": "us-tech-finance",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-us-populist-ind0",
+   "target": "faction",
+   "targetId": "us-populist",
+   "field": "indicators",
+   "text": "2026年中期选举：民主党赢得两院多数（参议院56席含独立派）",
+   "type": "fact",
+   "sources": [
+    "us-midterms"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-populist-ind1",
+   "target": "faction",
+   "targetId": "us-populist",
+   "field": "indicators",
+   "text": "选民动因：路透与美联社称物价与伊朗战争是选民不满的主要原因",
+   "type": "estimate",
+   "sources": [
+    "us-midterms"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-us-populist-model",
+   "target": "faction",
+   "targetId": "us-populist",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-eu-industry-ind0",
+   "target": "faction",
+   "targetId": "eu-industry",
+   "field": "indicators",
+   "text": "中国出口规模：2025年出口26.99万亿元，同比+6.1%（美元口径顺差约1.19万亿美元）",
+   "type": "fact",
+   "sources": [
+    "cn-customs-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-industry-ind1",
+   "target": "faction",
+   "targetId": "eu-industry",
+   "field": "indicators",
+   "text": "德国军费：2025年1140亿美元，同比+24%（工业转向国防订单）",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-industry-model",
+   "target": "faction",
+   "targetId": "eu-industry",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-eu-frontline-ind0",
+   "target": "faction",
+   "targetId": "eu-frontline",
+   "field": "indicators",
+   "text": "SAFE防务贷款：波兰获最大份额约437亿欧元（总额1500亿）",
+   "type": "fact",
+   "sources": [
+    "aa-safe"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-frontline-ind1",
+   "target": "faction",
+   "targetId": "eu-frontline",
+   "field": "indicators",
+   "text": "德国军费：2025年1140亿美元，同比+24%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-frontline-model",
+   "target": "faction",
+   "targetId": "eu-frontline",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-eu-energy-ind0",
+   "target": "faction",
+   "targetId": "eu-energy",
+   "field": "indicators",
+   "text": "俄气禁令：LNG自2027年1月1日起禁止，管道气自2027年9月30日起禁止",
+   "type": "fact",
+   "sources": [
+    "consilium-gas"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-energy-ind1",
+   "target": "faction",
+   "targetId": "eu-energy",
+   "field": "indicators",
+   "text": "霍尔木兹LNG：2025上半年霍尔木兹LNG约114亿立方英尺/日，超过全球LNG贸易两成",
+   "type": "fact",
+   "sources": [
+    "eia-chokepoints"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-energy-model",
+   "target": "faction",
+   "targetId": "eu-energy",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-eu-sovereign-ind0",
+   "target": "faction",
+   "targetId": "eu-sovereign",
+   "field": "indicators",
+   "text": "欧盟一致同意规则：共同外交安全政策通常要求一致同意",
+   "type": "fact",
+   "sources": [
+    "eu"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-sovereign-ind1",
+   "target": "faction",
+   "targetId": "eu-sovereign",
+   "field": "indicators",
+   "text": "SAFE首轮：10月28日批准匈牙利54亿欧元防务贷款，首轮分配完成",
+   "type": "fact",
+   "sources": [
+    "euronews-safe"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-eu-sovereign-model",
+   "target": "faction",
+   "targetId": "eu-sovereign",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-cn-security-ind0",
+   "target": "faction",
+   "targetId": "cn-security",
+   "field": "indicators",
+   "text": "中国2025年军费（SIPRI估计）：约3360亿美元，同比+7.4%，占GDP约1.7%",
+   "type": "estimate",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-cn-security-ind1",
+   "target": "faction",
+   "targetId": "cn-security",
+   "field": "indicators",
+   "text": "西太平洋演训：台湾称辽宁舰编队在西太平洋进行“区域拒止”演训",
+   "type": "fact",
+   "sources": [
+    "taiwan"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-cn-security-model",
+   "target": "faction",
+   "targetId": "cn-security",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-cn-export-ind0",
+   "target": "faction",
+   "targetId": "cn-export",
+   "field": "indicators",
+   "text": "2025年外贸：出口26.99万亿元（+6.1%），进口18.48万亿元",
+   "type": "fact",
+   "sources": [
+    "cn-customs-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-cn-export-model",
+   "target": "faction",
+   "targetId": "cn-export",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-cn-tech-ind0",
+   "target": "faction",
+   "targetId": "cn-tech",
+   "field": "indicators",
+   "text": "十五五规划纲要：2026年3月12日批准，以高水平科技自立自强为重点",
+   "type": "fact",
+   "sources": [
+    "cn-fyp15"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-cn-tech-ind1",
+   "target": "faction",
+   "targetId": "cn-tech",
+   "field": "indicators",
+   "text": "稀土精炼主导：2024年中国约占稀土精炼91%、烧结永磁体94%",
+   "type": "fact",
+   "sources": [
+    "iea-ree"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-cn-tech-model",
+   "target": "faction",
+   "targetId": "cn-tech",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-cn-soe-ind0",
+   "target": "faction",
+   "targetId": "cn-soe",
+   "field": "indicators",
+   "text": "油籽进口：2026/27年度中国主要油籽进口预测1.2123亿吨（全球最大）",
+   "type": "fact",
+   "sources": [
+    "usda-oilseeds"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-cn-soe-ind1",
+   "target": "faction",
+   "targetId": "cn-soe",
+   "field": "indicators",
+   "text": "霍尔木兹LNG：中国是经霍尔木兹LNG最大目的地，接近三分之一",
+   "type": "fact",
+   "sources": [
+    "eia-chokepoints"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-cn-soe-model",
+   "target": "faction",
+   "targetId": "cn-soe",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-ru-siloviki-ind0",
+   "target": "faction",
+   "targetId": "ru-siloviki",
+   "field": "indicators",
+   "text": "俄罗斯2025年军费（SIPRI估计）：约1900亿美元，占GDP约7.5%，占政府支出约20%",
+   "type": "estimate",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-siloviki-ind1",
+   "target": "faction",
+   "targetId": "ru-siloviki",
+   "field": "indicators",
+   "text": "非洲军团：马里军队与俄罗斯国家控制的“非洲军团”被指控可能犯有战争罪",
+   "type": "fact",
+   "sources": [
+    "r2p-sahel"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-siloviki-model",
+   "target": "faction",
+   "targetId": "ru-siloviki",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-ru-energy-ind0",
+   "target": "faction",
+   "targetId": "ru-energy",
+   "field": "indicators",
+   "text": "预算油气收入：2026年1–10月6.442万亿卢布，同比-14.1%",
+   "type": "fact",
+   "sources": [
+    "mt-oilgas"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-energy-ind1",
+   "target": "faction",
+   "targetId": "ru-energy",
+   "field": "indicators",
+   "text": "印度采购俄油：10月约200万桶/日，约占印度原油进口三分之一（Kpler）",
+   "type": "fact",
+   "sources": [
+    "bs-india-oil"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-energy-ind2",
+   "target": "faction",
+   "targetId": "ru-energy",
+   "field": "indicators",
+   "text": "欧盟禁俄气：LNG 2027年1月、管道气2027年9月起禁止",
+   "type": "fact",
+   "sources": [
+    "consilium-gas"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-energy-model",
+   "target": "faction",
+   "targetId": "ru-energy",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-ru-mic-ind0",
+   "target": "faction",
+   "targetId": "ru-mic",
+   "field": "indicators",
+   "text": "预算透明度下降：国防预算中“机密余项”约占79%（2024年约73%）",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-mic-ind1",
+   "target": "faction",
+   "targetId": "ru-mic",
+   "field": "indicators",
+   "text": "无人机采购：俄罗斯转向大批量、低成本武器，无人机使用迅速扩大",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-mic-model",
+   "target": "faction",
+   "targetId": "ru-mic",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-ru-technocrats-ind0",
+   "target": "faction",
+   "targetId": "ru-technocrats",
+   "field": "indicators",
+   "text": "关键利率：10月23日维持14.00%",
+   "type": "fact",
+   "sources": [
+    "cbr-rate"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-technocrats-ind1",
+   "target": "faction",
+   "targetId": "ru-technocrats",
+   "field": "indicators",
+   "text": "预算赤字：1–10月5.234万亿卢布，约占GDP 2.3%",
+   "type": "fact",
+   "sources": [
+    "interfax-budget"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ru-technocrats-model",
+   "target": "faction",
+   "targetId": "ru-technocrats",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-ir-irgc-ind0",
+   "target": "faction",
+   "targetId": "ir-irgc",
+   "field": "indicators",
+   "text": "战时权力转移：路透：阿里·哈梅内伊战争首日身亡，革命卫队主导军事与关键政治决定",
+   "type": "fact",
+   "sources": [
+    "reuters-irgc"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ir-irgc-ind1",
+   "target": "faction",
+   "targetId": "ir-irgc",
+   "field": "indicators",
+   "text": "最高国安委秘书：8月起由前革命卫队司令雷扎伊担任",
+   "type": "fact",
+   "sources": [
+    "aj-iran-power"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ir-irgc-ind2",
+   "target": "faction",
+   "targetId": "ir-irgc",
+   "field": "indicators",
+   "text": "官方军费（SIPRI）：74亿美元，官方预算口径可能低估",
+   "type": "estimate",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ir-irgc-model",
+   "target": "faction",
+   "targetId": "ir-irgc",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-ir-clerical-ind0",
+   "target": "faction",
+   "targetId": "ir-clerical",
+   "field": "indicators",
+   "text": "最高领袖：穆杰塔巴·哈梅内伊为正式最高领袖，长期未公开露面",
+   "type": "fact",
+   "sources": [
+    "aj-iran-power"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ir-clerical-model",
+   "target": "faction",
+   "targetId": "ir-clerical",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-ir-pragmatic-ind0",
+   "target": "faction",
+   "targetId": "ir-pragmatic",
+   "field": "indicators",
+   "text": "谈判授权：佩泽希齐扬称获授权进行谈判",
+   "type": "fact",
+   "sources": [
+    "aj-iran-power"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ir-pragmatic-ind1",
+   "target": "faction",
+   "targetId": "ir-pragmatic",
+   "field": "indicators",
+   "text": "封锁与谈判：美方维持海上封锁，间接谈判卡在先后顺序",
+   "type": "fact",
+   "sources": [
+    "reuters-iran"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-ir-pragmatic-model",
+   "target": "faction",
+   "targetId": "ir-pragmatic",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-il-security-ind0",
+   "target": "faction",
+   "targetId": "il-security",
+   "field": "indicators",
+   "text": "以色列2025年军费：483亿美元，同比-4.9%，占GDP 7.8%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-il-security-model",
+   "target": "faction",
+   "targetId": "il-security",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-il-religious-right-ind0",
+   "target": "faction",
+   "targetId": "il-religious-right",
+   "field": "indicators",
+   "text": "2026年大选席位：犹太力量7、宗教锡安主义6、沙斯6、圣经犹太教联盟7",
+   "type": "fact",
+   "sources": [
+    "toi-israel"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-il-religious-right-ind1",
+   "target": "faction",
+   "targetId": "il-religious-right",
+   "field": "indicators",
+   "text": "组阁：总统授权艾森科特组阁",
+   "type": "fact",
+   "sources": [
+    "jta-eisenkot"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-il-religious-right-model",
+   "target": "faction",
+   "targetId": "il-religious-right",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-il-centrist-ind0",
+   "target": "faction",
+   "targetId": "il-centrist",
+   "field": "indicators",
+   "text": "组阁授权：总统赫尔佐格授权艾森科特（Yashar党领袖、前总参谋长）组阁",
+   "type": "fact",
+   "sources": [
+    "jta-eisenkot"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-il-centrist-ind1",
+   "target": "faction",
+   "targetId": "il-centrist",
+   "field": "indicators",
+   "text": "席位：Yashar 21席，为第二大党",
+   "type": "fact",
+   "sources": [
+    "toi-israel"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-il-centrist-model",
+   "target": "faction",
+   "targetId": "il-centrist",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-tr-defense-ind0",
+   "target": "faction",
+   "targetId": "tr-defense",
+   "field": "indicators",
+   "text": "防务航空出口：2025年约100.5亿美元，同比约+48%",
+   "type": "fact",
+   "sources": [
+    "ssb-turkey"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-tr-defense-ind1",
+   "target": "faction",
+   "targetId": "tr-defense",
+   "field": "indicators",
+   "text": "土耳其军费：2025年300亿美元，同比+7.2%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-tr-defense-model",
+   "target": "faction",
+   "targetId": "tr-defense",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-tr-hub-ind0",
+   "target": "faction",
+   "targetId": "tr-hub",
+   "field": "indicators",
+   "text": "土耳其海峡油流：2026年第三季度约340万桶/日",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-tr-hub-model",
+   "target": "faction",
+   "targetId": "tr-hub",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-in-security-ind0",
+   "target": "faction",
+   "targetId": "in-security",
+   "field": "indicators",
+   "text": "印度2025年军费：921亿美元，同比+8.9%（5月与巴基斯坦冲突）",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-in-security-model",
+   "target": "faction",
+   "targetId": "in-security",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-in-energy-ind0",
+   "target": "faction",
+   "targetId": "in-energy",
+   "field": "indicators",
+   "text": "俄油进口：10月约200万桶/日（Kpler）；中东约230万桶/日",
+   "type": "fact",
+   "sources": [
+    "bs-india-oil"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-in-energy-ind1",
+   "target": "faction",
+   "targetId": "in-energy",
+   "field": "indicators",
+   "text": "原油进口：10月创纪录（Kpler）",
+   "type": "fact",
+   "sources": [
+    "bs-india-oil"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-in-energy-model",
+   "target": "faction",
+   "targetId": "in-energy",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-jp-defense-ind0",
+   "target": "faction",
+   "targetId": "jp-defense",
+   "field": "indicators",
+   "text": "2027财年防卫预算请求：创纪录的8.89万亿日元",
+   "type": "fact",
+   "sources": [
+    "kyodo-japan"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-jp-defense-ind1",
+   "target": "faction",
+   "targetId": "jp-defense",
+   "field": "indicators",
+   "text": "日本2025年军费：622亿美元，同比+9.7%，占GDP 1.4%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-jp-defense-ind2",
+   "target": "faction",
+   "targetId": "jp-defense",
+   "field": "indicators",
+   "text": "条约基础：《美日安保条约》（1960年）",
+   "type": "fact",
+   "sources": [
+    "state-cda"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-jp-defense-model",
+   "target": "faction",
+   "targetId": "jp-defense",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-jp-fiscal-ind0",
+   "target": "faction",
+   "targetId": "jp-fiscal",
+   "field": "indicators",
+   "text": "五年防卫开支方案：财务省提出2027年4月起五年50–60万亿日元",
+   "type": "fact",
+   "sources": [
+    "jt-japan-fiscal"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-jp-fiscal-model",
+   "target": "faction",
+   "targetId": "jp-fiscal",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-jp-export-ind0",
+   "target": "faction",
+   "targetId": "jp-export",
+   "field": "indicators",
+   "text": "马六甲油流：2026年第三季度约1940万桶/日",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-jp-export-model",
+   "target": "faction",
+   "targetId": "jp-export",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-gulf-rentier-ind0",
+   "target": "faction",
+   "targetId": "gulf-rentier",
+   "field": "indicators",
+   "text": "2027财年预算前声明：收入12020亿里亚尔、支出13920亿里亚尔，赤字1910亿（GDP 3.6%）",
+   "type": "fact",
+   "sources": [
+    "spa-saudi"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-gulf-rentier-ind1",
+   "target": "faction",
+   "targetId": "gulf-rentier",
+   "field": "indicators",
+   "text": "沙特2025年军费（SIPRI估计）：约832亿美元",
+   "type": "estimate",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-gulf-rentier-ind2",
+   "target": "faction",
+   "targetId": "gulf-rentier",
+   "field": "indicators",
+   "text": "伊朗袭击：战争期间海湾国家遭超过7000枚伊朗导弹与无人机袭击（路透）",
+   "type": "fact",
+   "sources": [
+    "reuters-iran"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-gulf-rentier-model",
+   "target": "faction",
+   "targetId": "gulf-rentier",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "faction-gulf-diversify-ind0",
+   "target": "faction",
+   "targetId": "gulf-diversify",
+   "field": "indicators",
+   "text": "旁路管线：沙特东西管线与阿布扎比管线合计约470万桶/日旁路能力",
+   "type": "fact",
+   "sources": [
+    "eia-chokepoints"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "faction-gulf-diversify-model",
+   "target": "faction",
+   "targetId": "gulf-diversify",
+   "field": "interests/projections/strength",
+   "text": "利益来源、偏好、投射与强度判断",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "利益结构推断"
+  },
+  {
+   "id": "logic-geography-fact0",
+   "target": "logic",
+   "targetId": "geography",
+   "field": "facts",
+   "text": "霍尔木兹油流：2025上半年约2090万桶/日，2026年第三季度约910万桶/日",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-geography-fact1",
+   "target": "logic",
+   "targetId": "geography",
+   "field": "facts",
+   "text": "沙特与阿联酋旁路管线合计约470万桶/日，远低于战前霍尔木兹流量",
+   "type": "fact",
+   "sources": [
+    "eia-chokepoints"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-geography-fact2",
+   "target": "logic",
+   "targetId": "geography",
+   "field": "facts",
+   "text": "马六甲2026年第三季度约1940万桶/日",
+   "type": "fact",
+   "sources": [
+    "eia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-geography-fact3",
+   "target": "logic",
+   "targetId": "geography",
+   "field": "facts",
+   "text": "台湾海峡最窄处约160公里",
+   "type": "fact",
+   "sources": [
+    "britannica-taiwan-strait"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-geography-theory",
+   "target": "logic",
+   "targetId": "geography",
+   "field": "theory",
+   "text": "海上咽喉、陆权心脏地带与边缘地带的控制影响力量投送与贸易成本；实力随距离衰减。",
+   "type": "analysis",
+   "sources": [
+    "mackinder-1904",
+    "spykman-1942",
+    "boulding-1962"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "经典理论，具体推论有争议"
+  },
+  {
+   "id": "logic-energy-fact0",
+   "target": "logic",
+   "targetId": "energy",
+   "field": "facts",
+   "text": "美国2025年LNG出口约151亿立方英尺/日，同比+26%",
+   "type": "fact",
+   "sources": [
+    "eia-lng-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-energy-fact1",
+   "target": "logic",
+   "targetId": "energy",
+   "field": "facts",
+   "text": "欧盟禁止俄LNG（2027年1月起）与管道气（2027年9月起）",
+   "type": "fact",
+   "sources": [
+    "consilium-gas"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-energy-fact2",
+   "target": "logic",
+   "targetId": "energy",
+   "field": "facts",
+   "text": "俄罗斯预算油气收入2026年1–10月同比-14.1%",
+   "type": "fact",
+   "sources": [
+    "mt-oilgas"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-energy-fact3",
+   "target": "logic",
+   "targetId": "energy",
+   "field": "facts",
+   "text": "印度10月进口俄油约200万桶/日",
+   "type": "fact",
+   "sources": [
+    "bs-india-oil"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-energy-theory",
+   "target": "logic",
+   "targetId": "energy",
+   "field": "theory",
+   "text": "进口依赖使一方易受供应中断或胁迫影响；出口依赖使租金国家易受价格与市场冲击。",
+   "type": "analysis",
+   "sources": [
+    "keohane-nye-1977"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "经验规律，强度随替代能力变化"
+  },
+  {
+   "id": "logic-balance-fact0",
+   "target": "logic",
+   "targetId": "balance",
+   "field": "facts",
+   "text": "2025年全球军费2.887万亿美元，同比+2.9%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-balance-fact1",
+   "target": "logic",
+   "targetId": "balance",
+   "field": "facts",
+   "text": "德国2025年军费同比+24%，日本+9.7%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-balance-fact2",
+   "target": "logic",
+   "targetId": "balance",
+   "field": "facts",
+   "text": "中国2025年军费约3360亿美元（SIPRI估计），+7.4%",
+   "type": "fact",
+   "sources": [
+    "sipri-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-balance-theory",
+   "target": "logic",
+   "targetId": "balance",
+   "field": "theory",
+   "text": "在无政府状态下，国家关注相对实力；防御性措施也可能引发对方军备反应。进攻性与防御性现实主义对国家是否追求最大化权力有分歧。",
+   "type": "analysis",
+   "sources": [
+    "waltz-1979",
+    "mearsheimer-2001",
+    "jervis-1978"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "有争议的理论"
+  },
+  {
+   "id": "logic-alliance-fact0",
+   "target": "logic",
+   "targetId": "alliance",
+   "field": "facts",
+   "text": "美日（1960）、美韩、澳新美等集体防御条约",
+   "type": "fact",
+   "sources": [
+    "state-cda"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-alliance-fact1",
+   "target": "logic",
+   "targetId": "alliance",
+   "field": "facts",
+   "text": "欧盟SAFE防务贷款1500亿欧元，波兰最大份额约437亿",
+   "type": "fact",
+   "sources": [
+    "aa-safe"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-alliance-fact2",
+   "target": "logic",
+   "targetId": "alliance",
+   "field": "facts",
+   "text": "特朗普5月称暂缓新的对台军售，视为谈判筹码",
+   "type": "fact",
+   "sources": [
+    "reuters-apec"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-alliance-theory",
+   "target": "logic",
+   "targetId": "alliance",
+   "field": "theory",
+   "text": "国家结盟以制衡威胁（不仅是实力）；同盟内部存在“被抛弃”与“被牵连”的两难。",
+   "type": "analysis",
+   "sources": [
+    "walt-1987",
+    "snyder-1984"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "经典理论，经验支持不一"
+  },
+  {
+   "id": "logic-nuclear-fact0",
+   "target": "logic",
+   "targetId": "nuclear",
+   "field": "facts",
+   "text": "美韩核演习后朝鲜称需要更强核威慑",
+   "type": "fact",
+   "sources": [
+    "korea"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-nuclear-theory",
+   "target": "logic",
+   "targetId": "nuclear",
+   "field": "theory",
+   "text": "威慑依靠让对手相信代价不可承受；“冒险竞争”可以用升级风险作为讨价还价工具。",
+   "type": "analysis",
+   "sources": [
+    "schelling-1966"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "经典理论，部分推论有争议"
+  },
+  {
+   "id": "logic-survival-fact0",
+   "target": "logic",
+   "targetId": "survival",
+   "field": "facts",
+   "text": "民主党赢得2026年中期选举两院多数",
+   "type": "fact",
+   "sources": [
+    "us-midterms"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-survival-fact1",
+   "target": "logic",
+   "targetId": "survival",
+   "field": "facts",
+   "text": "伊朗战时权力向革命卫队与最高国安委集中",
+   "type": "fact",
+   "sources": [
+    "reuters-irgc"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-survival-fact2",
+   "target": "logic",
+   "targetId": "survival",
+   "field": "facts",
+   "text": "塞尔维亚学生名单获140席，武契奇阵营103席",
+   "type": "fact",
+   "sources": [
+    "rik-serbia"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-survival-fact3",
+   "target": "logic",
+   "targetId": "survival",
+   "field": "facts",
+   "text": "以色列大选后总统授权艾森科特组阁",
+   "type": "fact",
+   "sources": [
+    "jta-eisenkot"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-survival-theory",
+   "target": "logic",
+   "targetId": "survival",
+   "field": "theory",
+   "text": "领导人优先满足维持其权力的关键支持者；国际谈判同时受国内批准约束（双层博弈）。",
+   "type": "analysis",
+   "sources": [
+    "bdm-2003",
+    "putnam-1988"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "有影响的理论，测量困难"
+  },
+  {
+   "id": "logic-interdependence-fact0",
+   "target": "logic",
+   "targetId": "interdependence",
+   "field": "facts",
+   "text": "2024年中国约占稀土精炼91%、烧结永磁体94%",
+   "type": "fact",
+   "sources": [
+    "iea-ree"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-interdependence-fact1",
+   "target": "logic",
+   "targetId": "interdependence",
+   "field": "facts",
+   "text": "2019年10纳米以下产能约92%在台湾、8%在韩国（历史基线）",
+   "type": "fact",
+   "sources": [
+    "sia-bcg"
+   ],
+   "status": "verified-snippet",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-interdependence-fact2",
+   "target": "logic",
+   "targetId": "interdependence",
+   "field": "facts",
+   "text": "中国2025年出口26.99万亿元，同比+6.1%",
+   "type": "fact",
+   "sources": [
+    "cn-customs-2025"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-interdependence-theory",
+   "target": "logic",
+   "targetId": "interdependence",
+   "field": "theory",
+   "text": "复合相互依赖提高冲突成本；但控制金融、技术与供应链枢纽的国家可以把依赖武器化。",
+   "type": "analysis",
+   "sources": [
+    "keohane-nye-1977",
+    "farrell-newman-2019"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "有争议的理论"
+  },
+  {
+   "id": "logic-bargaining-fact0",
+   "target": "logic",
+   "targetId": "bargaining",
+   "field": "facts",
+   "text": "美伊谈判卡在“先解除封锁”还是“先让步”的顺序上",
+   "type": "fact",
+   "sources": [
+    "reuters-iran"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-bargaining-fact1",
+   "target": "logic",
+   "targetId": "bargaining",
+   "field": "facts",
+   "text": "乌克兰问题在阿布扎比举行会谈",
+   "type": "fact",
+   "sources": [
+    "un-sc"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-bargaining-theory",
+   "target": "logic",
+   "targetId": "bargaining",
+   "field": "theory",
+   "text": "战争代价高昂，理性方本应达成协议；战争发生或延续，源于私有信息、承诺问题与不可分割的议题。",
+   "type": "analysis",
+   "sources": [
+    "fearon-1995"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "有影响的理论，忽略意识形态与国内因素"
+  },
+  {
+   "id": "logic-state-capacity-fact0",
+   "target": "logic",
+   "targetId": "state-capacity",
+   "field": "facts",
+   "text": "尼日利亚10月612起事件、至少835人死亡",
+   "type": "fact",
+   "sources": [
+    "reliefweb-nigeria"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-state-capacity-fact1",
+   "target": "logic",
+   "targetId": "state-capacity",
+   "field": "facts",
+   "text": "马里11月以来1505辆油罐车经护送运抵巴马科",
+   "type": "fact",
+   "sources": [
+    "apa-mali"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-state-capacity-fact2",
+   "target": "logic",
+   "targetId": "state-capacity",
+   "field": "facts",
+   "text": "莫桑比克武装分子10月在九个县活动",
+   "type": "fact",
+   "sources": [
+    "acled-moz"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-state-capacity-theory",
+   "target": "logic",
+   "targetId": "state-capacity",
+   "field": "theory",
+   "text": "叛乱更可能出现在国家能力弱、地形崎岖、可获得资源收入的地区，而不只是族群差异。",
+   "type": "analysis",
+   "sources": [
+    "fearon-laitin-2003"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "经验研究，结论有争议"
+  },
+  {
+   "id": "logic-food-fact0",
+   "target": "logic",
+   "targetId": "food",
+   "field": "facts",
+   "text": "巴西2026/27年度油籽出口预测1.1857亿吨，中国进口预测1.2123亿吨",
+   "type": "fact",
+   "sources": [
+    "usda-oilseeds"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-food-fact1",
+   "target": "logic",
+   "targetId": "food",
+   "field": "facts",
+   "text": "联合国安理会会议上，波兰称黑海航线遭袭威胁粮食出口",
+   "type": "fact",
+   "sources": [
+    "un-sc"
+   ],
+   "status": "verified-opened",
+   "checkedAt": "2026-11-18"
+  },
+  {
+   "id": "logic-food-theory",
+   "target": "logic",
+   "targetId": "food",
+   "field": "theory",
+   "text": "粮食进口依赖与跨境水资源会成为国家间议价筹码；但“水战争”决定论缺乏经验支持（分析判断）。",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "分析框架，非单一理论"
+  },
+  {
+   "id": "labels",
+   "target": "label",
+   "targetId": "mapLabels",
+   "field": "name/position",
+   "text": "国家中文名称与标注位置",
+   "type": "analysis",
+   "sources": [],
+   "status": "analysis",
+   "checkedAt": "2026-11-18",
+   "note": "Natural Earth公共领域轮廓，人工校订中文简称；争议地区为中性地理标注"
+  },
+  {
+   "id": "politics-institutions",
+   "target": "politics",
+   "targetId": "US/EU",
+   "field": "groups",
+   "text": "美欧制度渠道说明",
+   "type": "analysis",
+   "sources": [
+    "us",
+    "eu"
+   ],
+   "status": "analysis",
+   "checkedAt": "2026-11-18"
+  }
+ ]
+}

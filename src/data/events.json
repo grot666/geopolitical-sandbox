@@ -523,14 +523,14 @@
   },
   "rationale": {
    "kineticIntensity": "SAF与盟军11月在北/西科尔多凡推进，RSF以无人机袭击欧拜伊德；高强度、多战线。",
-   "systemicSpillover": "联合国估计近1300万人流离失所；外溢至乍得、南苏丹、埃及与红海沿岸。",
+   "systemicSpillover": "联合国称数万人死亡、近1300万人流离失所（AA）；半岛电视台给出约15万人死亡、逾1400万人流离失所，口径不同。外溢至乍得、南苏丹、埃及与红海沿岸。",
    "greatPowerInvolvement": "多方报道地区国家向交战方提供支持（相关指控存争议）；大国介入以外交与制裁为主。",
    "geographicLeverage": "科尔多凡是连接达尔富尔与中部的交通枢纽；苏丹濒红海、居尼罗河中游。"
   },
   "analysis": {
    "what": "2023年4月爆发的SAF与RSF战争仍在持续。11月SAF与盟军打破对欧拜伊德的包围，推进至西科尔多凡 al-Khuwai，目标是纳胡德；RSF仍控制西科尔多凡大部与几乎全部达尔富尔。",
    "geography": "欧拜伊德位于通往达尔富尔的萨达拉特公路枢纽；控制公路决定能否向西用兵。",
-   "resources": "纳胡德一带有金矿；黄金与人道物资通道是战争经济的一部分。",
+   "resources": "纳胡德一带有金矿；半岛电视台称黑格里格与巴利拉油田占苏丹石油产量九成。黄金、石油与人道通道是战争经济的一部分。",
    "politics": "交战双方都依赖外部支持；人道危机与战争罪指控（特赦组织调查RSF无人机袭击）推动国际施压，但缺乏有效停火机制。"
   },
   "sources": [
@@ -581,13 +581,13 @@
    "geographicLeverage": 60
   },
   "rationale": {
-   "kineticIntensity": "ACLED：约11月15日厄军重新进入巴德梅，双方炮击与无人机交火；提格雷、阿姆哈拉多线作战。尚未确认两国全面战争。",
+   "kineticIntensity": "ACLED：约11月15日厄军重新进入巴德梅；埃塞军11月7日夺回拉马、10月12日夺回扎兰贝萨。多线作战，尚未确认两国全面战争。",
    "systemicSpillover": "涉及红海出海口争议、苏丹战争与埃及—埃塞尼罗河矛盾，地区外溢风险高。",
-   "greatPowerInvolvement": "目前未见大国直接军事介入；埃及被埃塞指控支持叛军（埃方未确认）。",
+   "greatPowerInvolvement": "目前未见大国直接军事介入；埃塞指控埃及支持叛军，埃及与厄立特里亚均否认相关指控。",
    "geographicLeverage": "巴德梅是1998–2000年战争的象征性焦点；高原与边境地形利于防守。"
   },
   "analysis": {
-   "what": "9月下旬重启的北部战争已成多战线冲突：联邦军推进至厄立特里亚边境，厄军11月中旬重占巴德梅；阿姆哈拉法诺与联邦军持续交战。埃塞指控厄立特里亚主导叛军攻势、埃及提供支持，厄方否认。",
+   "what": "9月下旬重启的北部战争已成多战线冲突；10月初两国断交。埃塞军10月12日夺回扎兰贝萨、11月7日夺回拉马，厄军约11月15日重占巴德梅；阿姆哈拉法诺与联邦军持续交战。埃塞指控厄立特里亚主导叛军攻势、埃及提供支持，两国均否认。",
    "geography": "提格雷西北部边境地带与巴德梅；红海出海口问题使边境冲突带有战略意涵。",
    "resources": "红海通道与港口准入、尼罗河水资源（与埃及的复兴大坝争议）。",
    "politics": "两国已断交；“生存联盟”（提格雷、法诺等）与联邦政府对立，伤亡与具体控制范围难以独立核实。"
@@ -595,7 +595,8 @@
   "sources": [
    "acled-badme",
    "ctp-ethiopia",
-   "aa-ethiopia"
+   "aa-ethiopia",
+   "aj-ethiopia-oct"
   ],
   "asOf": "2026-11-17",
   "retrievedAt": "2026-11-18",
@@ -639,13 +640,13 @@
    "geographicLeverage": 40
   },
   "rationale": {
-   "kineticIntensity": "JNIM对巴马科实施燃料与道路封锁超过一年，4月与FLA协同进攻；军政府10月重夺基达尔。",
+   "kineticIntensity": "JNIM对巴马科实施燃料封锁超过一年，2026年4月与FLA协同进攻（BBC 5月报道）；10月6日军政府与“非洲军团”重夺基达尔（RFI）。",
    "systemicSpillover": "冲突向几内亚、沿海国家边境扩散；萨赫勒难民与跨境犯罪。",
    "greatPowerInvolvement": "俄罗斯“非洲军团”支持马里军队；西方影响力大幅下降。",
    "geographicLeverage": "内陆国依赖跨境公路运油；走廊易被切断。"
   },
   "analysis": {
-   "what": "基地组织关联的JNIM自2025年9月起封锁运往马里的燃料，2026年4月与图阿雷格FLA协同袭击多地。燃料在军队护送下成批运入巴马科（11月已有1505辆油罐车），但首都并未完全被围。",
+   "what": "基地组织关联的JNIM自2025年9月起封锁运往马里的燃料，2026年4月与图阿雷格FLA协同袭击多地。燃料在军队护送下成批运入巴马科（11月以来1505辆油罐车，10月约4000辆），但首都并未完全被围。10月6日军队重夺基达尔，FLA与JNIM未战撤离。",
    "geography": "内陆国家依赖经塞内加尔、几内亚、科特迪瓦的公路补给，长距离车队是封锁的弱点。",
    "resources": "燃料与贸易走廊；马里同时是金矿生产国。",
    "politics": "军政府与布基纳法索、尼日尔结成萨赫勒国家联盟，依赖俄罗斯安全支持；人权组织记录各方侵权。"
@@ -653,7 +654,8 @@
   "sources": [
    "bbc-mali",
    "apa-mali",
-   "r2p-sahel"
+   "r2p-sahel",
+   "rfi-kidal"
   ],
   "asOf": "2026-11-16",
   "retrievedAt": "2026-11-18",
@@ -661,7 +663,7 @@
   "epistemic": "事实摘要来自所列来源；评分、地理与多方视角为分析估计",
   "essence": "封锁战：JNIM切断燃料走廊，军政府靠护送车队维持首都。",
   "geoTag": "内陆国的补给走廊就是生命线。",
-  "leverage": "运油车队与跨境公路（11月1505辆油罐车经护送抵达）。",
+  "leverage": "运油车队与跨境公路（11月以来1505辆油罐车经护送抵达）。",
   "perspectives": [
    {
     "actor": "马里军政府",
@@ -703,7 +705,7 @@
    "geographicLeverage": "开阔的萨赫勒地带难以控制。"
   },
   "analysis": {
-   "what": "布基纳法索北部与东部大片地区处于武装团体压力之下；吉博长期被围。11月报道显示敌对武装团体相互攻击，国家控制范围收缩。",
+   "what": "布基纳法索北部与东部大片地区处于武装团体压力之下；吉博长期被围。自9月初起JNIM与“伊斯兰国萨赫勒省”相互交战（半岛电视台11月13日），国家控制范围收缩。",
    "geography": "萨赫勒草原与交通要道易被封锁。",
    "resources": "农牧资源与金矿；人道援助通道受阻。",
    "politics": "军政府是萨赫勒国家联盟成员。"
@@ -806,13 +808,13 @@
    "geographicLeverage": 55
   },
   "rationale": {
-   "kineticIntensity": "青年党在摩加迪沙西北巴斯拉及中部希兰州推进；尚无直接进攻首都的报道。",
+   "kineticIntensity": "8月底巴斯拉曾爆发持续两周以上的战斗；11月15日青年党夺取科马德（Coomaad）等地（Garowe Online）。尚无直接进攻首都的报道。",
    "systemicSpillover": "亚丁湾与红海航运、肯尼亚与埃塞边境安全。",
    "greatPowerInvolvement": "非盟部队、美国反恐行动与地区国家介入。",
    "geographicLeverage": "扼守亚丁湾与印度洋航线。"
   },
   "analysis": {
-   "what": "11月政府军与青年党在巴斯拉激战两周以上；青年党在希兰州夺取村镇、逼近马塔班。",
+   "what": "2026年8月底政府军与青年党在摩加迪沙西北巴斯拉激战两周以上；11月中旬青年党在中部推进，11月15日据报夺取科马德（Coomaad）。",
    "geography": "首都外围农村与主要公路是争夺重点；海岸线扼守亚丁湾。",
    "resources": "港口、航运与人道援助。",
    "politics": "据报道部分部族武装撤离希兰前线，政府地面力量依赖不稳定的地方动员。"
@@ -858,7 +860,7 @@
    "geographicLeverage": 35
   },
   "rationale": {
-   "kineticIntensity": "东北部ISWAP与博科圣地袭击军营，空袭持续；西北部匪帮设卡绑架。",
+   "kineticIntensity": "东北部ISWAP与博科圣地袭击军营，空袭持续；西北部匪帮设卡绑架。ReliefWeb：10月612起事件、至少835人死亡。",
    "systemicSpillover": "乍得湖地区难民与跨境武装。",
    "greatPowerInvolvement": "外部大国介入有限。",
    "geographicLeverage": "乍得湖沼泽与萨赫勒边境便于藏匿。"
@@ -895,47 +897,49 @@
  },
  {
   "id": "libya",
-  "name": "利比亚：的黎波里民兵冲突",
-  "subtitle": "AFRICA · NORTH · TRIPOLI",
+  "name": "利比亚：东西分治与军事整合",
+  "subtitle": "AFRICA · NORTH · TRIPOLI / BENGHAZI",
   "position": [
    32.9,
    13.2
   ],
-  "status": "latent",
+  "status": "structural",
   "region": "africa",
   "scores": {
-   "kineticIntensity": 35,
+   "kineticIntensity": 10,
    "systemicSpillover": 50,
    "greatPowerInvolvement": 50,
    "geographicLeverage": 55
   },
   "rationale": {
-   "kineticIntensity": "11月的黎波里亲政府武装与威慑部队激战后停火；停火脆弱，故标为潜伏。",
+   "kineticIntensity": "本轮未核实到2026年11月的大规模武装冲突；此前所列“的黎波里激战”实为2025年5月旧闻，已更正。",
    "systemicSpillover": "石油出口、地中海移民通道。",
    "greatPowerInvolvement": "俄罗斯、土耳其、埃及、阿联酋等长期介入东西两大阵营。",
    "geographicLeverage": "地中海南岸、扼守中地中海通道。"
   },
   "analysis": {
-   "what": "11月的黎波里亲德贝巴力量与威慑部队（Rada）爆发激战，随后达成停火、中立部队进驻。伤亡数字报道不一，本工具不引用。",
+   "what": "利比亚仍处于东西分治：的黎波里德贝巴政府与东部哈夫塔尔阵营并立。11月15日美军非洲司令部司令与德贝巴讨论军事机构统一与2027年联合演习；11月16日德贝巴会见埃及情报局长。2025年5月的黎波里民兵激战后停火，可作为首都安全格局的历史基线。",
    "geography": "的黎波里与西部城镇；东西对峙格局未变。",
    "resources": "石油与天然气出口；移民偷渡通道。",
-   "politics": "东西两政府并立，外部势力分别支持。"
+   "politics": "东西两政府并立，外部势力分别支持；美国、埃及、土耳其等通过安全合作争取影响（分析判断）。"
   },
   "sources": [
+   "libya-observer",
+   "lana-egypt",
    "libya-truce"
   ],
-  "asOf": "2026-11",
+  "asOf": "2026-11-16",
   "retrievedAt": "2026-11-18",
-  "confidence": "低",
+  "confidence": "中",
   "epistemic": "事实摘要来自所列来源；评分、地理与多方视角为分析估计",
-  "essence": "首都民兵之间的权力争夺，停火随时可能破裂。",
+  "essence": "东西两套政权并立的结构性分裂，外部力量通过安全合作争取影响。",
   "geoTag": "中地中海门户。",
-  "leverage": "油气出口与移民通道。",
+  "leverage": "油气出口、地中海移民通道与外部安全合作。",
   "perspectives": [
    {
-    "actor": "的黎波里政府",
-    "anxiety": "民兵割据挑战权威。",
-    "goal": "整合或削弱对手武装。"
+    "actor": "的黎波里政府（德贝巴）",
+    "anxiety": "民兵割据与东部竞争。",
+    "goal": "借外部安全合作整合武装、巩固地位。"
    },
    {
     "actor": "外部支持方",
@@ -967,7 +971,7 @@
    "geographicLeverage": "沿海与鲁伍马河边境地带。"
   },
   "analysis": {
-   "what": "11月德尔加杜角省多地遭袭击、劫掠与绑架，ACLED持续监测。",
+   "what": "11月德尔加杜角省多地遭袭击、劫掠与绑架。ACLED：10月武装分子在九个县活动，并有约5.3万美元赎金案例。",
    "geography": "偏远沿海地带，邻近坦桑尼亚边境。",
    "resources": "大型LNG项目对安全高度敏感。",
    "politics": "地方治理薄弱与外部安全援助并存。"
@@ -1013,13 +1017,13 @@
    "geographicLeverage": 30
   },
   "rationale": {
-   "kineticIntensity": "第一副总统马沙尔因纳西尔袭击案受审；本快照未核实当前大规模战斗，故标为潜伏。",
+   "kineticIntensity": "前第一副总统马沙尔因纳西尔袭击案受审（庭审延至11月18日）；本快照未核实当前大规模战斗，故标为潜伏。",
    "systemicSpillover": "与苏丹战争相互牵连；石油经苏丹出口。",
    "greatPowerInvolvement": "外部介入以地区调解为主。",
    "geographicLeverage": "上尼罗州与苏丹边境。"
   },
   "analysis": {
-   "what": "马沙尔与七名SPLM/A-IO被告因2025年3月纳西尔驻地袭击受审（检方称257名士兵死亡），马沙尔否认指挥“白军”。政治危机可能危及2018年和平协议。",
+   "what": "前第一副总统马沙尔与七名SPLM/A-IO被告因2025年3月纳西尔驻地袭击受审（检方称257名士兵死亡），庭审延期至11月18日。政治危机可能危及2018年和平协议。",
    "geography": "上尼罗州与苏丹边境；石油管道经苏丹。",
    "resources": "石油出口依赖苏丹管道。",
    "politics": "执政联盟分裂，和平协议执行受威胁。"
@@ -1027,7 +1031,7 @@
   "sources": [
    "tamazuj-ss"
   ],
-  "asOf": "2026-11",
+  "asOf": "2026-11-11",
   "retrievedAt": "2026-11-18",
   "confidence": "低",
   "epistemic": "事实摘要来自所列来源；评分、地理与多方视角为分析估计",
@@ -1064,13 +1068,13 @@
    "geographicLeverage": 40
   },
   "rationale": {
-   "kineticIntensity": "11月北米特罗维察集会被叫停、斗殴致两人受伤；未见武装冲突。",
+   "kineticIntensity": "10月塞尔维亚选举前北米特罗维察竞选集会被叫停；未见武装冲突。",
    "systemicSpillover": "能源互联与电力交易中断；西巴尔干稳定。",
    "greatPowerInvolvement": "北约KFOR驻扎；欧盟主导对话；俄罗斯支持塞尔维亚立场。",
    "geographicLeverage": "北部塞族聚居区与伊巴尔河分隔。"
   },
   "analysis": {
-   "what": "11月科索沃警方叫停塞尔维亚在北部的竞选集会；塞尔维亚封锁跨境输电线路后，科索沃宣布60天能源紧急状态并禁止与塞关联企业电力交易。",
+   "what": "10月25日塞尔维亚选举前，科索沃警方叫停塞尔维亚在北部的竞选集会。11月16日，库尔蒂政府称塞尔维亚阻断400千伏跨境输电线路，宣布能源紧急状态并限制与塞关联企业的电力交易。",
    "geography": "北科索沃以伊巴尔河为界，塞族聚居。",
    "resources": "电力互联与能源安全。",
    "politics": "科索沃地位争议；欧盟对话停滞；塞尔维亚新政府立场尚待观察。"
@@ -1079,7 +1083,7 @@
    "kosovo-energy",
    "kosovo-mitrovica"
   ],
-  "asOf": "2026-11",
+  "asOf": "2026-11-16",
   "retrievedAt": "2026-11-18",
   "confidence": "中",
   "epistemic": "事实摘要来自所列来源；评分、地理与多方视角为分析估计",
@@ -1178,22 +1182,24 @@
    "geographicLeverage": 35
   },
   "rationale": {
-   "kineticIntensity": "选举后有冲击电视台等事件，但总体为政治转型而非武装冲突。",
+   "kineticIntensity": "选举后总体为和平的政治转型，未见武装冲突。",
    "systemicSpillover": "影响科索沃、波黑与对俄、对欧关系。",
    "greatPowerInvolvement": "欧盟、俄罗斯与中国在塞利益。",
    "geographicLeverage": "多瑙河与巴尔干交通枢纽。"
   },
   "analysis": {
-   "what": "10月25日选举中学生名单赢得250席中的140席，武契奇承认失败；新议会11月开会，新内阁获批前原执政党看守政府仍在任。",
+   "what": "10月25日议会选举中学生名单赢得250席中的140席（2354417票），武契奇的“统一塞尔维亚”获103席，武契奇承认失败。新议会11月17日成立，正在组建政府。",
    "geography": "贝尔格莱德是巴尔干交通与能源枢纽。",
    "resources": "能源（含俄资）与外资项目。",
    "politics": "新政府的对外取向、对科索沃与塞族共和国政策尚不明确。"
   },
   "sources": [
-   "ap-serbia",
-   "ap-serbia-parl"
+   "rik-serbia",
+   "srb-gov-mandates",
+   "reuters-serbia-parl",
+   "aj-serbia"
   ],
-  "asOf": "2026-11",
+  "asOf": "2026-11-17",
   "retrievedAt": "2026-11-18",
   "confidence": "中",
   "epistemic": "事实摘要来自所列来源；评分、地理与多方视角为分析估计",
@@ -1230,13 +1236,13 @@
    "geographicLeverage": 60
   },
   "rationale": {
-   "kineticIntensity": "1月美军行动抓获马杜罗后，目前以谈判与有限行动为主；10月底据报美方协助打击阿普雷州ELN营地。",
+   "kineticIntensity": "1月美军行动抓获马杜罗后，以谈判与有限行动为主；6月一次空袭击毙“阿拉瓜火车”创始人之一（中情局情报，委军参与）。",
    "systemicSpillover": "石油、移民与毒品走廊。",
    "greatPowerInvolvement": "美国直接主导；俄罗斯、中国、伊朗利益受损。",
    "geographicLeverage": "加勒比海岸与哥伦比亚、圭亚那、巴西边境。"
   },
   "analysis": {
-   "what": "2026年1月3日美军行动抓获马杜罗，由罗德里格斯领导临时政府。11月美委谈判驻军地位协定（SOFA），美方称基地问题“还很遥远”；据NYT，美方为委军打击ELN提供无人机与情报。",
+   "what": "2026年1月3日美军行动抓获马杜罗，罗德里格斯任临时总统。美国务院主导驻军地位协定（SOFA）谈判，美方称基地问题“还很遥远”；美使馆已重开。马查多10月底回国，尚无选举日期。",
    "geography": "加勒比海岸、哥伦比亚边境的毒品与武装走廊。",
    "resources": "世界最大石油储量之一；能源协议正在谈判。",
    "politics": "过渡未经选举，军队与旧体制的忠诚度不明（分析判断）。"
@@ -1286,13 +1292,13 @@
    "geographicLeverage": 30
   },
   "rationale": {
-   "kineticIntensity": "帮派控制首都大部，联合国授权的打击帮派部队持续行动。",
+   "kineticIntensity": "帮派控制首都大片地区；联合国授权的打击帮派部队（GSF，任期9月29日延至2027年3月）持续行动。",
    "systemicSpillover": "移民外流与加勒比安全。",
    "greatPowerInvolvement": "联合国授权部队；美国等提供资金。",
    "geographicLeverage": "加勒比岛国，紧邻美国海上通道。"
   },
   "analysis": {
-   "what": "联合国授权的打击帮派部队（GSF）11月在太阳城、贝尔艾尔等地行动并缴获武器；帮派仍控制太子港大部分地区。",
+   "what": "联合国授权的打击帮派部队（GSF）11月在太阳城、贝尔艾尔等地行动并缴获武器；10月18日伏击事件中四名萨尔瓦多技术人员失踪或遇害；帮派仍控制太子港大片地区。",
    "geography": "首都与主要公路被帮派分割。",
    "resources": "港口、燃料与粮食进口受阻。",
    "politics": "政治过渡安排脆弱（分析判断），国际部队与本国警察协作。"
@@ -1343,9 +1349,9 @@
    "geographicLeverage": 35
   },
   "rationale": {
-   "kineticIntensity": "ELN与FARC异见团体交战第22个月，无人机袭击平民与军队（11月4名士兵死亡）。",
+   "kineticIntensity": "ELN与FARC异见团体交战第22个月；11月12日蒂布无人机袭击致4名军人死亡，总统下令发动攻势。",
    "systemicSpillover": "与委内瑞拉边境毒品走廊相连。",
-   "greatPowerInvolvement": "美国禁毒合作；委方打击ELN。",
+   "greatPowerInvolvement": "美国禁毒合作；委内瑞拉政局变化影响边境（分析判断）。",
    "geographicLeverage": "哥伦比亚—委内瑞拉边境山地。"
   },
   "analysis": {
@@ -1355,7 +1361,7 @@
    "politics": "和平政策受挫；跨境武装与委内瑞拉局势相关。"
   },
   "sources": [
-   "ap-catatumbo",
+   "presidencia-catatumbo",
    "caracol-catatumbo"
   ],
   "asOf": "2026-11-16",
@@ -1448,11 +1454,11 @@
   "rationale": {
    "kineticIntensity": "锡那罗亚暴力回升（10月191起凶杀）；尚无美国对墨领土打击记录。",
    "systemicSpillover": "美墨贸易、芬太尼与移民议题。",
-   "greatPowerInvolvement": "美国施压与制裁，曾计划空袭后暂缓（据NYT）。",
+   "greatPowerInvolvement": "美国以制裁、起诉与军事威胁施压（特朗普1月9日称将“打击陆地”）；据报曾计划空袭后暂缓（NYT，经El Financiero转述）。截至11月未见公开承认的美国对墨领土打击。",
    "geographicLeverage": "美墨边境与太平洋走廊。"
   },
   "analysis": {
-   "what": "锡那罗亚集团内斗导致暴力回升，马萨特兰再遭袭击。美方以制裁、起诉与打击威胁施压，据报因墨方加强打击而暂缓空袭。",
+   "what": "锡那罗亚集团内斗导致暴力回升（10月锡那罗亚191起凶杀），马萨特兰再遭袭击。美方以制裁、起诉与打击威胁施压；据报因墨方加强打击而暂缓空袭（转述报道，未打开原文）。",
    "geography": "太平洋沿岸贩运走廊通往美墨边境。",
    "resources": "美墨经贸高度一体化。",
    "politics": "主权与安全合作之间的张力。"
@@ -1504,7 +1510,7 @@
    "geographicLeverage": "圭亚那三分之二国土与近海油田。"
   },
   "analysis": {
-   "what": "国际法院“1899年仲裁裁决”案实体辩论已于2026年5月结束，判决日期未公布；圭方预计在2026年11月至2027年1月间。",
+   "what": "国际法院“1899年仲裁裁决”案实体庭审于2026年5月4–11日举行，判决日期未公布；圭亚那总统阿里9月称预计在新年初宣判。",
    "geography": "争议区为圭亚那西部大片土地及相关海域。",
    "resources": "近海石油开发是关键利益。",
    "politics": "委内瑞拉政权更迭后的立场尚待观察。"
@@ -1513,7 +1519,7 @@
    "icj-guyana",
    "dpi-guyana"
   ],
-  "asOf": "2026-11",
+  "asOf": "2026-09-13",
   "retrievedAt": "2026-11-18",
   "confidence": "中",
   "epistemic": "事实摘要来自所列来源；评分、地理与多方视角为分析估计",

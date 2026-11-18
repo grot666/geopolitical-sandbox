@@ -1,260 +1,3046 @@
 {
-  "note": "派系是分析类型，不是统一组织；每条投射代表“倾向/关注”，为分析判断而非已证实的政策决定。",
-  "US": [
+ "note": "派系 = 由共同物质利益结成的政治联盟：只要利益存在，联盟就会持续存在，无论由谁代表。人物仅作为某一时间点的载体示例。投射线表示“倾向或关注”，属于分析判断，不代表已证实的政策决定。",
+ "systems": [
+  {
+   "id": "US",
+   "name": "美国",
+   "title": "美国：利益联盟与分权制度",
+   "subtitle": "利益集团通过国会委员会、行政机构、选举与游说影响外交；2026年中期选举后国会由民主党控制。"
+  },
+  {
+   "id": "EU",
+   "name": "欧盟 / 泛欧",
+   "title": "欧洲：成员国利益与欧盟机构",
+   "subtitle": "共同外交安全政策通常需一致同意；产业、能源结构与地理前线决定各国偏好。"
+  },
+  {
+   "id": "CN",
+   "name": "中国",
+   "title": "中国：党政体制内的结构性利益",
+   "subtitle": "利益在统一的党政体制内表达；以下为功能性利益群，不是公开竞争的政党或派别。"
+  },
+  {
+   "id": "RU",
+   "name": "俄罗斯",
+   "title": "俄罗斯：战时利益结构",
+   "subtitle": "安全机构、能源租金、军工与财政技术官僚在战争经济下重新分配资源。"
+  },
+  {
+   "id": "IR",
+   "name": "伊朗",
+   "title": "伊朗：战后权力重心",
+   "subtitle": "2026年战争后权力向革命卫队与最高国安委集中；最高领袖为穆杰塔巴·哈梅内伊。"
+  },
+  {
+   "id": "IL",
+   "name": "以色列",
+   "title": "以色列：安全建制与选民联盟",
+   "subtitle": "10月27日大选后组阁进行中；安全机构、宗教民族主义与中间派联盟利益不同。"
+  },
+  {
+   "id": "TR",
+   "name": "土耳其",
+   "title": "土耳其：军工出口与枢纽经济",
+   "subtitle": "北约成员，同时经营海峡、能源过境与防务出口。"
+  },
+  {
+   "id": "IN",
+   "name": "印度",
+   "title": "印度：战略自主背后的利益",
+   "subtitle": "能源进口成本与安全建制共同塑造“多向结盟”。"
+  },
+  {
+   "id": "JP",
+   "name": "日本",
+   "title": "日本：防务扩张与财政约束",
+   "subtitle": "防务建制推动扩军，财务省与出口产业形成约束。"
+  },
+  {
+   "id": "GULF",
+   "name": "海湾君主国",
+   "title": "海湾：石油租金与转型",
+   "subtitle": "沙特、阿联酋等的财政依赖油气，战争期间遭伊朗导弹无人机袭击。"
+  }
+ ],
+ "US": [
+  {
+   "id": "us-defense",
+   "name": "国防工业—安全官僚复合体",
+   "rep": "军工承包商 · 国防部 · 军事委员会 · 军工选区",
+   "color": "#f07a7a",
+   "origins": [
+    [
+     38.9,
+     -77.0
+    ]
+   ],
+   "definition": "只要美国维持全球军事部署与大规模采购，承包商、军种与依赖军工就业的选区就有共同利益：维持预算、前沿部署与对外军售。",
+   "interests": [
     {
-      "id": "us-hawks",
-      "name": "传统安全鹰派",
-      "rep": "跨党派安全建制（以共和党为主）",
-      "color": "#f07a7a",
-      "origins": [
-        [
-          38.9,
-          -77.0
-        ]
-      ],
-      "summary": "重视前沿威慑、军力与联盟信誉，倾向对对手施压。",
-      "caveat": "并非所有共和党人；民主党内也有安全鹰派。",
-      "projections": [
-        {
-          "target": "iran",
-          "stance": "倾向维持强力施压与可信军事选项"
-        },
-        {
-          "target": "taiwan",
-          "stance": "倾向强化威慑与安全合作"
-        },
-        {
-          "target": "korea",
-          "stance": "重视同盟延伸威慑"
-        },
-        {
-          "target": "ukraine",
-          "stance": "部分成员支持援乌以维持威慑"
-        }
-      ]
+     "kind": "经济部门",
+     "text": "航空航天、造船、导弹与弹药等国防采购"
     },
     {
-      "id": "us-maga",
-      "name": "MAGA 交易与克制路线",
-      "rep": "共和党民粹—优先派",
-      "color": "#e8b25f",
-      "origins": [
-        [
-          38.9,
-          -77.0
-        ]
-      ],
-      "summary": "强调负担分担、关税与产业回流，警惕长期海外战争。",
-      "caveat": "内部对不同战区立场不一，并非一概反对使用武力。",
-      "projections": [
-        {
-          "target": "iran",
-          "stance": "警惕长期战争，但保留强硬交易手段"
-        },
-        {
-          "target": "ukraine",
-          "stance": "主张欧洲承担更多负担"
-        },
-        {
-          "target": "taiwan",
-          "stance": "以交易视角看待军售与产业回流"
-        },
-        {
-          "target": "panama",
-          "stance": "关注西半球通道与供应链"
-        }
-      ]
+     "kind": "制度",
+     "text": "国防部与各军种的预算份额和任务范围"
     },
     {
-      "id": "us-dems",
-      "name": "民主党多边联盟派",
-      "rep": "民主党温和派与进步派（存在分歧）",
-      "color": "#7ea6f0",
-      "origins": [
-        [
-          38.9,
-          -77.0
-        ]
-      ],
-      "summary": "倾向盟友协调、制度合作与国会战争权力；进步派更反对军事行动。路透报道民主党将于明年1月掌控国会。",
-      "caveat": "温和派与进步派在援助、战争权力上意见不一。",
-      "projections": [
-        {
-          "target": "ukraine",
-          "stance": "总体支持援乌与盟友协调"
-        },
-        {
-          "target": "iran",
-          "stance": "倾向外交途径并强调国会战争权力"
-        },
-        {
-          "target": "taiwan",
-          "stance": "维持联盟威慑与危机管控"
-        }
-      ],
-      "sources": [
-        "reuters-iran"
-      ]
+     "kind": "地区",
+     "text": "军工就业集中的州与国会选区"
     },
     {
-      "id": "us-interests",
-      "name": "产业与倡议团体",
-      "rep": "军工 / 能源 / 科技 / 外交倡议组织",
-      "color": "#b796e6",
-      "origins": [
-        [
-          38.9,
-          -77.0
-        ]
-      ],
-      "summary": "通过合法游说、采购与选民动员影响议程。",
-      "caveat": "利益团体不是政策的充分原因；任何族裔或宗教社群都不是统一行为者。",
-      "projections": [
-        {
-          "target": "ukraine",
-          "stance": "军工：产能与采购需求"
-        },
-        {
-          "target": "taiwan",
-          "stance": "科技：芯片供应链与出口管制"
-        },
-        {
-          "target": "iran",
-          "stance": "能源：价格与供应安全"
-        },
-        {
-          "target": "latam",
-          "stance": "电池与矿业：关键矿产合同"
-        }
-      ]
+     "kind": "安全/官僚",
+     "text": "维持同盟承诺与前沿威慑的可信度"
     }
-  ],
-  "EU": [
+   ],
+   "durability": {
+    "source": "国防采购合同周期长达十余年，基地与工厂嵌入地方经济",
+    "horizon": "长期",
+    "text": "即使政党更替，采购项目、基地与供应链仍在；削减往往只改变增速。"
+   },
+   "vehicles": [
+    "参众两院军事委员会与拨款小组",
+    "国防部与各军种",
+    "主要承包商与行业协会",
+    "安全类智库"
+   ],
+   "indicators": [
     {
-      "id": "eu-core",
-      "name": "法德工业核心",
-      "rep": "法国 / 德国（政府与产业界）",
-      "color": "#6fc7e8",
-      "origins": [
-        [
-          48.86,
-          2.35
-        ],
-        [
-          52.52,
-          13.4
-        ]
-      ],
-      "summary": "兼顾战略自主、产业竞争力与联盟安全。",
-      "caveat": "两国内部政党与产业界同样存在分歧。",
-      "projections": [
-        {
-          "target": "iran",
-          "stance": "能源价格冲击产业，倾向降温"
-        },
-        {
-          "target": "ukraine",
-          "stance": "支持防空与财政援助，对直接卷入谨慎"
-        },
-        {
-          "target": "taiwan",
-          "stance": "重视贸易与供应链稳定"
-        },
-        {
-          "target": "brazil",
-          "stance": "对南共市贸易安排存在工业与农业利益张力"
-        }
-      ]
+     "label": "美国2025年军费",
+     "value": "9540亿美元，同比-7.5%，占GDP 3.1%，约占全球三分之一",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
     },
     {
-      "id": "eu-east",
-      "name": "东欧与波罗的海前线",
-      "rep": "波兰 / 波罗的海国家 / 芬兰等",
-      "color": "#f07a7a",
-      "origins": [
-        [
-          52.23,
-          21.0
-        ],
-        [
-          59.44,
-          24.75
-        ]
-      ],
-      "summary": "将俄罗斯视为直接安全威胁，支持持续援乌与北约前沿部署。",
-      "caveat": "在农业、财政与采购上利益并不一致。",
-      "projections": [
-        {
-          "target": "ukraine",
-          "stance": "视为直接安全问题，主张持续支持"
-        },
-        {
-          "target": "iran",
-          "stance": "关注能源价格与美国安全资源分配"
-        }
-      ]
-    },
-    {
-      "id": "eu-sovereign",
-      "name": "主权优先与对俄务实路线",
-      "rep": "部分成员国政府（随选举变化）",
-      "color": "#e8d25f",
-      "origins": [
-        [
-          47.5,
-          19.04
-        ]
-      ],
-      "summary": "强调国家主权与能源价格，对援乌和制裁持保留态度。",
-      "caveat": "组成随各国选举变化，本工具未核实当前各国政府立场。",
-      "projections": [
-        {
-          "target": "ukraine",
-          "stance": "在需一致同意的外交安全决策中可能形成阻碍"
-        },
-        {
-          "target": "iran",
-          "stance": "关注能源价格与移民压力"
-        }
-      ],
-      "sources": [
-        "eu"
-      ]
-    },
-    {
-      "id": "eu-uktr",
-      "name": "英国 · 土耳其（非欧盟北约成员）",
-      "rep": "独立于欧盟决策的安全行为者",
-      "color": "#5fd0a5",
-      "origins": [
-        [
-          51.5,
-          -0.12
-        ],
-        [
-          39.93,
-          32.86
-        ]
-      ],
-      "summary": "英国是海上安全与情报合作伙伴；土耳其控制土耳其海峡并有自主地区议程。",
-      "caveat": "二者均不参加欧盟理事会表决。",
-      "projections": [
-        {
-          "target": "redsea",
-          "stance": "英国：海上安全合作（分析判断）"
-        },
-        {
-          "target": "ukraine",
-          "stance": "土耳其：依《蒙特勒公约》管理海峡军舰通行"
-        },
-        {
-          "target": "iran",
-          "stance": "土耳其：关注边境与难民外溢"
-        }
-      ],
-      "sources": [
-        "nato"
-      ]
+     "label": "全球军费格局",
+     "value": "全球2.887万亿美元，同比+2.9%",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
     }
-  ]
+   ],
+   "preferences": [
+    "维持或扩大采购与产能",
+    "对盟友军售与前沿部署",
+    "对主要对手保持军事优势"
+   ],
+   "projections": [
+    {
+     "target": "taiwan",
+     "stance": "倾向强化威慑与对台军售",
+     "why": "军售与西太平洋部署是采购需求的主要来源之一"
+    },
+    {
+     "target": "korea",
+     "stance": "重视同盟延伸威慑",
+     "why": "驻韩美军与导弹防御维系长期合同"
+    },
+    {
+     "target": "iran",
+     "stance": "维持可信军事选项",
+     "why": "伊朗战争与海上封锁消耗弹药并带动补充采购"
+    },
+    {
+     "target": "ukraine",
+     "stance": "支持以军援维持威慑",
+     "why": "对乌军援订单与库存补充"
+    }
+   ],
+   "cleavages": "内部在“印太优先”还是“多战区并重”上有分歧；造船与弹药产能瓶颈使承诺与能力存在落差。",
+   "partners": [
+    "us-energy"
+   ],
+   "rivals": [
+    "us-populist"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "承压",
+    "asOf": "2026-11-18",
+    "basis": "SIPRI显示2025年美国实际军费下降7.5%；中期选举后国会由民主党控制，拨款优先级可能调整。",
+    "sources": [
+     "sipri-2025",
+     "us-midterms"
+    ]
+   },
+   "confidence": "中",
+   "summary": "维持预算、前沿部署与军售的结构性利益，不随单一政党更替消失。",
+   "caveat": "这是利益类型，不是统一组织；具体议员与企业立场不同。",
+   "examples": [],
+   "sources": [
+    "sipri-2025",
+    "us-midterms"
+   ]
+  },
+  {
+   "id": "us-energy",
+   "name": "油气出口利益",
+   "rep": "页岩油气生产州 · LNG出口商 · 炼化与管道",
+   "color": "#e8a54b",
+   "origins": [
+    [
+     29.8,
+     -95.4
+    ]
+   ],
+   "definition": "美国成为全球最大LNG出口国后，生产商、出口终端与产油州形成稳定的出口利益：扩大海外市场、放宽许可、在对手受制裁时扩大份额。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "页岩油气开采、LNG液化出口、管道与炼化"
+    },
+    {
+     "kind": "地区",
+     "text": "得克萨斯、路易斯安那等产油气州"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "能源行业就业与地方税收"
+    }
+   ],
+   "durability": {
+    "source": "资源禀赋与已建成的出口终端",
+    "horizon": "长期",
+    "text": "终端与长期合同锁定出口能力；油价周期影响强度但不消除利益。"
+   },
+   "vehicles": [
+    "能源与商业委员会",
+    "能源部出口许可",
+    "行业协会与州政府"
+   ],
+   "indicators": [
+    {
+     "label": "美国LNG出口",
+     "value": "2025年约151亿立方英尺/日，同比+26%，创纪录",
+     "asOf": "2025",
+     "source": "eia-lng-2025",
+     "type": "fact"
+    },
+    {
+     "label": "霍尔木兹油流",
+     "value": "2026年第三季度约910万桶/日（战前约2090万）",
+     "asOf": "2026Q3",
+     "source": "eia",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "扩大LNG出口许可与海外长约",
+    "对俄罗斯、伊朗等竞争者实施能源制裁",
+    "进入委内瑞拉等新产区"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "以LNG替代俄气、扩大欧洲市场",
+     "why": "欧盟立法分步禁止俄气，为美国LNG打开空间"
+    },
+    {
+     "target": "iran",
+     "stance": "关注封锁对油价与份额的影响",
+     "why": "霍尔木兹受阻推高价格，也影响盟友能源安全"
+    },
+    {
+     "target": "venezuela",
+     "stance": "关注石油合作与准入",
+     "why": "马杜罗被抓后美委正谈判石油与安全合作"
+    }
+   ],
+   "cleavages": "高油价利好生产商，却加剧通胀并伤害执政党选情；炼化与出口商对原油出口政策立场不同。",
+   "partners": [
+    "us-defense"
+   ],
+   "rivals": [
+    "us-populist"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "LNG出口2025年创纪录；欧盟俄气禁令为其扩大市场。",
+    "sources": [
+     "eia-lng-2025",
+     "consilium-gas"
+    ]
+   },
+   "confidence": "中",
+   "summary": "出口能力已建成，利益持续存在；油价与选民承受力决定其政治空间。",
+   "caveat": "能源公司之间存在分歧，部分支持气候政策或反对出口限制。",
+   "examples": [],
+   "sources": [
+    "consilium-gas",
+    "eia",
+    "eia-lng-2025"
+   ]
+  },
+  {
+   "id": "us-tech-finance",
+   "name": "科技与金融全球化利益",
+   "rep": "半导体 · 平台企业 · 华尔街资本",
+   "color": "#6fc7e8",
+   "origins": [
+    [
+     37.4,
+     -122.1
+    ],
+    [
+     40.7,
+     -74.0
+    ]
+   ],
+   "definition": "依赖全球市场与供应链的科技与金融资本，同时需要国家补贴与出口管制保护；它们希望管控而非切断与中国的经济联系。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "芯片设计与设备、云与AI、资产管理与银行"
+    },
+    {
+     "kind": "制度",
+     "text": "商务部出口管制、财政部制裁与投资审查"
+    },
+    {
+     "kind": "地区",
+     "text": "加州、纽约等科技金融中心"
+    }
+   ],
+   "durability": {
+    "source": "全球化供应链与资本市场规模",
+    "horizon": "长期",
+    "text": "台湾先进制程集中与对华市场依赖使其利益长期存在；出口管制范围随政府更替变化。"
+   },
+   "vehicles": [
+    "商务、金融与科技委员会",
+    "行业协会",
+    "智库与说客"
+   ],
+   "indicators": [
+    {
+     "label": "先进制程集中度（历史基线）",
+     "value": "2019年10纳米以下产能约92%在台湾、8%在韩国",
+     "asOf": "2019",
+     "source": "sia-bcg",
+     "type": "fact"
+    },
+    {
+     "label": "对台军售作为“筹码”",
+     "value": "特朗普5月称暂缓新的对台军售，视为谈判筹码",
+     "asOf": "2026-05",
+     "source": "reuters-apec",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持对华市场准入与稳定",
+    "获取补贴并限制管制范围",
+    "保护台湾、韩国供应链安全"
+   ],
+   "projections": [
+    {
+     "target": "taiwan",
+     "stance": "关注先进制程供应安全",
+     "why": "先进芯片产能高度集中于台湾"
+    },
+    {
+     "target": "korea",
+     "stance": "关注存储与晶圆供应链",
+     "why": "韩国是第二大先进制程地区"
+    },
+    {
+     "target": "malacca",
+     "stance": "关注航运与供应链畅通",
+     "why": "东亚电子供应链依赖马六甲航线"
+    }
+   ],
+   "cleavages": "设备商与平台企业对出口管制的承受力不同；金融资本与国家安全部门在对华投资上常有冲突。",
+   "partners": [
+    "us-energy"
+   ],
+   "rivals": [
+    "us-defense"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "可通过游说与投资影响政策，但国家安全议程收紧了空间；本工具未取得当期游说支出数据。",
+    "sources": [
+     "reuters-apec"
+    ]
+   },
+   "confidence": "中",
+   "summary": "全球市场与国家安全之间的权衡者。",
+   "caveat": "OpenSecrets与LDA数据库本轮无法访问（被拦截），未引用游说金额。",
+   "examples": [],
+   "sources": [
+    "reuters-apec",
+    "sia-bcg"
+   ]
+  },
+  {
+   "id": "us-populist",
+   "name": "本土制造与民生选民联盟",
+   "rep": "锈带制造业 · 农业州 · 对物价敏感的选民",
+   "color": "#f4b860",
+   "origins": [
+    [
+     41.5,
+     -81.7
+    ]
+   ],
+   "definition": "受全球化冲击的制造业地区和对物价敏感的选民，倾向关税保护、边境管控，反对代价高昂的海外战争；两党都有政治人物代表这些诉求。",
+   "interests": [
+    {
+     "kind": "阶层/选民",
+     "text": "制造业工人、农户与中低收入家庭"
+    },
+    {
+     "kind": "地区",
+     "text": "中西部工业州与农业州"
+    },
+    {
+     "kind": "经济部门",
+     "text": "受进口竞争的钢铁、汽车与农业"
+    }
+   ],
+   "durability": {
+    "source": "产业空心化与生活成本",
+    "horizon": "中期",
+    "text": "诉求随通胀与就业变化起伏，但地区产业结构使其长期存在。"
+   },
+   "vehicles": [
+    "共和党民粹派与部分民主党进步派",
+    "工会与农业团体",
+    "选举本身"
+   ],
+   "indicators": [
+    {
+     "label": "2026年中期选举",
+     "value": "民主党赢得两院多数（参议院56席含独立派）",
+     "asOf": "2026-11",
+     "source": "us-midterms",
+     "type": "fact"
+    },
+    {
+     "label": "选民动因",
+     "value": "路透与美联社称物价与伊朗战争是选民不满的主要原因",
+     "asOf": "2026-11",
+     "source": "us-midterms",
+     "type": "estimate"
+    }
+   ],
+   "preferences": [
+    "关税与产业回流",
+    "减少海外战争开支，要求盟友分担",
+    "边境与毒品管控"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "反对高成本的长期战争",
+     "why": "伊朗战争推高生活成本并成为选举议题"
+    },
+    {
+     "target": "ukraine",
+     "stance": "质疑长期援助开支",
+     "why": "援外与国内民生预算竞争"
+    },
+    {
+     "target": "mexico",
+     "stance": "要求打击贩毒集团与边境管控",
+     "why": "芬太尼与移民是核心选民议题"
+    },
+    {
+     "target": "panama",
+     "stance": "关注航运主权与成本",
+     "why": "运河与贸易成本叙事"
+    }
+   ],
+   "cleavages": "保护主义与低物价诉求相互冲突：关税推高物价；内部对是否以军事手段打击贩毒集团也有分歧。",
+   "partners": [],
+   "rivals": [
+    "us-defense",
+    "us-tech-finance"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "中期选举结果显示选民对物价与战争的不满能转化为议会权力变化（选民动因为媒体解读）。",
+    "sources": [
+     "us-midterms"
+    ]
+   },
+   "confidence": "中",
+   "summary": "把成本与就业放在首位的选民联盟，通过选举约束外交。",
+   "caveat": "不是单一政党；不能把所有共和党或民主党选民视作统一群体。",
+   "examples": [],
+   "sources": [
+    "us-midterms"
+   ]
+  }
+ ],
+ "EU": [
+  {
+   "id": "eu-industry",
+   "name": "出口制造业利益",
+   "rep": "德国汽车与机械 · 法国航空 · 化工",
+   "color": "#58a6ff",
+   "origins": [
+    [
+     52.5,
+     13.4
+    ],
+    [
+     48.9,
+     2.35
+    ]
+   ],
+   "definition": "欧洲出口制造业依赖全球市场与稳定的能源价格；对华既是市场又是竞争者，因此倾向“降风险”而非“脱钩”。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "汽车、机械、化工、航空"
+    },
+    {
+     "kind": "地区",
+     "text": "德国南部与西部、法国工业区"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "制造业就业与工会"
+    }
+   ],
+   "durability": {
+    "source": "出口导向的经济结构",
+    "horizon": "长期",
+    "text": "产业结构变化缓慢；能源成本与中国竞争在改变其议价能力。"
+   },
+   "vehicles": [
+    "行业协会",
+    "成员国经济部门",
+    "欧盟贸易总司"
+   ],
+   "indicators": [
+    {
+     "label": "中国出口规模",
+     "value": "2025年出口26.99万亿元，同比+6.1%（美元口径顺差约1.19万亿美元）",
+     "asOf": "2025",
+     "source": "cn-customs-2025",
+     "type": "fact"
+    },
+    {
+     "label": "德国军费",
+     "value": "2025年1140亿美元，同比+24%（工业转向国防订单）",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持航运与供应链畅通",
+    "对华降风险但保市场",
+    "稳定能源价格"
+   ],
+   "projections": [
+    {
+     "target": "taiwan",
+     "stance": "关注芯片与航运中断",
+     "why": "先进芯片与东亚航线中断冲击欧洲制造"
+    },
+    {
+     "target": "malacca",
+     "stance": "关注亚欧航运",
+     "why": "对亚洲贸易依赖"
+    },
+    {
+     "target": "redsea",
+     "stance": "关注苏伊士航线成本",
+     "why": "红海绕行推高运费与交付时间"
+    }
+   ],
+   "cleavages": "车企与机械企业对华依赖程度不同；部分企业受益于国防订单。",
+   "partners": [
+    "eu-energy"
+   ],
+   "rivals": [
+    "eu-sovereign"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "承压",
+    "asOf": "2026-11-18",
+    "basis": "中国出口持续扩张，欧洲制造业竞争压力上升（结构判断）。",
+    "sources": [
+     "cn-customs-2025"
+    ]
+   },
+   "confidence": "中",
+   "summary": "依赖全球市场与低能源价格的出口利益。",
+   "caveat": "不同成员国和企业的对华立场差异很大。",
+   "examples": [],
+   "sources": [
+    "cn-customs-2025",
+    "sipri-2025"
+   ]
+  },
+  {
+   "id": "eu-frontline",
+   "name": "东翼前线安全利益",
+   "rep": "波兰 · 波罗的海 · 北欧",
+   "color": "#7ad3c0",
+   "origins": [
+    [
+     52.2,
+     21.0
+    ],
+    [
+     59.4,
+     24.7
+    ]
+   ],
+   "definition": "与俄罗斯接壤或临近的国家，安全威胁直接且长期存在，因此在制裁、援乌与扩军上立场最坚定。",
+   "interests": [
+    {
+     "kind": "安全/官僚",
+     "text": "国防与情报机构"
+    },
+    {
+     "kind": "地区",
+     "text": "与俄罗斯、白俄罗斯接壤的边境地区"
+    },
+    {
+     "kind": "经济部门",
+     "text": "受益于国防订单的本地军工"
+    }
+   ],
+   "durability": {
+    "source": "地理邻近与历史经验",
+    "horizon": "长期",
+    "text": "地理不会改变；只要俄罗斯被视为威胁，这一利益就持续。"
+   },
+   "vehicles": [
+    "成员国政府",
+    "北约东翼机制",
+    "欧盟SAFE防务贷款"
+   ],
+   "indicators": [
+    {
+     "label": "SAFE防务贷款",
+     "value": "波兰获最大份额约437亿欧元（总额1500亿）",
+     "asOf": "2025-09",
+     "source": "aa-safe",
+     "type": "fact"
+    },
+    {
+     "label": "德国军费",
+     "value": "2025年1140亿美元，同比+24%",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "持续援乌与制裁",
+    "扩军与东翼部署",
+    "欧盟共同防务融资"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "支持持续援乌与制裁",
+     "why": "乌克兰战局直接决定东翼安全"
+    },
+    {
+     "target": "kosovo",
+     "stance": "支持北约维稳与欧盟调解",
+     "why": "防止巴尔干出现新的安全真空"
+    }
+   ],
+   "cleavages": "对美国安全承诺的信任程度与对欧洲自主防务的投入存在分歧。",
+   "partners": [
+    "eu-energy"
+   ],
+   "rivals": [
+    "eu-sovereign"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "德国等欧洲国家军费大幅增长，SAFE贷款以波兰为最大受益国。",
+    "sources": [
+     "aa-safe",
+     "sipri-2025"
+    ]
+   },
+   "confidence": "高",
+   "summary": "地理决定的长期安全利益。",
+   "caveat": "并非所有东欧国家立场一致。",
+   "examples": [],
+   "sources": [
+    "aa-safe",
+    "sipri-2025"
+   ]
+  },
+  {
+   "id": "eu-energy",
+   "name": "能源进口与转型利益",
+   "rep": "工业用能大户 · 能源公司 · 绿色产业",
+   "color": "#a8d26f",
+   "origins": [
+    [
+     50.85,
+     4.35
+    ]
+   ],
+   "definition": "欧洲是能源净进口方，必须在去俄化、价格与转型之间平衡；工业用户、电力公司与绿色产业利益交织。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "电力、天然气进口、可再生能源与电池"
+    },
+    {
+     "kind": "制度",
+     "text": "欧盟委员会能源与气候部门"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "对能源账单敏感的家庭"
+    }
+   ],
+   "durability": {
+    "source": "资源禀赋（缺少本土油气）",
+    "horizon": "长期",
+    "text": "进口依赖是结构性的；只是供应国从俄罗斯转向美国、卡塔尔与可再生能源。"
+   },
+   "vehicles": [
+    "欧盟委员会与理事会",
+    "能源企业",
+    "行业与环保团体"
+   ],
+   "indicators": [
+    {
+     "label": "俄气禁令",
+     "value": "LNG自2027年1月1日起禁止，管道气自2027年9月30日起禁止",
+     "asOf": "2026-01-26",
+     "source": "consilium-gas",
+     "type": "fact"
+    },
+    {
+     "label": "霍尔木兹LNG",
+     "value": "2025上半年霍尔木兹LNG约114亿立方英尺/日，超过全球LNG贸易两成",
+     "asOf": "2025",
+     "source": "eia-chokepoints",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "去俄化但维持价格可承受",
+    "多元化LNG来源",
+    "确保关键矿产与电池供应链"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "推进去俄化",
+     "why": "欧盟立法禁止俄气进口"
+    },
+    {
+     "target": "iran",
+     "stance": "关注LNG与油价冲击",
+     "why": "霍尔木兹与卡塔尔LNG受阻"
+    },
+    {
+     "target": "latam",
+     "stance": "关注锂与电池原料",
+     "why": "电池供应链需要南美锂"
+    }
+   ],
+   "cleavages": "工业用户希望低价，气候政策与去俄化提高短期成本；成员国能源结构差异大。",
+   "partners": [
+    "eu-industry",
+    "eu-frontline"
+   ],
+   "rivals": [
+    "eu-sovereign"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "禁令已立法，但价格冲击（霍尔木兹）增加执行压力。",
+    "sources": [
+     "consilium-gas",
+     "eia"
+    ]
+   },
+   "confidence": "中",
+   "summary": "能源进口国的结构性利益。",
+   "caveat": "不同成员国能源结构差异大。",
+   "examples": [],
+   "sources": [
+    "consilium-gas",
+    "eia",
+    "eia-chokepoints"
+   ]
+  },
+  {
+   "id": "eu-sovereign",
+   "name": "主权优先与管道能源依赖利益",
+   "rep": "部分中东欧政府 · 民族主义选民 · 依赖管道气的产业",
+   "color": "#c49cff",
+   "origins": [
+    [
+     47.5,
+     19.04
+    ],
+    [
+     48.15,
+     17.1
+    ]
+   ],
+   "definition": "内陆国家依赖俄罗斯管道能源，且部分选民优先国家主权，倾向限制欧盟对俄制裁与对乌援助的范围。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "依赖管道气与核燃料的能源企业"
+    },
+    {
+     "kind": "地区",
+     "text": "缺少海港的内陆中东欧国家"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "民族主义与疑欧选民"
+    }
+   ],
+   "durability": {
+    "source": "管道基础设施与选民结构",
+    "horizon": "中期",
+    "text": "管道依赖可通过新设施减轻；选民偏好随选举变化。"
+   },
+   "vehicles": [
+    "成员国政府（随选举变化）",
+    "一致同意规则下的否决权"
+   ],
+   "indicators": [
+    {
+     "label": "欧盟一致同意规则",
+     "value": "共同外交安全政策通常要求一致同意",
+     "asOf": "长期制度基线",
+     "source": "eu",
+     "type": "fact"
+    },
+    {
+     "label": "SAFE首轮",
+     "value": "10月28日批准匈牙利54亿欧元防务贷款，首轮分配完成",
+     "asOf": "2026-10-28",
+     "source": "euronews-safe",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "限制对俄制裁范围",
+    "维持管道能源过渡期",
+    "保护国家否决权"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "倾向限制援乌与制裁范围",
+     "why": "管道能源依赖与选民结构"
+    },
+    {
+     "target": "serbia",
+     "stance": "关注巴尔干邻国走向",
+     "why": "地缘邻近与能源过境"
+    }
+   ],
+   "cleavages": "这些政府也接受欧盟防务资金；立场随选举可能剧变。",
+   "partners": [],
+   "rivals": [
+    "eu-frontline",
+    "eu-energy"
+   ],
+   "strength": {
+    "level": "弱",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "可借一致同意规则拖延，但俄气禁令已以多数机制通过（推断）。",
+    "sources": [
+     "eu",
+     "consilium-gas"
+    ]
+   },
+   "confidence": "低",
+   "summary": "借否决权放大影响的少数利益。",
+   "caveat": "不应将任何国家整体等同于该派系；政府更替会改变立场。",
+   "examples": [],
+   "sources": [
+    "consilium-gas",
+    "eu",
+    "euronews-safe"
+   ]
+  }
+ ],
+ "CN": [
+  {
+   "id": "cn-security",
+   "name": "党政安全核心",
+   "rep": "国家安全体系 · 解放军 · 公安国安",
+   "color": "#e85d5d",
+   "origins": [
+    [
+     39.9,
+     116.4
+    ]
+   ],
+   "definition": "维护政权安全、领土主张与军事现代化的机构利益；其预算与任务随外部威胁认知扩张。",
+   "interests": [
+    {
+     "kind": "安全/官僚",
+     "text": "军队、武警、国家安全与公安系统"
+    },
+    {
+     "kind": "制度",
+     "text": "中央国家安全与军事决策机构"
+    },
+    {
+     "kind": "经济部门",
+     "text": "军工集团"
+    }
+   ],
+   "durability": {
+    "source": "政权安全与领土主张",
+    "horizon": "长期",
+    "text": "台湾问题与周边安全长期存在，机构利益稳定。"
+   },
+   "vehicles": [
+    "中央军委与国家安全体制",
+    "军工集团",
+    "官方媒体"
+   ],
+   "indicators": [
+    {
+     "label": "中国2025年军费（SIPRI估计）",
+     "value": "约3360亿美元，同比+7.4%，占GDP约1.7%",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "estimate"
+    },
+    {
+     "label": "西太平洋演训",
+     "value": "台湾称辽宁舰编队在西太平洋进行“区域拒止”演训",
+     "asOf": "2026-11-10",
+     "source": "taiwan",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "军事现代化与远海能力",
+    "对台施压与反介入",
+    "周边海域控制"
+   ],
+   "projections": [
+    {
+     "target": "taiwan",
+     "stance": "强化军事施压与反介入",
+     "why": "领土主张与政权合法性"
+    },
+    {
+     "target": "korea",
+     "stance": "关注半岛稳定与美军部署",
+     "why": "邻接安全缓冲"
+    },
+    {
+     "target": "malacca",
+     "stance": "关注海上通道安全",
+     "why": "能源进口依赖马六甲"
+    }
+   ],
+   "cleavages": "军事施压与稳定经济、对美关系之间存在张力（分析判断）。",
+   "partners": [
+    "cn-tech"
+   ],
+   "rivals": [
+    "cn-export"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "军费持续增长（SIPRI估计），演训频率上升（台湾方面说法）。",
+    "sources": [
+     "sipri-2025",
+     "taiwan"
+    ]
+   },
+   "confidence": "中",
+   "summary": "体制核心的安全利益。",
+   "caveat": "中国政治不公开派别竞争；这里是功能性利益分析，非对具体人物派系的推断。",
+   "examples": [],
+   "sources": [
+    "sipri-2025",
+    "taiwan"
+   ]
+  },
+  {
+   "id": "cn-export",
+   "name": "沿海出口制造与地方财政",
+   "rep": "广东 · 浙江 · 江苏等出口省份 · 民营制造",
+   "color": "#f29b53",
+   "origins": [
+    [
+     23.1,
+     113.3
+    ],
+    [
+     30.3,
+     120.2
+    ]
+   ],
+   "definition": "出口型制造业与依赖其税收、就业的沿海地方政府，需要稳定的海外市场与航运，倾向管控对外紧张。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "电子、机械、电动车与轻工出口"
+    },
+    {
+     "kind": "地区",
+     "text": "东南沿海出口省份"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "制造业就业与农民工"
+    }
+   ],
+   "durability": {
+    "source": "出口导向增长模式",
+    "horizon": "长期",
+    "text": "制造业规模与供应链网络难以迅速改变。"
+   },
+   "vehicles": [
+    "地方政府与商务部门",
+    "行业商会",
+    "港口与物流企业"
+   ],
+   "indicators": [
+    {
+     "label": "2025年外贸",
+     "value": "出口26.99万亿元（+6.1%），进口18.48万亿元",
+     "asOf": "2025",
+     "source": "cn-customs-2025",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持海外市场准入",
+    "航运与供应链畅通",
+    "降低关税冲突"
+   ],
+   "projections": [
+    {
+     "target": "malacca",
+     "stance": "依赖海运出口通道",
+     "why": "出口与能源进口共用航线"
+    },
+    {
+     "target": "redsea",
+     "stance": "关注亚欧航线成本",
+     "why": "对欧出口经苏伊士"
+    },
+    {
+     "target": "panama",
+     "stance": "关注两洋航运",
+     "why": "对美洲出口"
+    },
+    {
+     "target": "latam",
+     "stance": "扩大南美市场与投资",
+     "why": "新兴市场替代"
+    }
+   ],
+   "cleavages": "与安全核心在对外紧张程度上存在权衡；产能过剩引发贸易摩擦。",
+   "partners": [
+    "cn-soe"
+   ],
+   "rivals": [
+    "cn-security"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "承压",
+    "asOf": "2026-11-18",
+    "basis": "出口规模创新高，但外部关税与贸易摩擦上升（结构判断）。",
+    "sources": [
+     "cn-customs-2025"
+    ]
+   },
+   "confidence": "中",
+   "summary": "依赖全球市场的沿海利益。",
+   "caveat": "功能性利益分析，不代表存在公开派别。",
+   "examples": [],
+   "sources": [
+    "cn-customs-2025"
+   ]
+  },
+  {
+   "id": "cn-tech",
+   "name": "科技自立复合体",
+   "rep": "半导体 · AI · 国家科技与产业基金 · 工信科技部门",
+   "color": "#4fc3f7",
+   "origins": [
+    [
+     31.2,
+     121.5
+    ],
+    [
+     22.5,
+     114.1
+    ]
+   ],
+   "definition": "在美国出口管制下，芯片、设备、软件与AI企业及主管部门形成共同利益：争取国家资金、国内市场与替代进口。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "芯片制造与设备、AI、基础软件"
+    },
+    {
+     "kind": "制度",
+     "text": "科技与工信主管部门、产业基金"
+    },
+    {
+     "kind": "地区",
+     "text": "长三角、珠三角与北京科技集群"
+    }
+   ],
+   "durability": {
+    "source": "技术封锁与国家战略",
+    "horizon": "长期",
+    "text": "十五五规划把科技自立列为重点，只要管制存在，这一利益就会延续。"
+   },
+   "vehicles": [
+    "五年规划与产业政策",
+    "国有与混合所有制科技企业",
+    "高校与科研院所"
+   ],
+   "indicators": [
+    {
+     "label": "十五五规划纲要",
+     "value": "2026年3月12日批准，以高水平科技自立自强为重点",
+     "asOf": "2026-03-12",
+     "source": "cn-fyp15",
+     "type": "fact"
+    },
+    {
+     "label": "稀土精炼主导",
+     "value": "2024年中国约占稀土精炼91%、烧结永磁体94%",
+     "asOf": "2024",
+     "source": "iea-ree",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "国家资金与采购倾斜",
+    "进口替代",
+    "以关键矿产作为反制筹码"
+   ],
+   "projections": [
+    {
+     "target": "taiwan",
+     "stance": "关注先进制程与人才",
+     "why": "台湾先进制程是技术差距的核心"
+    },
+    {
+     "target": "korea",
+     "stance": "关注存储与设备供应链",
+     "why": "韩国供应链与对华管制"
+    },
+    {
+     "target": "latam",
+     "stance": "保障锂等电池原料",
+     "why": "电池与新能源车产业链"
+    }
+   ],
+   "cleavages": "国家资金效率与市场化之间存在分歧；与出口制造在对美关系上需求不同。",
+   "partners": [
+    "cn-security"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "科技自立列为五年规划重点；稀土加工主导地位提供反制筹码。",
+    "sources": [
+     "cn-fyp15",
+     "iea-ree"
+    ]
+   },
+   "confidence": "中",
+   "summary": "技术封锁塑造的长期利益。",
+   "caveat": "功能性利益分析。",
+   "examples": [],
+   "sources": [
+    "cn-fyp15",
+    "iea-ree"
+   ]
+  },
+  {
+   "id": "cn-soe",
+   "name": "国有能源资源与粮食安全",
+   "rep": "能源央企 · 矿业与基建央企 · 粮食进口",
+   "color": "#c9a26b",
+   "origins": [
+    [
+     39.9,
+     116.4
+    ]
+   ],
+   "definition": "负责能源、矿产与粮食进口的国有企业与主管部门，需要多元化、稳定的海外供应与通道安全。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "油气、矿业、电网、粮油进口"
+    },
+    {
+     "kind": "制度",
+     "text": "国资与能源主管部门"
+    },
+    {
+     "kind": "安全/官僚",
+     "text": "能源与粮食安全"
+    }
+   ],
+   "durability": {
+    "source": "资源进口依赖",
+    "horizon": "长期",
+    "text": "油气与大豆进口依赖结构性存在。"
+   },
+   "vehicles": [
+    "央企与国资体系",
+    "能源与粮食主管部门"
+   ],
+   "indicators": [
+    {
+     "label": "油籽进口",
+     "value": "2026/27年度中国主要油籽进口预测1.2123亿吨（全球最大）",
+     "asOf": "2026-11",
+     "source": "usda-oilseeds",
+     "type": "fact"
+    },
+    {
+     "label": "霍尔木兹LNG",
+     "value": "中国是经霍尔木兹LNG最大目的地，接近三分之一",
+     "asOf": "2025",
+     "source": "eia-chokepoints",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "多元化能源与粮食来源",
+    "海外资源投资",
+    "通道安全"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "关注海湾油气供应与通道",
+     "why": "霍尔木兹受阻冲击中国能源进口"
+    },
+    {
+     "target": "brazil",
+     "stance": "稳定大豆与矿产供应",
+     "why": "巴西是最大油籽出口国"
+    },
+    {
+     "target": "malacca",
+     "stance": "关注能源进口通道",
+     "why": "能源运输经马六甲"
+    },
+    {
+     "target": "venezuela",
+     "stance": "关注既有石油利益",
+     "why": "委内瑞拉政权更迭影响对华合作（分析判断）"
+    }
+   ],
+   "cleavages": "海外投资回报与政治风险之间的权衡。",
+   "partners": [
+    "cn-export"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "中",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "进口依赖未变；通道风险上升（霍尔木兹）。",
+    "sources": [
+     "usda-oilseeds",
+     "eia"
+    ]
+   },
+   "confidence": "中",
+   "summary": "资源进口依赖决定的长期利益。",
+   "caveat": "功能性利益分析。",
+   "examples": [],
+   "sources": [
+    "eia",
+    "eia-chokepoints",
+    "usda-oilseeds"
+   ]
+  }
+ ],
+ "RU": [
+  {
+   "id": "ru-siloviki",
+   "name": "安全机构—军队",
+   "rep": "联邦安全局 · 国防部与总参 · 安全会议",
+   "color": "#d9534f",
+   "origins": [
+    [
+     55.75,
+     37.62
+    ]
+   ],
+   "definition": "安全机构与军队在战时获得预算与政治优先权；其机构利益与战争延续、对外军事存在相互强化。",
+   "interests": [
+    {
+     "kind": "安全/官僚",
+     "text": "安全局、军队与国民近卫军"
+    },
+    {
+     "kind": "制度",
+     "text": "安全会议与国防部"
+    },
+    {
+     "kind": "经济部门",
+     "text": "与安全机构关联的企业"
+    }
+   ],
+   "durability": {
+    "source": "战时体制与政权安全",
+    "horizon": "中期",
+    "text": "战争延续强化其地位；战争结束后可能面临预算与问责压力。"
+   },
+   "vehicles": [
+    "安全会议",
+    "国防部与总参",
+    "国家媒体"
+   ],
+   "indicators": [
+    {
+     "label": "俄罗斯2025年军费（SIPRI估计）",
+     "value": "约1900亿美元，占GDP约7.5%，占政府支出约20%",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "estimate"
+    },
+    {
+     "label": "非洲军团",
+     "value": "马里军队与俄罗斯国家控制的“非洲军团”被指控可能犯有战争罪",
+     "asOf": "2026",
+     "source": "r2p-sahel",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "延续对乌军事行动",
+    "扩大海外军事存在",
+    "维持高军费"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "持续军事施压",
+     "why": "战争延续是其预算与地位来源"
+    },
+    {
+     "target": "mali-sahel",
+     "stance": "维持非洲军团存在",
+     "why": "海外安全服务与影响力"
+    }
+   ],
+   "cleavages": "与财政技术官僚在支出可持续性上存在冲突。",
+   "partners": [
+    "ru-mic"
+   ],
+   "rivals": [
+    "ru-technocrats"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "军费约占GDP 7.5%、政府支出约20%（SIPRI估计）。",
+    "sources": [
+     "sipri-2025"
+    ]
+   },
+   "confidence": "中",
+   "summary": "战时体制中最有权势的利益群。",
+   "caveat": "内部存在部门竞争；以机构为单位分析，不推断个人派系。",
+   "examples": [],
+   "sources": [
+    "r2p-sahel",
+    "sipri-2025"
+   ]
+  },
+  {
+   "id": "ru-energy",
+   "name": "能源出口租金利益",
+   "rep": "油气企业 · 财政部油气税",
+   "color": "#e6a04f",
+   "origins": [
+    [
+     55.75,
+     37.62
+    ],
+    [
+     61.25,
+     73.4
+    ]
+   ],
+   "definition": "油气出口租金支撑财政与精英收入；该利益希望维持出口渠道、规避制裁、保持高油价。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "原油、成品油、LNG与管道气出口"
+    },
+    {
+     "kind": "地区",
+     "text": "西西伯利亚等产区"
+    },
+    {
+     "kind": "制度",
+     "text": "财政部油气税收"
+    }
+   ],
+   "durability": {
+    "source": "资源禀赋与出口基础设施",
+    "horizon": "长期",
+    "text": "油气储量与管道长期存在；欧盟禁令迫使市场转向亚洲。"
+   },
+   "vehicles": [
+    "油气企业",
+    "财政部",
+    "对亚洲的长期合同"
+   ],
+   "indicators": [
+    {
+     "label": "预算油气收入",
+     "value": "2026年1–10月6.442万亿卢布，同比-14.1%",
+     "asOf": "2026-11-05",
+     "source": "mt-oilgas",
+     "type": "fact"
+    },
+    {
+     "label": "印度采购俄油",
+     "value": "10月约200万桶/日，约占印度原油进口三分之一（Kpler）",
+     "asOf": "2026-10",
+     "source": "bs-india-oil",
+     "type": "fact"
+    },
+    {
+     "label": "欧盟禁俄气",
+     "value": "LNG 2027年1月、管道气2027年9月起禁止",
+     "asOf": "2026-01-26",
+     "source": "consilium-gas",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持亚洲出口渠道",
+    "规避制裁与价格上限",
+    "高油价"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "希望保留欧洲以外的出口渠道",
+     "why": "战争与制裁决定其市场"
+    },
+    {
+     "target": "iran",
+     "stance": "霍尔木兹受阻推高油价",
+     "why": "对手供应中断提高俄油价值（分析判断）"
+    },
+    {
+     "target": "redsea",
+     "stance": "关注出口航线",
+     "why": "部分对亚出口经苏伊士与红海"
+    }
+   ],
+   "cleavages": "高油价有利于收入，但战争与制裁导致市场与折价损失。",
+   "partners": [
+    "ru-technocrats"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "中",
+    "trend": "下降",
+    "asOf": "2026-11-18",
+    "basis": "油气收入同比下降14.1%，在预算中的比重下降。",
+    "sources": [
+     "mt-oilgas",
+     "interfax-budget"
+    ]
+   },
+   "confidence": "中",
+   "summary": "资源租金利益，出口市场正被迫转向亚洲。",
+   "caveat": "企业间利益不一。",
+   "examples": [],
+   "sources": [
+    "bs-india-oil",
+    "consilium-gas",
+    "interfax-budget",
+    "mt-oilgas"
+   ]
+  },
+  {
+   "id": "ru-mic",
+   "name": "军工复合体",
+   "rep": "国有军工集团 · 军工城市",
+   "color": "#b5655d",
+   "origins": [
+    [
+     56.85,
+     60.6
+    ]
+   ],
+   "definition": "战时订单使国有军工集团与军工城市成为受益者，需要维持订单、零部件进口渠道与出口市场。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "导弹、无人机、装甲与弹药制造"
+    },
+    {
+     "kind": "地区",
+     "text": "乌拉尔与伏尔加地区军工城市"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "军工就业"
+    }
+   ],
+   "durability": {
+    "source": "战时订单",
+    "horizon": "中期",
+    "text": "战争结束后订单下降，将面临产能与就业调整。"
+   },
+   "vehicles": [
+    "国有军工集团",
+    "国防订单体系"
+   ],
+   "indicators": [
+    {
+     "label": "预算透明度下降",
+     "value": "国防预算中“机密余项”约占79%（2024年约73%）",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    },
+    {
+     "label": "无人机采购",
+     "value": "俄罗斯转向大批量、低成本武器，无人机使用迅速扩大",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持国防订单",
+    "获取零部件与技术",
+    "武器出口"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "依赖战时订单",
+     "why": "战争是订单主要来源"
+    },
+    {
+     "target": "mali-sahel",
+     "stance": "维持海外安全合作市场",
+     "why": "海外军事存在带动装备需求（分析判断）"
+    }
+   ],
+   "cleavages": "与民用经济争夺资源与劳动力。",
+   "partners": [
+    "ru-siloviki"
+   ],
+   "rivals": [
+    "ru-technocrats"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "SIPRI：2025年俄军费同比+5.9%，预算透明度下降。",
+    "sources": [
+     "sipri-2025"
+    ]
+   },
+   "confidence": "中",
+   "summary": "战时订单塑造的利益群。",
+   "caveat": "透明度低，订单数据大多不可得。",
+   "examples": [],
+   "sources": [
+    "sipri-2025"
+   ]
+  },
+  {
+   "id": "ru-technocrats",
+   "name": "财政金融技术官僚",
+   "rep": "央行 · 财政部 · 经济部门",
+   "color": "#8fa3bf",
+   "origins": [
+    [
+     55.75,
+     37.62
+    ]
+   ],
+   "definition": "负责宏观稳定的央行与财政部门，利益在于控制通胀、赤字与金融稳定，是战时扩张的约束力量。",
+   "interests": [
+    {
+     "kind": "制度",
+     "text": "中央银行与财政部"
+    },
+    {
+     "kind": "经济部门",
+     "text": "银行与非能源经济"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "受通胀影响的储户"
+    }
+   ],
+   "durability": {
+    "source": "宏观稳定职能",
+    "horizon": "中期",
+    "text": "职能稳定，但政治影响力受安全机构压制。"
+   },
+   "vehicles": [
+    "中央银行",
+    "财政部",
+    "银行体系"
+   ],
+   "indicators": [
+    {
+     "label": "关键利率",
+     "value": "10月23日维持14.00%",
+     "asOf": "2026-10-23",
+     "source": "cbr-rate",
+     "type": "fact"
+    },
+    {
+     "label": "预算赤字",
+     "value": "1–10月5.234万亿卢布，约占GDP 2.3%",
+     "asOf": "2026-11",
+     "source": "interfax-budget",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "控制通胀与赤字",
+    "维持金融稳定",
+    "限制无序支出"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "关注战争成本可持续性",
+     "why": "军费与赤字压力"
+    },
+    {
+     "target": "iran",
+     "stance": "关注油价对预算的影响",
+     "why": "油气收入波动（分析判断）"
+    }
+   ],
+   "cleavages": "执行战时财政，但在扩张幅度上与安全机构存在张力。",
+   "partners": [
+    "ru-energy"
+   ],
+   "rivals": [
+    "ru-siloviki",
+    "ru-mic"
+   ],
+   "strength": {
+    "level": "弱",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "高利率与赤字控制显示其仍在发挥作用，但在战争决策中影响有限（分析判断）。",
+    "sources": [
+     "cbr-rate",
+     "interfax-budget"
+    ]
+   },
+   "confidence": "中",
+   "summary": "宏观约束者，而非政策主导者。",
+   "caveat": "不能视为反战派。",
+   "examples": [],
+   "sources": [
+    "cbr-rate",
+    "interfax-budget"
+   ]
+  }
+ ],
+ "IR": [
+  {
+   "id": "ir-irgc",
+   "name": "革命卫队安全经济",
+   "rep": "革命卫队 · 最高国安委 · 关联企业",
+   "color": "#2e9e6b",
+   "origins": [
+    [
+     35.7,
+     51.4
+    ]
+   ],
+   "definition": "革命卫队兼具军事与经济角色；战争使其主导军事战略与关键政治决定，利益在于维持威慑、地区网络与经济特权。",
+   "interests": [
+    {
+     "kind": "安全/官僚",
+     "text": "革命卫队与情报机构"
+    },
+    {
+     "kind": "制度",
+     "text": "最高国家安全委员会"
+    },
+    {
+     "kind": "经济部门",
+     "text": "与卫队关联的工程与贸易企业"
+    }
+   ],
+   "durability": {
+    "source": "宪制地位与战时权力集中",
+    "horizon": "长期",
+    "text": "战争使权力进一步集中；外部威胁持续则其地位持续。"
+   },
+   "vehicles": [
+    "革命卫队",
+    "最高国家安全委员会",
+    "最高领袖办公室"
+   ],
+   "indicators": [
+    {
+     "label": "战时权力转移",
+     "value": "路透：阿里·哈梅内伊战争首日身亡，革命卫队主导军事与关键政治决定",
+     "asOf": "2026-04-28",
+     "source": "reuters-irgc",
+     "type": "fact"
+    },
+    {
+     "label": "最高国安委秘书",
+     "value": "8月起由前革命卫队司令雷扎伊担任",
+     "asOf": "2026-11-04",
+     "source": "aj-iran-power",
+     "type": "fact"
+    },
+    {
+     "label": "官方军费（SIPRI）",
+     "value": "74亿美元，官方预算口径可能低估",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "estimate"
+    }
+   ],
+   "preferences": [
+    "维持核与导弹威慑",
+    "维持地区网络与海峡筹码",
+    "拒绝在压力下让步"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "拒绝在封锁下让步",
+     "why": "威慑与政权安全"
+    },
+    {
+     "target": "redsea",
+     "stance": "维持地区网络与海上筹码",
+     "why": "霍尔木兹与地区代理网络是其筹码（分析判断）"
+    }
+   ],
+   "cleavages": "内部强硬派与务实派对谈判存在分歧（分析判断）。",
+   "partners": [
+    "ir-clerical"
+   ],
+   "rivals": [
+    "ir-pragmatic"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "战时权力向卫队与最高国安委集中（路透、半岛电视台）。",
+    "sources": [
+     "reuters-irgc",
+     "aj-iran-power"
+    ]
+   },
+   "confidence": "中",
+   "summary": "战时权力中心。",
+   "caveat": "内部并非铁板一块。",
+   "examples": [
+    {
+     "text": "雷扎伊任最高国安委秘书（前革命卫队司令）",
+     "asOf": "2026-08",
+     "source": "aj-iran-power"
+    }
+   ],
+   "sources": [
+    "aj-iran-power",
+    "reuters-irgc",
+    "sipri-2025"
+   ]
+  },
+  {
+   "id": "ir-clerical",
+   "name": "教士体制与最高领袖办公室",
+   "rep": "最高领袖办公室 · 专家会议 · 宗教基金会",
+   "color": "#5b8c5a",
+   "origins": [
+    [
+     34.64,
+     50.88
+    ]
+   ],
+   "definition": "神权体制的制度利益：维护最高领袖的宪制地位与宗教合法性；在战后，其角色更多是为安全机构的决定背书。",
+   "interests": [
+    {
+     "kind": "制度",
+     "text": "最高领袖办公室、专家会议、宪法监护委员会"
+    },
+    {
+     "kind": "经济部门",
+     "text": "宗教基金会"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "宗教保守群体"
+    }
+   ],
+   "durability": {
+    "source": "宪制安排",
+    "horizon": "长期",
+    "text": "宪法地位稳定，但实际权力受领袖健康与安全机构影响。"
+   },
+   "vehicles": [
+    "最高领袖办公室",
+    "专家会议"
+   ],
+   "indicators": [
+    {
+     "label": "最高领袖",
+     "value": "穆杰塔巴·哈梅内伊为正式最高领袖，长期未公开露面",
+     "asOf": "2026-11-04",
+     "source": "aj-iran-power",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维护体制合法性",
+    "控制继承与宪制程序"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "为战与谈的决定背书",
+     "why": "重大决定须经最高领袖确认"
+    }
+   ],
+   "cleavages": "与卫队的关系从主导变为依赖（路透检索摘要，知情人士说法）。",
+   "partners": [
+    "ir-irgc"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "中",
+    "trend": "下降",
+    "asOf": "2026-11-18",
+    "basis": "路透（检索摘要）引知情人士称，最高领袖角色主要是为将领决定背书。",
+    "sources": [
+     "reuters-irgc"
+    ]
+   },
+   "confidence": "低",
+   "summary": "宪制合法性的守护者，实际权力下降。",
+   "caveat": "领袖健康状况未经独立核实。",
+   "examples": [],
+   "sources": [
+    "aj-iran-power",
+    "reuters-irgc"
+   ]
+  },
+  {
+   "id": "ir-pragmatic",
+   "name": "务实政府与商贸利益",
+   "rep": "总统政府 · 外交部 · 巴扎商人与私营经济",
+   "color": "#7fb2a5",
+   "origins": [
+    [
+     35.7,
+     51.4
+    ]
+   ],
+   "definition": "受封锁与制裁打击最重的政府技术官僚与商贸群体，利益在于解除封锁、恢复石油出口与资金。",
+   "interests": [
+    {
+     "kind": "制度",
+     "text": "总统办公室与外交部"
+    },
+    {
+     "kind": "经济部门",
+     "text": "巴扎商人、私营企业与进出口"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "城市中产"
+    }
+   ],
+   "durability": {
+    "source": "经济压力",
+    "horizon": "中期",
+    "text": "封锁越久压力越大；但政治空间受安全机构制约。"
+   },
+   "vehicles": [
+    "总统与内阁",
+    "议会部分议员",
+    "商会"
+   ],
+   "indicators": [
+    {
+     "label": "谈判授权",
+     "value": "佩泽希齐扬称获授权进行谈判",
+     "asOf": "2026-11-04",
+     "source": "aj-iran-power",
+     "type": "fact"
+    },
+    {
+     "label": "封锁与谈判",
+     "value": "美方维持海上封锁，间接谈判卡在先后顺序",
+     "asOf": "2026-11-17",
+     "source": "reuters-iran",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "解除封锁与制裁",
+    "恢复石油出口",
+    "有限让步换取经济空间"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "推动谈判解除封锁",
+     "why": "经济压力与民生"
+    }
+   ],
+   "cleavages": "强硬派指责其软弱；巴扎商人诉求与政府未必一致。本系统缺少巴扎行为的直接数据。",
+   "partners": [],
+   "rivals": [
+    "ir-irgc"
+   ],
+   "strength": {
+    "level": "弱",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "有谈判授权，但战时权力集中于革命卫队与最高国安委。",
+    "sources": [
+     "aj-iran-power"
+    ]
+   },
+   "confidence": "低",
+   "summary": "经济压力推动的谈判派。",
+   "caveat": "商人群体的直接证据有限，信心低。",
+   "examples": [],
+   "sources": [
+    "aj-iran-power",
+    "reuters-iran"
+   ]
+  }
+ ],
+ "IL": [
+  {
+   "id": "il-security",
+   "name": "安全建制与军工",
+   "rep": "国防军 · 情报机构 · 军工企业",
+   "color": "#3d7fd9",
+   "origins": [
+    [
+     32.07,
+     34.79
+    ]
+   ],
+   "definition": "在长期安全威胁下，军队、情报机构与军工出口企业形成稳定利益：维持军事优势、美国援助与武器出口。",
+   "interests": [
+    {
+     "kind": "安全/官僚",
+     "text": "国防军与情报机构"
+    },
+    {
+     "kind": "经济部门",
+     "text": "军工与网络安全出口"
+    },
+    {
+     "kind": "制度",
+     "text": "国防部与安全内阁"
+    }
+   ],
+   "durability": {
+    "source": "长期安全威胁",
+    "horizon": "长期",
+    "text": "地区威胁与征兵制使其长期处于政治核心。"
+   },
+   "vehicles": [
+    "国防部",
+    "军工企业",
+    "退役将领从政"
+   ],
+   "indicators": [
+    {
+     "label": "以色列2025年军费",
+     "value": "483亿美元，同比-4.9%，占GDP 7.8%",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持对伊朗的军事选项",
+    "美国军援与技术合作",
+    "武器出口"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "维持对伊朗打击能力",
+     "why": "伊朗核与导弹被视为首要威胁"
+    },
+    {
+     "target": "redsea",
+     "stance": "关注胡塞袭击与航运",
+     "why": "红海与南部港口安全"
+    }
+   ],
+   "cleavages": "对战争目标与人质、政治问责的看法分歧。",
+   "partners": [
+    "il-centrist"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "强",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "军费占GDP极高（SIPRI）。",
+    "sources": [
+     "sipri-2025"
+    ]
+   },
+   "confidence": "中",
+   "summary": "长期安全威胁塑造的核心利益。",
+   "caveat": "军方内部与政治层对战略存在分歧。",
+   "examples": [],
+   "sources": [
+    "sipri-2025"
+   ]
+  },
+  {
+   "id": "il-religious-right",
+   "name": "定居点与宗教政党联盟",
+   "rep": "定居点运动 · 宗教民族主义 · 极端正统派",
+   "color": "#8e6fd8",
+   "origins": [
+    [
+     31.77,
+     35.21
+    ]
+   ],
+   "definition": "以土地、补贴、兵役豁免与宗教地位为核心物质利益的选民联盟；通过联合政府获取预算与政策。",
+   "interests": [
+    {
+     "kind": "阶层/选民",
+     "text": "定居点居民、宗教民族主义与极端正统派选民"
+    },
+    {
+     "kind": "地区",
+     "text": "约旦河西岸定居点与耶路撒冷"
+    },
+    {
+     "kind": "制度",
+     "text": "联合政府中的部长职位与预算"
+    }
+   ],
+   "durability": {
+    "source": "人口结构与联合政府制度",
+    "horizon": "长期",
+    "text": "比例代表制使小党对组阁关键。"
+   },
+   "vehicles": [
+    "犹太力量、宗教锡安主义、沙斯、圣经犹太教联盟",
+    "定居点委员会"
+   ],
+   "indicators": [
+    {
+     "label": "2026年大选席位",
+     "value": "犹太力量7、宗教锡安主义6、沙斯6、圣经犹太教联盟7",
+     "asOf": "2026-10-27",
+     "source": "toi-israel",
+     "type": "fact"
+    },
+    {
+     "label": "组阁",
+     "value": "总统授权艾森科特组阁",
+     "asOf": "2026-11-08",
+     "source": "jta-eisenkot",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "定居点扩张与补贴",
+    "兵役豁免（极端正统派）",
+    "对伊朗与巴勒斯坦问题持强硬立场"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "支持强硬对伊立场",
+     "why": "安全与意识形态诉求"
+    }
+   ],
+   "cleavages": "极端正统派（兵役豁免）与宗教民族主义（征兵）利益冲突。",
+   "partners": [
+    "il-security"
+   ],
+   "rivals": [
+    "il-centrist"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "下降",
+    "asOf": "2026-11-18",
+    "basis": "宗教政党合计26席，但组阁授权给了艾森科特。",
+    "sources": [
+     "toi-israel",
+     "jta-eisenkot"
+    ]
+   },
+   "confidence": "中",
+   "summary": "联合政府制度放大的选民利益。",
+   "caveat": "不能把宗教群体视作统一行为者。",
+   "examples": [],
+   "sources": [
+    "jta-eisenkot",
+    "toi-israel"
+   ]
+  },
+  {
+   "id": "il-centrist",
+   "name": "中间派安全建制与科技经济",
+   "rep": "中间派政党 · 退役将领 · 高科技产业",
+   "color": "#5fb0d6",
+   "origins": [
+    [
+     32.08,
+     34.78
+    ]
+   ],
+   "definition": "高科技出口与中间派选民需要国际市场、美国关系与政治稳定；前将领主导的政党代表安全建制的另一种取向。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "高科技与金融"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "世俗中产与预备役"
+    },
+    {
+     "kind": "安全/官僚",
+     "text": "退役将领网络"
+    }
+   ],
+   "durability": {
+    "source": "经济结构与安全建制",
+    "horizon": "长期",
+    "text": "高科技经济的利益长期存在。"
+   },
+   "vehicles": [
+    "Yashar等中间派政党",
+    "科技行业协会"
+   ],
+   "indicators": [
+    {
+     "label": "组阁授权",
+     "value": "总统赫尔佐格授权艾森科特（Yashar党领袖、前总参谋长）组阁",
+     "asOf": "2026-11-08",
+     "source": "jta-eisenkot",
+     "type": "fact"
+    },
+    {
+     "label": "席位",
+     "value": "Yashar 21席，为第二大党",
+     "asOf": "2026-10-27",
+     "source": "toi-israel",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "修复国际关系与对美关系",
+    "政治问责",
+    "对伊朗保持威慑但重视外交协调"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "威慑与外交协调并重",
+     "why": "安全建制背景与国际关系需求（分析判断）"
+    }
+   ],
+   "cleavages": "能否凑足61席、是否依赖阿拉伯政党支持存在分歧（分析判断）。",
+   "partners": [
+    "il-security"
+   ],
+   "rivals": [
+    "il-religious-right"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "获组阁授权，但能否凑足61席未定。",
+    "sources": [
+     "jta-eisenkot"
+    ]
+   },
+   "confidence": "中",
+   "summary": "可能掌握组阁主导权的中间派联盟。",
+   "caveat": "组阁结果未定。",
+   "examples": [
+    {
+     "text": "艾森科特获授权组阁，有六周期限",
+     "asOf": "2026-11-08",
+     "source": "jta-eisenkot"
+    }
+   ],
+   "sources": [
+    "jta-eisenkot",
+    "toi-israel"
+   ]
+  }
+ ],
+ "TR": [
+  {
+   "id": "tr-defense",
+   "name": "军工出口复合体",
+   "rep": "国防工业局 · 无人机与电子企业",
+   "color": "#e2574c",
+   "origins": [
+    [
+     39.93,
+     32.86
+    ]
+   ],
+   "definition": "快速增长的防务出口为国家与企业带来外汇与外交影响力，形成稳定的出口与产能利益。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "无人机、电子、舰艇与弹药"
+    },
+    {
+     "kind": "制度",
+     "text": "国防工业局（SSB）"
+    },
+    {
+     "kind": "安全/官僚",
+     "text": "军方采购"
+    }
+   ],
+   "durability": {
+    "source": "产业积累与出口订单",
+    "horizon": "长期",
+    "text": "出口合同与产能具有持续性。"
+   },
+   "vehicles": [
+    "国防工业局",
+    "军工企业"
+   ],
+   "indicators": [
+    {
+     "label": "防务航空出口",
+     "value": "2025年约100.5亿美元，同比约+48%",
+     "asOf": "2025",
+     "source": "ssb-turkey",
+     "type": "fact"
+    },
+    {
+     "label": "土耳其军费",
+     "value": "2025年300亿美元，同比+7.2%",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "扩大出口市场",
+    "国防自主",
+    "在冲突地区获得影响力"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "关注黑海安全与防务出口",
+     "why": "黑海安全与无人机出口（分析判断）"
+    },
+    {
+     "target": "libya",
+     "stance": "维持与的黎波里政府的安全合作",
+     "why": "土耳其长期支持的黎波里政府（分析判断）"
+    }
+   ],
+   "cleavages": "与西方伙伴在技术与出口许可上存在摩擦（分析判断）。",
+   "partners": [
+    "tr-hub"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "出口创纪录。",
+    "sources": [
+     "ssb-turkey"
+    ]
+   },
+   "confidence": "中",
+   "summary": "出口驱动的军工利益。",
+   "caveat": "具体企业数据未逐项核实。",
+   "examples": [],
+   "sources": [
+    "sipri-2025",
+    "ssb-turkey"
+   ]
+  },
+  {
+   "id": "tr-hub",
+   "name": "海峡与能源过境枢纽利益",
+   "rep": "海峡管理 · 能源过境 · 贸易与物流",
+   "color": "#f0a35e",
+   "origins": [
+    [
+     41.0,
+     29.0
+    ]
+   ],
+   "definition": "控制土耳其海峡与能源过境线，使其在黑海、俄乌与欧亚贸易中获得议价能力。",
+   "interests": [
+    {
+     "kind": "地区",
+     "text": "伊斯坦布尔与海峡"
+    },
+    {
+     "kind": "经济部门",
+     "text": "航运、物流与能源过境"
+    },
+    {
+     "kind": "制度",
+     "text": "《蒙特勒公约》赋予的海峡管理权"
+    }
+   ],
+   "durability": {
+    "source": "地理位置",
+    "horizon": "长期",
+    "text": "地理位置不变。"
+   },
+   "vehicles": [
+    "外交部与能源部门",
+    "商界协会"
+   ],
+   "indicators": [
+    {
+     "label": "土耳其海峡油流",
+     "value": "2026年第三季度约340万桶/日",
+     "asOf": "2026Q3",
+     "source": "eia",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持海峡管控与中立议价",
+    "能源过境收入",
+    "对俄、对欧双向贸易"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "维持海峡管控与调解角色",
+     "why": "黑海航运与过境"
+    },
+    {
+     "target": "iran",
+     "stance": "关注邻国稳定与能源",
+     "why": "边境与能源进口（分析判断）"
+    }
+   ],
+   "cleavages": "在北约义务与对俄经济关系之间平衡。",
+   "partners": [
+    "tr-defense"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "中",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "地理议价能力稳定。",
+    "sources": [
+     "eia"
+    ]
+   },
+   "confidence": "中",
+   "summary": "地理决定的枢纽利益。",
+   "caveat": "分析判断为主。",
+   "examples": [],
+   "sources": [
+    "eia"
+   ]
+  }
+ ],
+ "IN": [
+  {
+   "id": "in-security",
+   "name": "国家安全与战略自主建制",
+   "rep": "国防部 · 外交部 · 国家安全委员会",
+   "color": "#ff9f43",
+   "origins": [
+    [
+     28.61,
+     77.21
+    ]
+   ],
+   "definition": "面对中国与巴基斯坦，安全建制需要多来源武器、技术与伙伴关系，形成“战略自主”的机构利益。",
+   "interests": [
+    {
+     "kind": "安全/官僚",
+     "text": "军队与国家安全机构"
+    },
+    {
+     "kind": "制度",
+     "text": "外交与国防部门"
+    },
+    {
+     "kind": "经济部门",
+     "text": "国产军工"
+    }
+   ],
+   "durability": {
+    "source": "两线安全压力",
+    "horizon": "长期",
+    "text": "与中巴的领土争端长期存在。"
+   },
+   "vehicles": [
+    "国防部与外交部",
+    "国防研发机构"
+   ],
+   "indicators": [
+    {
+     "label": "印度2025年军费",
+     "value": "921亿美元，同比+8.9%（5月与巴基斯坦冲突）",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "多方采购武器与技术",
+    "印度洋海上安全",
+    "避免卷入大国对抗"
+   ],
+   "projections": [
+    {
+     "target": "malacca",
+     "stance": "关注印度洋与马六甲西口",
+     "why": "海上通道与安达曼群岛位置"
+    },
+    {
+     "target": "iran",
+     "stance": "关注海湾稳定与侨民",
+     "why": "能源与侨民安全（分析判断）"
+    }
+   ],
+   "cleavages": "对美合作与对俄关系之间的平衡。",
+   "partners": [
+    "in-energy"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "军费增长（SIPRI）。",
+    "sources": [
+     "sipri-2025"
+    ]
+   },
+   "confidence": "中",
+   "summary": "两线安全压力塑造的战略自主利益。",
+   "caveat": "分析判断为主。",
+   "examples": [],
+   "sources": [
+    "sipri-2025"
+   ]
+  },
+  {
+   "id": "in-energy",
+   "name": "炼油与能源进口利益",
+   "rep": "炼油企业 · 石油部 · 进口商",
+   "color": "#ffc26b",
+   "origins": [
+    [
+     19.08,
+     72.88
+    ],
+    [
+     22.47,
+     70.06
+    ]
+   ],
+   "definition": "原油进口国的炼油企业追求最低成本原料；折价俄油与海湾供应都是选项。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "炼油与成品油出口"
+    },
+    {
+     "kind": "地区",
+     "text": "古吉拉特等炼油中心"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "对油价敏感的消费者"
+    }
+   ],
+   "durability": {
+    "source": "能源进口依赖",
+    "horizon": "长期",
+    "text": "国内产量有限，进口依赖长期存在。"
+   },
+   "vehicles": [
+    "石油部",
+    "国有与私营炼厂"
+   ],
+   "indicators": [
+    {
+     "label": "俄油进口",
+     "value": "10月约200万桶/日（Kpler）；中东约230万桶/日",
+     "asOf": "2026-10",
+     "source": "bs-india-oil",
+     "type": "fact"
+    },
+    {
+     "label": "原油进口",
+     "value": "10月创纪录（Kpler）",
+     "asOf": "2026-10",
+     "source": "bs-india-oil",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "获取折价原油",
+    "航运与保险畅通",
+    "避免二级制裁"
+   ],
+   "projections": [
+    {
+     "target": "ukraine",
+     "stance": "继续采购折价俄油",
+     "why": "成本最低化"
+    },
+    {
+     "target": "iran",
+     "stance": "关注海湾供应中断",
+     "why": "霍尔木兹受阻影响进口"
+    },
+    {
+     "target": "redsea",
+     "stance": "关注航线安全",
+     "why": "部分进口与出口经红海"
+    }
+   ],
+   "cleavages": "与对美贸易与制裁风险之间的权衡。",
+   "partners": [
+    "in-security"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "进口创纪录，俄油占比高。",
+    "sources": [
+     "bs-india-oil"
+    ]
+   },
+   "confidence": "中",
+   "summary": "成本驱动的能源利益。",
+   "caveat": "企业层面差异未逐一核实。",
+   "examples": [],
+   "sources": [
+    "bs-india-oil"
+   ]
+  }
+ ],
+ "JP": [
+  {
+   "id": "jp-defense",
+   "name": "防务建制与同盟派",
+   "rep": "防卫省 · 自卫队 · 防务产业 · 安保派议员",
+   "color": "#e05c7a",
+   "origins": [
+    [
+     35.68,
+     139.75
+    ]
+   ],
+   "definition": "在中国军力增长与朝鲜核导威胁下，防务部门与产业推动扩军与日美同盟一体化。",
+   "interests": [
+    {
+     "kind": "安全/官僚",
+     "text": "防卫省与自卫队"
+    },
+    {
+     "kind": "经济部门",
+     "text": "造船、导弹与电子防务企业"
+    },
+    {
+     "kind": "制度",
+     "text": "日美同盟机制"
+    }
+   ],
+   "durability": {
+    "source": "周边安全环境",
+    "horizon": "长期",
+    "text": "2022年启动的防务扩张计划仍在执行。"
+   },
+   "vehicles": [
+    "防卫省",
+    "执政党国防部会",
+    "防务企业"
+   ],
+   "indicators": [
+    {
+     "label": "2027财年防卫预算请求",
+     "value": "创纪录的8.89万亿日元",
+     "asOf": "2026-08",
+     "source": "kyodo-japan",
+     "type": "fact"
+    },
+    {
+     "label": "日本2025年军费",
+     "value": "622亿美元，同比+9.7%，占GDP 1.4%",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "fact"
+    },
+    {
+     "label": "条约基础",
+     "value": "《美日安保条约》（1960年）",
+     "asOf": "长期制度基线",
+     "source": "state-cda",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "扩大防卫预算",
+    "对台海与半岛的威慑",
+    "同盟一体化"
+   ],
+   "projections": [
+    {
+     "target": "taiwan",
+     "stance": "强化西南诸岛防卫与威慑",
+     "why": "台海邻近日本领土与航线"
+    },
+    {
+     "target": "korea",
+     "stance": "关注朝鲜导弹与同盟协调",
+     "why": "朝鲜导弹威胁"
+    }
+   ],
+   "cleavages": "与财务省在财源上冲突。",
+   "partners": [
+    "jp-export"
+   ],
+   "rivals": [
+    "jp-fiscal"
+   ],
+   "strength": {
+    "level": "强",
+    "trend": "上升",
+    "asOf": "2026-11-18",
+    "basis": "预算请求创纪录。",
+    "sources": [
+     "kyodo-japan",
+     "sipri-2025"
+    ]
+   },
+   "confidence": "中",
+   "summary": "安全环境推动的扩军利益。",
+   "caveat": "分析判断为主。",
+   "examples": [],
+   "sources": [
+    "kyodo-japan",
+    "sipri-2025",
+    "state-cda"
+   ]
+  },
+  {
+   "id": "jp-fiscal",
+   "name": "财政纪律派",
+   "rep": "财务省 · 财政保守派",
+   "color": "#9aa7b8",
+   "origins": [
+    [
+     35.67,
+     139.75
+    ]
+   ],
+   "definition": "财务省维护财政可持续性，对扩军规模与财源构成约束。",
+   "interests": [
+    {
+     "kind": "制度",
+     "text": "财务省"
+    },
+    {
+     "kind": "经济部门",
+     "text": "国债市场"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "对增税敏感的选民"
+    }
+   ],
+   "durability": {
+    "source": "高政府债务",
+    "horizon": "长期",
+    "text": "财政约束长期存在。"
+   },
+   "vehicles": [
+    "财务省",
+    "财政制度审议会"
+   ],
+   "indicators": [
+    {
+     "label": "五年防卫开支方案",
+     "value": "财务省提出2027年4月起五年50–60万亿日元",
+     "asOf": "2026-11-13",
+     "source": "jt-japan-fiscal",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "控制扩军规模",
+    "明确财源"
+   ],
+   "projections": [
+    {
+     "target": "taiwan",
+     "stance": "限制扩军规模",
+     "why": "财政可持续性"
+    }
+   ],
+   "cleavages": "与政府减税和增长政策冲突。",
+   "partners": [],
+   "rivals": [
+    "jp-defense"
+   ],
+   "strength": {
+    "level": "中",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "财务省方案影响最终额度（报道）。",
+    "sources": [
+     "jt-japan-fiscal"
+    ]
+   },
+   "confidence": "中",
+   "summary": "制度化的财政约束。",
+   "caveat": "报道引述匿名知情人士。",
+   "examples": [],
+   "sources": [
+    "jt-japan-fiscal"
+   ]
+  },
+  {
+   "id": "jp-export",
+   "name": "出口制造与能源进口利益",
+   "rep": "汽车 · 电子 · 能源进口商",
+   "color": "#f2b5c4",
+   "origins": [
+    [
+     35.17,
+     136.9
+    ]
+   ],
+   "definition": "出口制造与能源进口商需要稳定的对华贸易、航运与能源供应，倾向避免冲突升级。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "汽车、电子与机械出口"
+    },
+    {
+     "kind": "地区",
+     "text": "中部与关西工业区"
+    },
+    {
+     "kind": "阶层/选民",
+     "text": "制造业就业"
+    }
+   ],
+   "durability": {
+    "source": "出口与能源进口结构",
+    "horizon": "长期",
+    "text": "结构性存在。"
+   },
+   "vehicles": [
+    "经团联等商界团体",
+    "经济产业省"
+   ],
+   "indicators": [
+    {
+     "label": "马六甲油流",
+     "value": "2026年第三季度约1940万桶/日",
+     "asOf": "2026Q3",
+     "source": "eia",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "航运与能源通道安全",
+    "稳定的对华贸易"
+   ],
+   "projections": [
+    {
+     "target": "malacca",
+     "stance": "依赖能源与贸易航线",
+     "why": "能源进口经马六甲"
+    },
+    {
+     "target": "iran",
+     "stance": "关注海湾能源中断",
+     "why": "原油进口依赖中东（分析判断）"
+    }
+   ],
+   "cleavages": "部分企业受益于防务订单。",
+   "partners": [
+    "jp-defense"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "中",
+    "trend": "持平",
+    "asOf": "2026-11-18",
+    "basis": "缺少当期直接证据，信心低。",
+    "sources": [
+     "eia"
+    ]
+   },
+   "confidence": "低",
+   "summary": "出口与能源进口结构带来的利益。",
+   "caveat": "本轮未取得经团联等机构立场的直接证据。",
+   "examples": [],
+   "sources": [
+    "eia"
+   ]
+  }
+ ],
+ "GULF": [
+  {
+   "id": "gulf-rentier",
+   "name": "石油租金与王室安全",
+   "rep": "沙特财政部与国家石油公司 · 王室安全机构",
+   "color": "#3fb68b",
+   "origins": [
+    [
+     24.71,
+     46.68
+    ]
+   ],
+   "definition": "财政高度依赖油气的君主国，利益在于维持油价、出口通道与政权安全，同时避免成为伊朗报复的战场。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "原油与石化出口"
+    },
+    {
+     "kind": "制度",
+     "text": "财政部与国家石油公司"
+    },
+    {
+     "kind": "安全/官僚",
+     "text": "王室安全与军队"
+    }
+   ],
+   "durability": {
+    "source": "资源禀赋",
+    "horizon": "长期",
+    "text": "财政依赖油气是结构性的。"
+   },
+   "vehicles": [
+    "王室与内阁",
+    "国家石油公司"
+   ],
+   "indicators": [
+    {
+     "label": "2027财年预算前声明",
+     "value": "收入12020亿里亚尔、支出13920亿里亚尔，赤字1910亿（GDP 3.6%）",
+     "asOf": "2026-10",
+     "source": "spa-saudi",
+     "type": "fact"
+    },
+    {
+     "label": "沙特2025年军费（SIPRI估计）",
+     "value": "约832亿美元",
+     "asOf": "2025",
+     "source": "sipri-2025",
+     "type": "estimate"
+    },
+    {
+     "label": "伊朗袭击",
+     "value": "战争期间海湾国家遭超过7000枚伊朗导弹与无人机袭击（路透）",
+     "asOf": "2026-11-17",
+     "source": "reuters-iran",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "维持出口通道与油价",
+    "避免美伊再度开战",
+    "维持美国安全保证"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "劝阻再次轰炸以免遭报复",
+     "why": "海湾国家遭伊朗导弹无人机袭击"
+    },
+    {
+     "target": "redsea",
+     "stance": "关注红海航运与也门",
+     "why": "红海沿岸出口与胡塞威胁"
+    }
+   ],
+   "cleavages": "高油价与财政需求 vs 战争风险。",
+   "partners": [
+    "gulf-diversify"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "强",
+    "trend": "承压",
+    "asOf": "2026-11-18",
+    "basis": "财政赤字与战争袭击带来双重压力。",
+    "sources": [
+     "spa-saudi",
+     "reuters-iran"
+    ]
+   },
+   "confidence": "中",
+   "summary": "租金国家的结构性利益。",
+   "caveat": "海湾各国利益并不相同。",
+   "examples": [],
+   "sources": [
+    "reuters-iran",
+    "sipri-2025",
+    "spa-saudi"
+   ]
+  },
+  {
+   "id": "gulf-diversify",
+   "name": "主权财富与转型利益",
+   "rep": "主权基金 · 港口物流 · 金融中心",
+   "color": "#7fd1b0",
+   "origins": [
+    [
+     24.45,
+     54.38
+    ],
+    [
+     25.2,
+     55.27
+    ]
+   ],
+   "definition": "主权财富基金与港口物流企业希望地区稳定与全球投资，利用旁路管线与港口降低对霍尔木兹的依赖。",
+   "interests": [
+    {
+     "kind": "经济部门",
+     "text": "主权投资、港口物流、金融"
+    },
+    {
+     "kind": "地区",
+     "text": "阿布扎比、迪拜等"
+    },
+    {
+     "kind": "制度",
+     "text": "主权财富基金"
+    }
+   ],
+   "durability": {
+    "source": "经济多元化战略",
+    "horizon": "长期",
+    "text": "多元化战略长期推进。"
+   },
+   "vehicles": [
+    "主权基金",
+    "港口与航运企业"
+   ],
+   "indicators": [
+    {
+     "label": "旁路管线",
+     "value": "沙特东西管线与阿布扎比管线合计约470万桶/日旁路能力",
+     "asOf": "2025",
+     "source": "eia-chokepoints",
+     "type": "fact"
+    }
+   ],
+   "preferences": [
+    "地区稳定与投资安全",
+    "降低对霍尔木兹依赖"
+   ],
+   "projections": [
+    {
+     "target": "iran",
+     "stance": "希望降温以保护投资",
+     "why": "战争冲击投资与物流"
+    },
+    {
+     "target": "redsea",
+     "stance": "关注红海港口与航运",
+     "why": "港口与物流网络"
+    }
+   ],
+   "cleavages": "与沙特在地区影响力上存在竞争（分析判断）。",
+   "partners": [
+    "gulf-rentier"
+   ],
+   "rivals": [],
+   "strength": {
+    "level": "中",
+    "trend": "承压",
+    "asOf": "2026-11-18",
+    "basis": "战争冲击投资环境（分析判断）。",
+    "sources": [
+     "eia-chokepoints"
+    ]
+   },
+   "confidence": "低",
+   "summary": "多元化转型利益。",
+   "caveat": "分析判断为主。",
+   "examples": [],
+   "sources": [
+    "eia-chokepoints"
+   ]
+  }
+ ]
 }

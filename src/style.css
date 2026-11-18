@@ -170,3 +170,60 @@
 /* Dense regions: below zoom 3, low-score local conflicts drop their score badge and pulse ring (hover/tap still shows the HUD). */
 .leaflet-container:not([data-zoom-band=normal]) .gravity-marker.minor b,.leaflet-container:not([data-zoom-band=normal]) .gravity-marker.minor>span:after{display:none}
 .leaflet-container:not([data-zoom-band=normal]) .gravity-marker.minor i{width:7px;height:7px}
+/* v4: interest coalitions, systems, first principles */
+.system-tabs{display:flex;flex-wrap:wrap;gap:4px;grid-column:1/-1}
+.system-tabs button{font-size:10px;padding:4px 8px;border:1px solid #263644;border-radius:4px;color:#8ea2b3;background:#0d1621}
+.system-tabs button.active{color:#a5e3d4;border-color:#3c6a63;background:#173033}
+.faction-detail .interest-line{font-size:10.5px;color:#93a8b8}
+.system-seg{margin:10px 14px 0;flex-wrap:wrap;width:fit-content;max-width:calc(100% - 28px)}
+.politics-intro .institutions{margin-top:14px;border-top:1px solid #243444;padding-top:10px}
+.politics-intro .institutions p{display:block;font-size:10px;line-height:1.6;margin:0 0 6px}
+.politics-intro .institutions p b{display:block;color:#b9cbd8;font-weight:500}
+.politics-intro .institutions small{margin-top:0}
+.actor-list .dot{width:7px;height:7px;border-radius:50%;margin-right:7px;flex-shrink:0}
+.actor-list button{justify-content:flex-start}.actor-list button svg{margin-left:auto}
+.faction-model .model-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px 18px;margin-top:6px}
+.faction-model section.wide{grid-column:1/-1}
+.faction-model h6,.logic-detail h6{font-size:10px;color:#6fc9b8;margin:10px 0 4px;font-weight:600;letter-spacing:.5px}
+.faction-model ul,.logic-detail ul{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.faction-model li,.logic-detail li{font-size:10.5px;color:#a9bac8;line-height:1.6}
+.faction-model li em{font-style:normal;font-size:9px;color:#0b1520;background:#7fa9c0;border-radius:3px;padding:1px 5px;margin-right:6px}
+.faction-model p{margin:4px 0}
+.indicators li{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;border-bottom:1px dashed #22313f;padding-bottom:4px}
+.indicators li b{color:#dbe6ee;font-weight:500}.indicators li small{color:#6d8396;font-size:9px}
+.indicators .source-links{display:inline-flex;margin:0}
+.type{font-size:8.5px;border-radius:3px;padding:1px 5px;color:#0b1520;font-weight:600}
+.type.fact{background:#7fd1b0}.type.estimate{background:#f0c36b}.type.analysis{background:#a9b5c4}
+.proj-list li{display:grid;grid-template-columns:auto 1fr;gap:2px 8px}
+.proj-list li button{font-size:10px;color:#e6eef4;border:1px solid #33506a;border-radius:4px;padding:2px 6px;background:#0e1824;grid-row:span 2}
+.proj-list li b{color:#dbe6ee;font-weight:500}.proj-list li small{color:#7b90a2;font-size:9.5px}
+.faction-model .caveat{font-size:10px;color:#7d8fa0}
+.project-btn{display:inline-flex;gap:6px;align-items:center;font-size:10.5px;color:#e6eef4;border:1px solid var(--c);border-radius:4px;padding:5px 10px;background:#0e1824;margin:6px 0}
+.logic-panel{margin-top:18px;border:1px solid #283643;border-radius:7px;overflow:hidden;background:#101a26}
+.logic-panel>.section-line{padding:12px 18px;border-bottom:1px solid #283643;margin:0}
+.logic-content{display:grid;grid-template-columns:290px 1fr;min-height:300px}
+.logic-list{padding:10px;border-right:1px solid var(--border);display:grid;gap:3px;align-content:start}
+.logic-list button{display:grid;grid-template-columns:24px 1fr;text-align:left;padding:7px 8px;border-radius:4px;color:#8ea2b3}
+.logic-list button span{font:9px monospace;color:#57707f;grid-row:span 2;padding-top:2px}
+.logic-list button b{font-size:11px;font-weight:500;color:#c7d5e0}.logic-list button small{font-size:9.5px;color:#71879a}
+.logic-list button.active{background:#1d3038;border-left:2px solid #72c5b6}
+.logic-detail{padding:18px 24px}
+.logic-detail h4{font-size:17px;font-weight:500}.logic-detail p{font-size:11px;color:#9aaebe;line-height:1.8;margin:4px 0}
+.logic-short{color:#cfe3dc!important}
+.logic-theory{border:1px solid #2c3d4d;border-radius:5px;padding:8px 10px;margin:10px 0;background:#0d1621}
+.theory-tag{font-size:9px;color:#f0c36b}
+.logic-theory small{font-size:9.5px;color:#6d8396;display:block}
+.logic-facts li small{display:block;color:#6d8396;font-size:9px}
+.logic-facts .type{margin-right:6px}
+.logic-nodes{display:flex;flex-wrap:wrap;gap:6px}
+.logic-nodes button{text-align:left;border:1px solid #2d4a5c;border-radius:4px;padding:5px 8px;background:#0e1824;max-width:260px}
+.logic-nodes button b{display:block;font-size:10.5px;color:#e3edf3;font-weight:500}.logic-nodes button small{font-size:9.5px;color:#7b90a2}
+.logic-counter li::before{content:'⚠ ';color:#e0a35b}
+.node-logic{display:grid;gap:5px;margin:8px 0 16px}
+.node-logic button{text-align:left;border:1px solid #2d4a5c;border-radius:4px;padding:6px 9px;background:#0e1824;font-size:10.5px;color:#a9bac8}
+.node-logic button b{color:#7fd1c0;margin-right:8px;font-weight:500}
+.verify-log{border:1px solid #2c3d4d;border-radius:6px;padding:10px 12px;margin:10px 0;background:#0d1621}
+.verify-log h3{margin:0 0 6px}.verify-log h4{font-size:11px;margin:10px 0 4px;color:#6fc9b8}
+.verify-log ul{margin:0;padding-left:16px}.verify-log li{font-size:10.5px;line-height:1.6;color:#a9bac8}.verify-log li b{color:#dbe6ee;margin-right:6px;font-weight:500}
+@media(max-width:900px){.logic-content{grid-template-columns:1fr}.logic-list{border-right:0;border-bottom:1px solid var(--border);grid-template-columns:1fr 1fr}.politics-intro .institutions{display:none}}
+@media(max-width:620px){.logic-list{grid-template-columns:1fr}.logic-detail{padding:14px}}
