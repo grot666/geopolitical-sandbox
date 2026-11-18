@@ -28,6 +28,7 @@ npm run preview
 - 所有主焦点、资源、海峡均可点击，查看四维依据与 What / Geography / Resources / Politics 四段分析。
 - 美国行政/两院/党内路线/产业及外交倡议组织，欧盟机构/成员国分歧/英国/土耳其制度面板。
 - 观察清单检索、状态筛选、研究 JSON 导出、来源档案、移动端布局、键盘关闭与焦点约束、减少动画偏好。
+- 中文国家/地区名称：177 个，来自 Natural Earth `NAME_ZH`（公共领域）并人工校订为常用简称（如“中国”“朝鲜”“韩国”）；标注点使用 Natural Earth `LABEL_X/LABEL_Y` 内部点，而非多边形质心。按缩放分级显示：全球视图显示主要国家，下钻后显示更多国家及海、海峡、运河名称；贪心碰撞避让，避开危机标记与图例，标签不拦截点击、位于标记下层。争议地区（台湾、西撒哈拉、科索沃、巴勒斯坦、北塞浦路斯、索马里兰、福克兰群岛/马尔维纳斯）使用中性地理名称，悬停有说明，不构成主权认定。替换轮廓后运行 `python3 scripts/build-labels.py` 重新生成。
 - 无第三方地图依赖：同源加载本地轮廓；轮廓失败时提示并保留研究点位和全部分析数据。首次打开网页本身仍需要网络；不是完整 PWA 离线缓存。
 
 ## 架构与数据维护
@@ -43,6 +44,8 @@ src/data/resources.json 战略资源点（继承关联地区评分，非单设�
 src/data/chokepoints.json 海峡/运河点（继承关联地区评分）
 src/data/routes.json   航线示意
 src/data/terrain.json  本地战略地形示意线（非高程）
+src/data/mapLabels.json 177 个国家/地区中文名 + 海洋/海峡/区域标注（由 scripts/build-labels.py 从 Natural Earth 生成）
+src/labels.js          标注优先级、缩放阈值与碰撞避让（纯函数，已单测）
 src/data/alliances.json 精选首都关系网络，非完整成员名册
 src/data/politics.json 美欧机构与派系分析
 src/data/sources.json  日期、URL、核验方式、证据摘要

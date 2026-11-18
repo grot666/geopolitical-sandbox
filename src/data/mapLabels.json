@@ -1,0 +1,2619 @@
+{
+ "note": "国家/地区名称来自 Natural Earth NAME_ZH（公共领域），经人工校订为常用简体简称；争议地区使用中性地理名称并附说明，标注不构成主权认定。标注点使用 Natural Earth LABEL_X/LABEL_Y 内部标注点。",
+ "source": "Natural Earth 1:110m Admin 0 Countries",
+ "countries": [
+  {
+   "id": "AUS",
+   "name": "澳大利亚",
+   "en": "Australia",
+   "position": [
+    -24.13,
+    134.05
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "BRA",
+   "name": "巴西",
+   "en": "Brazil",
+   "position": [
+    -12.099,
+    -49.559
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "CAN",
+   "name": "加拿大",
+   "en": "Canada",
+   "position": [
+    60.324,
+    -101.911
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "CHL",
+   "name": "智利",
+   "en": "Chile",
+   "position": [
+    -38.152,
+    -72.319
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "CHN",
+   "name": "中国",
+   "en": "China",
+   "position": [
+    32.498,
+    106.337
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "DEU",
+   "name": "德国",
+   "en": "Germany",
+   "position": [
+    50.962,
+    9.678
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "EGY",
+   "name": "埃及",
+   "en": "Egypt",
+   "position": [
+    26.186,
+    29.446
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "FRA",
+   "name": "法国",
+   "en": "France",
+   "position": [
+    46.696,
+    2.552
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "GBR",
+   "name": "英国",
+   "en": "United Kingdom",
+   "position": [
+    54.403,
+    -2.116
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "IDN",
+   "name": "印度尼西亚",
+   "en": "Indonesia",
+   "position": [
+    -0.954,
+    101.893
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "IND",
+   "name": "印度",
+   "en": "India",
+   "position": [
+    22.687,
+    79.358
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "JPN",
+   "name": "日本",
+   "en": "Japan",
+   "position": [
+    36.143,
+    138.442
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "KEN",
+   "name": "肯尼亚",
+   "en": "Kenya",
+   "position": [
+    0.549,
+    37.908
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "NGA",
+   "name": "尼日利亚",
+   "en": "Nigeria",
+   "position": [
+    9.44,
+    7.503
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "RUS",
+   "name": "俄罗斯",
+   "en": "Russia",
+   "position": [
+    58.249,
+    44.686
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "SAU",
+   "name": "沙特阿拉伯",
+   "en": "Saudi Arabia",
+   "position": [
+    23.807,
+    44.7
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "USA",
+   "name": "美国",
+   "en": "United States of America",
+   "position": [
+    39.538,
+    -97.483
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "ZAF",
+   "name": "南非",
+   "en": "South Africa",
+   "position": [
+    -29.709,
+    23.666
+   ],
+   "minZoom": 0,
+   "priority": 19.0,
+   "major": true
+  },
+  {
+   "id": "GRL",
+   "name": "格陵兰",
+   "en": "Greenland",
+   "position": [
+    74.319,
+    -39.335
+   ],
+   "minZoom": 0,
+   "priority": 20.0,
+   "major": true
+  },
+  {
+   "id": "ARG",
+   "name": "阿根廷",
+   "en": "Argentina",
+   "position": [
+    -33.501,
+    -64.173
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "COD",
+   "name": "刚果（金）",
+   "en": "Dem. Rep. Congo",
+   "position": [
+    -1.858,
+    23.459
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "ESP",
+   "name": "西班牙",
+   "en": "Spain",
+   "position": [
+    40.091,
+    -3.465
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "ETH",
+   "name": "埃塞俄比亚",
+   "en": "Ethiopia",
+   "position": [
+    8.033,
+    39.089
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "ITA",
+   "name": "意大利",
+   "en": "Italy",
+   "position": [
+    44.732,
+    11.077
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "MEX",
+   "name": "墨西哥",
+   "en": "Mexico",
+   "position": [
+    23.92,
+    -102.289
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "NZL",
+   "name": "新西兰",
+   "en": "New Zealand",
+   "position": [
+    -39.759,
+    172.787
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "PER",
+   "name": "秘鲁",
+   "en": "Peru",
+   "position": [
+    -12.977,
+    -72.9
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "TUR",
+   "name": "土耳其",
+   "en": "Turkey",
+   "position": [
+    39.345,
+    34.508
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "VNM",
+   "name": "越南",
+   "en": "Vietnam",
+   "position": [
+    21.715,
+    105.387
+   ],
+   "minZoom": 0,
+   "priority": 22.0,
+   "major": true
+  },
+  {
+   "id": "ISL",
+   "name": "冰岛",
+   "en": "Iceland",
+   "position": [
+    64.779,
+    -18.674
+   ],
+   "minZoom": 0,
+   "priority": 23.0,
+   "major": true
+  },
+  {
+   "id": "SWE",
+   "name": "瑞典",
+   "en": "Sweden",
+   "position": [
+    65.859,
+    19.017
+   ],
+   "minZoom": 0,
+   "priority": 23.0,
+   "major": true
+  },
+  {
+   "id": "IRN",
+   "name": "伊朗",
+   "en": "Iran",
+   "position": [
+    32.166,
+    54.931
+   ],
+   "minZoom": 0.3,
+   "priority": 27.0,
+   "major": false
+  },
+  {
+   "id": "KOR",
+   "name": "韩国",
+   "en": "South Korea",
+   "position": [
+    36.385,
+    128.13
+   ],
+   "minZoom": 0.3,
+   "priority": 27.0,
+   "major": false
+  },
+  {
+   "id": "PHL",
+   "name": "菲律宾",
+   "en": "Philippines",
+   "position": [
+    11.198,
+    122.465
+   ],
+   "minZoom": 0.3,
+   "priority": 27.0,
+   "major": false
+  },
+  {
+   "id": "PNG",
+   "name": "巴布亚新几内亚",
+   "en": "Papua New Guinea",
+   "position": [
+    -5.695,
+    143.91
+   ],
+   "minZoom": 0.3,
+   "priority": 27.0,
+   "major": false
+  },
+  {
+   "id": "CIV",
+   "name": "科特迪瓦",
+   "en": "Côte d'Ivoire",
+   "position": [
+    7.491,
+    -5.569
+   ],
+   "minZoom": 0.3,
+   "priority": 28.0,
+   "major": false
+  },
+  {
+   "id": "DZA",
+   "name": "阿尔及利亚",
+   "en": "Algeria",
+   "position": [
+    27.397,
+    2.808
+   ],
+   "minZoom": 0.3,
+   "priority": 28.0,
+   "major": false
+  },
+  {
+   "id": "POL",
+   "name": "波兰",
+   "en": "Poland",
+   "position": [
+    51.99,
+    19.49
+   ],
+   "minZoom": 0.3,
+   "priority": 28.0,
+   "major": false
+  },
+  {
+   "id": "SDN",
+   "name": "苏丹",
+   "en": "Sudan",
+   "position": [
+    16.331,
+    29.261
+   ],
+   "minZoom": 0.3,
+   "priority": 28.0,
+   "major": false
+  },
+  {
+   "id": "VEN",
+   "name": "委内瑞拉",
+   "en": "Venezuela",
+   "position": [
+    7.182,
+    -64.599
+   ],
+   "minZoom": 0.3,
+   "priority": 28.0,
+   "major": false
+  },
+  {
+   "id": "ZWE",
+   "name": "津巴布韦",
+   "en": "Zimbabwe",
+   "position": [
+    -18.912,
+    29.925
+   ],
+   "minZoom": 0.3,
+   "priority": 28.0,
+   "major": false
+  },
+  {
+   "id": "PAK",
+   "name": "巴基斯坦",
+   "en": "Pakistan",
+   "position": [
+    29.328,
+    68.546
+   ],
+   "minZoom": 0.5,
+   "priority": 29.0,
+   "major": false
+  },
+  {
+   "id": "CRI",
+   "name": "哥斯达黎加",
+   "en": "Costa Rica",
+   "position": [
+    10.065,
+    -84.078
+   ],
+   "minZoom": 0.3,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "CUB",
+   "name": "古巴",
+   "en": "Cuba",
+   "position": [
+    21.334,
+    -77.976
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "GHA",
+   "name": "加纳",
+   "en": "Ghana",
+   "position": [
+    7.718,
+    -1.037
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "GRC",
+   "name": "希腊",
+   "en": "Greece",
+   "position": [
+    39.493,
+    21.726
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "KAZ",
+   "name": "哈萨克斯坦",
+   "en": "Kazakhstan",
+   "position": [
+    49.054,
+    68.686
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "MAR",
+   "name": "摩洛哥",
+   "en": "Morocco",
+   "position": [
+    31.651,
+    -7.187
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "MDG",
+   "name": "马达加斯加",
+   "en": "Madagascar",
+   "position": [
+    -18.628,
+    46.704
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "SEN",
+   "name": "塞内加尔",
+   "en": "Senegal",
+   "position": [
+    15.138,
+    -14.779
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "THA",
+   "name": "泰国",
+   "en": "Thailand",
+   "position": [
+    15.46,
+    101.073
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "UKR",
+   "name": "乌克兰",
+   "en": "Ukraine",
+   "position": [
+    49.725,
+    32.141
+   ],
+   "minZoom": 0.5,
+   "priority": 30.0,
+   "major": false
+  },
+  {
+   "id": "COL",
+   "name": "哥伦比亚",
+   "en": "Colombia",
+   "position": [
+    3.373,
+    -73.174
+   ],
+   "minZoom": 0.8,
+   "priority": 32.0,
+   "major": false
+  },
+  {
+   "id": "PRT",
+   "name": "葡萄牙",
+   "en": "Portugal",
+   "position": [
+    39.607,
+    -8.272
+   ],
+   "minZoom": 0.8,
+   "priority": 32.0,
+   "major": false
+  },
+  {
+   "id": "AFG",
+   "name": "阿富汗",
+   "en": "Afghanistan",
+   "position": [
+    34.164,
+    66.497
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "AGO",
+   "name": "安哥拉",
+   "en": "Angola",
+   "position": [
+    -12.183,
+    17.984
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "BFA",
+   "name": "布基纳法索",
+   "en": "Burkina Faso",
+   "position": [
+    12.673,
+    -1.364
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "BGD",
+   "name": "孟加拉国",
+   "en": "Bangladesh",
+   "position": [
+    24.215,
+    89.685
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "BOL",
+   "name": "玻利维亚",
+   "en": "Bolivia",
+   "position": [
+    -16.666,
+    -64.593
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "CMR",
+   "name": "喀麦隆",
+   "en": "Cameroon",
+   "position": [
+    4.585,
+    12.473
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "ECU",
+   "name": "厄瓜多尔",
+   "en": "Ecuador",
+   "position": [
+    -1.259,
+    -78.188
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "FIN",
+   "name": "芬兰",
+   "en": "Finland",
+   "position": [
+    63.252,
+    27.276
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "GIN",
+   "name": "几内亚",
+   "en": "Guinea",
+   "position": [
+    10.619,
+    -10.016
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "GTM",
+   "name": "危地马拉",
+   "en": "Guatemala",
+   "position": [
+    14.982,
+    -90.497
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "IRL",
+   "name": "爱尔兰",
+   "en": "Ireland",
+   "position": [
+    53.079,
+    -7.799
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "IRQ",
+   "name": "伊拉克",
+   "en": "Iraq",
+   "position": [
+    33.094,
+    43.262
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "KHM",
+   "name": "柬埔寨",
+   "en": "Cambodia",
+   "position": [
+    12.648,
+    104.505
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "LBY",
+   "name": "利比亚",
+   "en": "Libya",
+   "position": [
+    26.639,
+    18.011
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "LKA",
+   "name": "斯里兰卡",
+   "en": "Sri Lanka",
+   "position": [
+    7.581,
+    80.705
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "MLI",
+   "name": "马里",
+   "en": "Mali",
+   "position": [
+    18.693,
+    -2.038
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "MMR",
+   "name": "缅甸",
+   "en": "Myanmar",
+   "position": [
+    21.574,
+    95.804
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "MNG",
+   "name": "蒙古",
+   "en": "Mongolia",
+   "position": [
+    45.997,
+    104.15
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "MOZ",
+   "name": "莫桑比克",
+   "en": "Mozambique",
+   "position": [
+    -13.943,
+    37.838
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "MRT",
+   "name": "毛里塔尼亚",
+   "en": "Mauritania",
+   "position": [
+    19.587,
+    -9.74
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "MYS",
+   "name": "马来西亚",
+   "en": "Malaysia",
+   "position": [
+    2.529,
+    113.837
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "NAM",
+   "name": "纳米比亚",
+   "en": "Namibia",
+   "position": [
+    -20.575,
+    17.108
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "NER",
+   "name": "尼日尔",
+   "en": "Niger",
+   "position": [
+    17.446,
+    9.504
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "NOR",
+   "name": "挪威",
+   "en": "Norway",
+   "position": [
+    61.357,
+    9.68
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "NPL",
+   "name": "尼泊尔",
+   "en": "Nepal",
+   "position": [
+    28.298,
+    83.64
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "PRK",
+   "name": "朝鲜",
+   "en": "North Korea",
+   "position": [
+    39.885,
+    126.445
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "ROU",
+   "name": "罗马尼亚",
+   "en": "Romania",
+   "position": [
+    45.733,
+    24.973
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "RWA",
+   "name": "卢旺达",
+   "en": "Rwanda",
+   "position": [
+    -1.897,
+    30.104
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "SDS",
+   "name": "南苏丹",
+   "en": "S. Sudan",
+   "position": [
+    7.23,
+    30.39
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "SLB",
+   "name": "所罗门群岛",
+   "en": "Solomon Is.",
+   "position": [
+    -8.03,
+    159.17
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "SYR",
+   "name": "叙利亚",
+   "en": "Syria",
+   "position": [
+    35.007,
+    38.278
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "TCD",
+   "name": "乍得",
+   "en": "Chad",
+   "position": [
+    15.143,
+    18.645
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "TUN",
+   "name": "突尼斯",
+   "en": "Tunisia",
+   "position": [
+    33.687,
+    9.008
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "TZA",
+   "name": "坦桑尼亚",
+   "en": "Tanzania",
+   "position": [
+    -6.052,
+    34.959
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "UGA",
+   "name": "乌干达",
+   "en": "Uganda",
+   "position": [
+    1.973,
+    32.949
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "UZB",
+   "name": "乌兹别克斯坦",
+   "en": "Uzbekistan",
+   "position": [
+    41.694,
+    64.005
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "YEM",
+   "name": "也门",
+   "en": "Yemen",
+   "position": [
+    15.328,
+    45.874
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "ZMB",
+   "name": "赞比亚",
+   "en": "Zambia",
+   "position": [
+    -14.661,
+    26.395
+   ],
+   "minZoom": 0.8,
+   "priority": 33.0,
+   "major": false
+  },
+  {
+   "id": "AUT",
+   "name": "奥地利",
+   "en": "Austria",
+   "position": [
+    47.519,
+    14.131
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "BLR",
+   "name": "白俄罗斯",
+   "en": "Belarus",
+   "position": [
+    53.822,
+    28.418
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "DNK",
+   "name": "丹麦",
+   "en": "Denmark",
+   "position": [
+    55.967,
+    9.018
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "GAB",
+   "name": "加蓬",
+   "en": "Gabon",
+   "position": [
+    -0.438,
+    11.836
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "ISR",
+   "name": "以色列",
+   "en": "Israel",
+   "position": [
+    30.911,
+    34.848
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "KGZ",
+   "name": "吉尔吉斯斯坦",
+   "en": "Kyrgyzstan",
+   "position": [
+    41.669,
+    74.533
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "PRY",
+   "name": "巴拉圭",
+   "en": "Paraguay",
+   "position": [
+    -21.675,
+    -60.146
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "TKM",
+   "name": "土库曼斯坦",
+   "en": "Turkmenistan",
+   "position": [
+    39.855,
+    58.677
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "URY",
+   "name": "乌拉圭",
+   "en": "Uruguay",
+   "position": [
+    -32.961,
+    -55.967
+   ],
+   "minZoom": 0.8,
+   "priority": 34.0,
+   "major": false
+  },
+  {
+   "id": "PRI",
+   "name": "波多黎各",
+   "en": "Puerto Rico",
+   "position": [
+    18.235,
+    -66.481
+   ],
+   "minZoom": 0.8,
+   "priority": 35.0,
+   "major": false
+  },
+  {
+   "id": "EST",
+   "name": "爱沙尼亚",
+   "en": "Estonia",
+   "position": [
+    58.725,
+    25.867
+   ],
+   "minZoom": 0.8,
+   "priority": 36.0,
+   "major": false
+  },
+  {
+   "id": "FJI",
+   "name": "斐济",
+   "en": "Fiji",
+   "position": [
+    -17.826,
+    177.975
+   ],
+   "minZoom": 0.8,
+   "priority": 36.0,
+   "major": false
+  },
+  {
+   "id": "BEL",
+   "name": "比利时",
+   "en": "Belgium",
+   "position": [
+    50.785,
+    4.8
+   ],
+   "minZoom": 1.8,
+   "priority": 42.0,
+   "major": false
+  },
+  {
+   "id": "ARE",
+   "name": "阿联酋",
+   "en": "United Arab Emirates",
+   "position": [
+    23.466,
+    54.547
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "ATA",
+   "name": "南极洲",
+   "en": "Antarctica",
+   "position": [
+    -79.843,
+    35.885
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "BGR",
+   "name": "保加利亚",
+   "en": "Bulgaria",
+   "position": [
+    42.509,
+    25.157
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "BHS",
+   "name": "巴哈马",
+   "en": "Bahamas",
+   "position": [
+    26.402,
+    -77.147
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "BWA",
+   "name": "博茨瓦纳",
+   "en": "Botswana",
+   "position": [
+    -22.103,
+    24.179
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "CAF",
+   "name": "中非",
+   "en": "Central African Rep.",
+   "position": [
+    6.99,
+    20.907
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "CHE",
+   "name": "瑞士",
+   "en": "Switzerland",
+   "position": [
+    46.719,
+    7.464
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "COG",
+   "name": "刚果（布）",
+   "en": "Congo",
+   "position": [
+    0.142,
+    15.9
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "ERI",
+   "name": "厄立特里亚",
+   "en": "Eritrea",
+   "position": [
+    15.787,
+    38.286
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "GNQ",
+   "name": "赤道几内亚",
+   "en": "Eq. Guinea",
+   "position": [
+    2.333,
+    8.99
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "GUY",
+   "name": "圭亚那",
+   "en": "Guyana",
+   "position": [
+    5.124,
+    -58.943
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "JAM",
+   "name": "牙买加",
+   "en": "Jamaica",
+   "position": [
+    18.137,
+    -77.319
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "JOR",
+   "name": "约旦",
+   "en": "Jordan",
+   "position": [
+    30.805,
+    36.376
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "LAO",
+   "name": "老挝",
+   "en": "Laos",
+   "position": [
+    19.432,
+    102.534
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "LBR",
+   "name": "利比里亚",
+   "en": "Liberia",
+   "position": [
+    6.447,
+    -9.46
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "OMN",
+   "name": "阿曼",
+   "en": "Oman",
+   "position": [
+    22.12,
+    57.337
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "PAN",
+   "name": "巴拿马",
+   "en": "Panama",
+   "position": [
+    8.722,
+    -80.352
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "SLE",
+   "name": "塞拉利昂",
+   "en": "Sierra Leone",
+   "position": [
+    8.617,
+    -11.764
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "SUR",
+   "name": "苏里南",
+   "en": "Suriname",
+   "position": [
+    4.144,
+    -55.911
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "SWZ",
+   "name": "埃斯瓦蒂尼",
+   "en": "eSwatini",
+   "position": [
+    -26.534,
+    31.467
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "TJK",
+   "name": "塔吉克斯坦",
+   "en": "Tajikistan",
+   "position": [
+    38.2,
+    72.587
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "VUT",
+   "name": "瓦努阿图",
+   "en": "Vanuatu",
+   "position": [
+    -15.372,
+    166.909
+   ],
+   "minZoom": 1.8,
+   "priority": 44.0,
+   "major": false
+  },
+  {
+   "id": "AZE",
+   "name": "阿塞拜疆",
+   "en": "Azerbaijan",
+   "position": [
+    40.402,
+    47.211
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "BEN",
+   "name": "贝宁",
+   "en": "Benin",
+   "position": [
+    10.325,
+    2.352
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "BTN",
+   "name": "不丹",
+   "en": "Bhutan",
+   "position": [
+    27.537,
+    90.04
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "CZE",
+   "name": "捷克",
+   "en": "Czechia",
+   "position": [
+    49.882,
+    15.378
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "DJI",
+   "name": "吉布提",
+   "en": "Djibouti",
+   "position": [
+    11.976,
+    42.499
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "GEO",
+   "name": "格鲁吉亚",
+   "en": "Georgia",
+   "position": [
+    41.87,
+    43.736
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "HTI",
+   "name": "海地",
+   "en": "Haiti",
+   "position": [
+    19.264,
+    -72.224
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "HUN",
+   "name": "匈牙利",
+   "en": "Hungary",
+   "position": [
+    47.087,
+    19.448
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "LBN",
+   "name": "黎巴嫩",
+   "en": "Lebanon",
+   "position": [
+    34.133,
+    35.993
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "LTU",
+   "name": "立陶宛",
+   "en": "Lithuania",
+   "position": [
+    55.104,
+    24.09
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "LVA",
+   "name": "拉脱维亚",
+   "en": "Latvia",
+   "position": [
+    57.067,
+    25.459
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "NIC",
+   "name": "尼加拉瓜",
+   "en": "Nicaragua",
+   "position": [
+    12.671,
+    -85.069
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "NLD",
+   "name": "荷兰",
+   "en": "Netherlands",
+   "position": [
+    52.422,
+    5.611
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "QAT",
+   "name": "卡塔尔",
+   "en": "Qatar",
+   "position": [
+    25.237,
+    51.144
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "SRB",
+   "name": "塞尔维亚",
+   "en": "Serbia",
+   "position": [
+    44.19,
+    20.788
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "TLS",
+   "name": "东帝汶",
+   "en": "Timor-Leste",
+   "position": [
+    -8.804,
+    125.855
+   ],
+   "minZoom": 1.8,
+   "priority": 45.0,
+   "major": false
+  },
+  {
+   "id": "ATF",
+   "name": "法属南部领地",
+   "en": "Fr. S. Antarctic Lands",
+   "position": [
+    -49.304,
+    69.122
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "BDI",
+   "name": "布隆迪",
+   "en": "Burundi",
+   "position": [
+    -3.333,
+    29.917
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "BRN",
+   "name": "文莱",
+   "en": "Brunei",
+   "position": [
+    4.448,
+    114.552
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "HRV",
+   "name": "克罗地亚",
+   "en": "Croatia",
+   "position": [
+    45.806,
+    16.372
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "LSO",
+   "name": "莱索托",
+   "en": "Lesotho",
+   "position": [
+    -29.48,
+    28.247
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "MWI",
+   "name": "马拉维",
+   "en": "Malawi",
+   "position": [
+    -13.387,
+    33.608
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "SOM",
+   "name": "索马里",
+   "en": "Somalia",
+   "position": [
+    3.569,
+    45.192
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "SVK",
+   "name": "斯洛伐克",
+   "en": "Slovakia",
+   "position": [
+    48.734,
+    19.05
+   ],
+   "minZoom": 1.8,
+   "priority": 46.0,
+   "major": false
+  },
+  {
+   "id": "TWN",
+   "name": "台湾",
+   "en": "Taiwan",
+   "position": [
+    23.652,
+    120.868
+   ],
+   "minZoom": 2.3,
+   "priority": 48.0,
+   "major": false,
+   "disputed": "两岸政治地位存在分歧；此处仅作地理地区标注"
+  },
+  {
+   "id": "NCL",
+   "name": "新喀里多尼亚",
+   "en": "New Caledonia",
+   "position": [
+    -21.065,
+    165.084
+   ],
+   "minZoom": 2.4,
+   "priority": 49.0,
+   "major": false
+  },
+  {
+   "id": "BIH",
+   "name": "波黑",
+   "en": "Bosnia and Herz.",
+   "position": [
+    44.091,
+    18.068
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false
+  },
+  {
+   "id": "CYP",
+   "name": "塞浦路斯",
+   "en": "Cyprus",
+   "position": [
+    34.913,
+    33.084
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false
+  },
+  {
+   "id": "DOM",
+   "name": "多米尼加",
+   "en": "Dominican Rep.",
+   "position": [
+    19.104,
+    -70.654
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false
+  },
+  {
+   "id": "FLK",
+   "name": "福克兰群岛（马尔维纳斯）",
+   "en": "Falkland Is.",
+   "position": [
+    -51.609,
+    -58.739
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false,
+   "disputed": "英阿主权争议；中性并列名称"
+  },
+  {
+   "id": "HND",
+   "name": "洪都拉斯",
+   "en": "Honduras",
+   "position": [
+    14.795,
+    -86.888
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false
+  },
+  {
+   "id": "PSX",
+   "name": "巴勒斯坦",
+   "en": "Palestine",
+   "position": [
+    32.047,
+    35.291
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false,
+   "disputed": "地位与边界存在争议；地理标注"
+  },
+  {
+   "id": "SOL",
+   "name": "索马里兰",
+   "en": "Somaliland",
+   "position": [
+    9.444,
+    46.732
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false,
+   "disputed": "自我宣布，未获广泛承认；地理标注"
+  },
+  {
+   "id": "TTO",
+   "name": "特立尼达和多巴哥",
+   "en": "Trinidad and Tobago",
+   "position": [
+    10.999,
+    -60.918
+   ],
+   "minZoom": 2.3,
+   "priority": 50.0,
+   "major": false
+  },
+  {
+   "id": "ALB",
+   "name": "阿尔巴尼亚",
+   "en": "Albania",
+   "position": [
+    40.655,
+    20.114
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "ARM",
+   "name": "亚美尼亚",
+   "en": "Armenia",
+   "position": [
+    40.459,
+    44.801
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "BLZ",
+   "name": "伯利兹",
+   "en": "Belize",
+   "position": [
+    17.202,
+    -88.713
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "GMB",
+   "name": "冈比亚",
+   "en": "Gambia",
+   "position": [
+    13.642,
+    -14.998
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "GNB",
+   "name": "几内亚比绍",
+   "en": "Guinea-Bissau",
+   "position": [
+    12.164,
+    -14.524
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "KOS",
+   "name": "科索沃",
+   "en": "Kosovo",
+   "position": [
+    42.594,
+    20.861
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false,
+   "disputed": "承认情况不一；地理标注"
+  },
+  {
+   "id": "KWT",
+   "name": "科威特",
+   "en": "Kuwait",
+   "position": [
+    29.414,
+    47.314
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "MDA",
+   "name": "摩尔多瓦",
+   "en": "Moldova",
+   "position": [
+    47.435,
+    28.488
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "MKD",
+   "name": "北马其顿",
+   "en": "North Macedonia",
+   "position": [
+    41.558,
+    21.556
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "MNE",
+   "name": "黑山",
+   "en": "Montenegro",
+   "position": [
+    42.803,
+    19.144
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "SLV",
+   "name": "萨尔瓦多",
+   "en": "El Salvador",
+   "position": [
+    13.685,
+    -88.89
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "SVN",
+   "name": "斯洛文尼亚",
+   "en": "Slovenia",
+   "position": [
+    46.061,
+    14.915
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "TGO",
+   "name": "多哥",
+   "en": "Togo",
+   "position": [
+    8.807,
+    1.058
+   ],
+   "minZoom": 2.8,
+   "priority": 56.0,
+   "major": false
+  },
+  {
+   "id": "LUX",
+   "name": "卢森堡",
+   "en": "Luxembourg",
+   "position": [
+    49.734,
+    6.078
+   ],
+   "minZoom": 3.5,
+   "priority": 63.0,
+   "major": false
+  },
+  {
+   "id": "CYN",
+   "name": "北塞浦路斯",
+   "en": "N. Cyprus",
+   "position": [
+    35.216,
+    33.692
+   ],
+   "minZoom": 3.8,
+   "priority": 66.0,
+   "major": false,
+   "disputed": "仅土耳其承认；地理标注不代表承认"
+  },
+  {
+   "id": "SAH",
+   "name": "西撒哈拉",
+   "en": "W. Sahara",
+   "position": [
+    23.968,
+    -12.63
+   ],
+   "minZoom": 3.8,
+   "priority": 67.0,
+   "major": false,
+   "disputed": "领土地位未决；地理标注"
+  }
+ ],
+ "geo": [
+  {
+   "id": "ocean-0",
+   "name": "太平洋",
+   "position": [
+    5,
+    -150
+   ],
+   "minZoom": 0,
+   "kind": "ocean"
+  },
+  {
+   "id": "ocean-1",
+   "name": "太平洋",
+   "position": [
+    20,
+    160
+   ],
+   "minZoom": 0.5,
+   "kind": "ocean"
+  },
+  {
+   "id": "ocean-2",
+   "name": "大西洋",
+   "position": [
+    25,
+    -40
+   ],
+   "minZoom": 0,
+   "kind": "ocean"
+  },
+  {
+   "id": "ocean-3",
+   "name": "南大西洋",
+   "position": [
+    -25,
+    -15
+   ],
+   "minZoom": 1,
+   "kind": "ocean"
+  },
+  {
+   "id": "ocean-4",
+   "name": "印度洋",
+   "position": [
+    -15,
+    78
+   ],
+   "minZoom": 0,
+   "kind": "ocean"
+  },
+  {
+   "id": "ocean-5",
+   "name": "北冰洋",
+   "position": [
+    80,
+    0
+   ],
+   "minZoom": 1.5,
+   "kind": "ocean"
+  },
+  {
+   "id": "ocean-6",
+   "name": "南大洋",
+   "position": [
+    -62,
+    60
+   ],
+   "minZoom": 1.5,
+   "kind": "ocean"
+  },
+  {
+   "id": "sea-7",
+   "name": "地中海",
+   "position": [
+    35.2,
+    18
+   ],
+   "minZoom": 2.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-8",
+   "name": "黑海",
+   "position": [
+    43.3,
+    34.5
+   ],
+   "minZoom": 3,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-9",
+   "name": "红海",
+   "position": [
+    20,
+    38.6
+   ],
+   "minZoom": 3.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-10",
+   "name": "波斯湾",
+   "position": [
+    27.3,
+    51.2
+   ],
+   "minZoom": 3.75,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-11",
+   "name": "阿拉伯海",
+   "position": [
+    15,
+    63
+   ],
+   "minZoom": 2.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-12",
+   "name": "孟加拉湾",
+   "position": [
+    14,
+    88
+   ],
+   "minZoom": 2.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-13",
+   "name": "南海",
+   "position": [
+    13,
+    114
+   ],
+   "minZoom": 2.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-14",
+   "name": "东海",
+   "position": [
+    29,
+    125.5
+   ],
+   "minZoom": 3.25,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-15",
+   "name": "黄海",
+   "position": [
+    35.5,
+    123.5
+   ],
+   "minZoom": 3.75,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-16",
+   "name": "日本海",
+   "position": [
+    40.5,
+    134.5
+   ],
+   "minZoom": 3,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-17",
+   "name": "菲律宾海",
+   "position": [
+    20,
+    133
+   ],
+   "minZoom": 2.75,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-18",
+   "name": "加勒比海",
+   "position": [
+    15,
+    -75
+   ],
+   "minZoom": 2.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-19",
+   "name": "墨西哥湾",
+   "position": [
+    25,
+    -90
+   ],
+   "minZoom": 2.75,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-20",
+   "name": "波罗的海",
+   "position": [
+    57.5,
+    19.5
+   ],
+   "minZoom": 3.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-21",
+   "name": "北海",
+   "position": [
+    56,
+    3
+   ],
+   "minZoom": 3.5,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-22",
+   "name": "里海",
+   "position": [
+    42,
+    50.7
+   ],
+   "minZoom": 3.25,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-23",
+   "name": "亚丁湾",
+   "position": [
+    12.4,
+    48
+   ],
+   "minZoom": 4,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-24",
+   "name": "阿曼湾",
+   "position": [
+    24.6,
+    58.6
+   ],
+   "minZoom": 4.25,
+   "kind": "sea"
+  },
+  {
+   "id": "sea-25",
+   "name": "爱琴海",
+   "position": [
+    38.5,
+    25
+   ],
+   "minZoom": 4.5,
+   "kind": "sea"
+  },
+  {
+   "id": "strait-26",
+   "name": "霍尔木兹海峡",
+   "position": [
+    26.3,
+    56.6
+   ],
+   "minZoom": 3.5,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-27",
+   "name": "曼德海峡",
+   "position": [
+    12.5,
+    43.3
+   ],
+   "minZoom": 3.5,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-28",
+   "name": "马六甲海峡",
+   "position": [
+    3.6,
+    99.5
+   ],
+   "minZoom": 3.5,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-29",
+   "name": "台湾海峡",
+   "position": [
+    24.3,
+    119.5
+   ],
+   "minZoom": 3.75,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-30",
+   "name": "苏伊士运河",
+   "position": [
+    30.2,
+    32.55
+   ],
+   "minZoom": 3.75,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-31",
+   "name": "巴拿马运河",
+   "position": [
+    9.2,
+    -79.8
+   ],
+   "minZoom": 3.75,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-32",
+   "name": "土耳其海峡",
+   "position": [
+    40.6,
+    27.4
+   ],
+   "minZoom": 4,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-33",
+   "name": "直布罗陀海峡",
+   "position": [
+    35.95,
+    -5.6
+   ],
+   "minZoom": 4,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-34",
+   "name": "朝鲜海峡",
+   "position": [
+    34.4,
+    129.2
+   ],
+   "minZoom": 4.5,
+   "kind": "strait"
+  },
+  {
+   "id": "strait-35",
+   "name": "好望角",
+   "position": [
+    -34.6,
+    18.4
+   ],
+   "minZoom": 3.5,
+   "kind": "strait"
+  },
+  {
+   "id": "region-36",
+   "name": "中东",
+   "position": [
+    30,
+    44
+   ],
+   "minZoom": 0,
+   "kind": "region"
+  },
+  {
+   "id": "region-37",
+   "name": "东欧",
+   "position": [
+    52,
+    32
+   ],
+   "minZoom": 0,
+   "kind": "region"
+  },
+  {
+   "id": "region-38",
+   "name": "东亚",
+   "position": [
+    38,
+    112
+   ],
+   "minZoom": 0,
+   "kind": "region"
+  },
+  {
+   "id": "region-39",
+   "name": "东南亚",
+   "position": [
+    8,
+    105
+   ],
+   "minZoom": 0.5,
+   "kind": "region"
+  },
+  {
+   "id": "region-40",
+   "name": "拉丁美洲",
+   "position": [
+    -12,
+    -60
+   ],
+   "minZoom": 0,
+   "kind": "region"
+  },
+  {
+   "id": "region-41",
+   "name": "萨赫勒",
+   "position": [
+    15,
+    4
+   ],
+   "minZoom": 1,
+   "kind": "region"
+  },
+  {
+   "id": "region-42",
+   "name": "北美洲",
+   "position": [
+    48,
+    -102
+   ],
+   "minZoom": 0,
+   "kind": "region"
+  },
+  {
+   "id": "region-43",
+   "name": "非洲",
+   "position": [
+    3,
+    22
+   ],
+   "minZoom": 0,
+   "kind": "region"
+  },
+  {
+   "id": "region-44",
+   "name": "西欧",
+   "position": [
+    47,
+    4
+   ],
+   "minZoom": 0.5,
+   "kind": "region"
+  },
+  {
+   "id": "region-45",
+   "name": "南亚",
+   "position": [
+    22,
+    78
+   ],
+   "minZoom": 0.5,
+   "kind": "region"
+  },
+  {
+   "id": "region-46",
+   "name": "中亚",
+   "position": [
+    43,
+    64
+   ],
+   "minZoom": 0.75,
+   "kind": "region"
+  },
+  {
+   "id": "region-47",
+   "name": "大洋洲",
+   "position": [
+    -26,
+    134
+   ],
+   "minZoom": 0,
+   "kind": "region"
+  }
+ ]
+}
