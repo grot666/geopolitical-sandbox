@@ -79,5 +79,59 @@
     "evidence": "同盟示意关系，不代表前线、军事基地、部署位置或条约自动参战承诺。",
     "retrievedAt": "2026-11-18",
     "verification": "本轮打开正文"
+  },
+  {
+    "id": "eia-chokepoints",
+    "title": "EIA · 全球石油咽喉（战前基线）",
+    "url": "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints/",
+    "asOf": "2025年上半年数据",
+    "evidence": "2025上半年霍尔木兹油流约2090万桶/日，约占全球石油液体消费20%；LNG约114亿立方英尺/日，超过全球LNG贸易20%；沙特与阿联酋旁路管线约470万桶/日。为战前基线，非当前流量。",
+    "verification": "本轮打开正文",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "sia-bcg",
+    "title": "SIA / BCG · 全球半导体供应链（2021）",
+    "url": "https://www.semiconductors.org/strengthening-the-global-semiconductor-supply-chain-in-an-uncertain-era/",
+    "asOf": "2021-04-01（2019年产能）",
+    "evidence": "10纳米以下先进制程产能：台湾约92%、韩国约8%。历史基线；此后海外新厂陆续投产，本工具未取得同口径更新数据。",
+    "verification": "官方页面检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "iea-ree",
+    "title": "IEA · 稀土元素报告（2025）",
+    "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+    "asOf": "2024年数据",
+    "evidence": "2024年中国约占全球磁性稀土开采60%、精炼产量91%、烧结永磁体94%。",
+    "verification": "官方页面检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "un-sc",
+    "title": "联合国安理会 · 第10267次会议（乌克兰）",
+    "url": "https://press.un.org/en/blog/sc16503",
+    "asOf": "2026-11",
+    "evidence": "安理会听取乌克兰局势通报；美方提及奥列什基人道停火及阿布扎比三边会谈；乌方与多国要求立即无条件停火。",
+    "verification": "检索摘要",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "reuters-apec",
+    "title": "Reuters · 台湾与APEC三方会晤",
+    "url": "https://www.devdiscourse.com/article/international/4008721-taiwan-in-close-contact-with-us-ahead-of-us-china-russia-talks-at-apec",
+    "asOf": "2026-11-18",
+    "evidence": "台湾称与美方保持密切联系；报道称特朗普5月曾表示暂缓新的对台军售作为“筹码”。",
+    "verification": "检索摘要（Reuters转载）",
+    "retrievedAt": "2026-11-18"
+  },
+  {
+    "id": "osm-policy",
+    "title": "OSMF · 瓦片使用政策",
+    "url": "https://operations.osmfoundation.org/policies/tiles/",
+    "asOf": "2026-11-18 检索",
+    "evidence": "允许人类正常交互浏览、须显示署名与正常Referer；禁止批量抓取、预取与离线下载；无服务保证。",
+    "verification": "本轮打开正文",
+    "retrievedAt": "2026-11-18"
   }
 ]

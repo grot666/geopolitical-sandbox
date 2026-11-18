@@ -101,7 +101,7 @@
   {
    "id": "GBR",
    "name": "英国",
-   "en": "United Kingdom",
+   "en": "UK",
    "position": [
     54.403,
     -2.116
@@ -197,7 +197,7 @@
   {
    "id": "USA",
    "name": "美国",
-   "en": "United States of America",
+   "en": "USA",
    "position": [
     39.538,
     -97.483
@@ -245,7 +245,7 @@
   {
    "id": "COD",
    "name": "刚果（金）",
-   "en": "Dem. Rep. Congo",
+   "en": "DR Congo",
    "position": [
     -1.858,
     23.459
@@ -1265,7 +1265,7 @@
   {
    "id": "ARE",
    "name": "阿联酋",
-   "en": "United Arab Emirates",
+   "en": "UAE",
    "position": [
     23.466,
     54.547
@@ -1325,7 +1325,7 @@
   {
    "id": "CAF",
    "name": "中非",
-   "en": "Central African Rep.",
+   "en": "C. African Rep.",
    "position": [
     6.99,
     20.907
@@ -1842,7 +1842,7 @@
   {
    "id": "BIH",
    "name": "波黑",
-   "en": "Bosnia and Herz.",
+   "en": "Bosnia & Herz.",
    "position": [
     44.091,
     18.068
@@ -1878,7 +1878,7 @@
   {
    "id": "FLK",
    "name": "福克兰群岛（马尔维纳斯）",
-   "en": "Falkland Is.",
+   "en": "Falklands / Malvinas",
    "position": [
     -51.609,
     -58.739
@@ -1929,7 +1929,7 @@
   {
    "id": "TTO",
    "name": "特立尼达和多巴哥",
-   "en": "Trinidad and Tobago",
+   "en": "Trinidad & Tobago",
    "position": [
     10.999,
     -60.918

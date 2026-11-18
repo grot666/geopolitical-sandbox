@@ -9,12 +9,13 @@ SHORT = {'CHN':'中国','PRK':'朝鲜','KOR':'韩国','TWN':'台湾','ARE':'阿�
  'GBR':'英国','RUS':'俄罗斯','CYN':'北塞浦路斯','FLK':'福克兰群岛（马尔维纳斯）','TTO':'特立尼达和多巴哥','SDS':'南苏丹','GNQ':'赤道几内亚'}
 DISPUTED = {'TWN':'两岸政治地位存在分歧；此处仅作地理地区标注','CYN':'仅土耳其承认；地理标注不代表承认','SOL':'自我宣布，未获广泛承认；地理标注',
  'SAH':'领土地位未决；地理标注','KOS':'承认情况不一；地理标注','PSX':'地位与边界存在争议；地理标注','FLK':'英阿主权争议；中性并列名称'}
+EN_SHORT={'USA':'USA','ARE':'UAE','COD':'DR Congo','COG':'Congo','CAF':'C. African Rep.','ATF':'Fr. S. Antarctic Lands','BIH':'Bosnia & Herz.','PNG':'Papua New Guinea','DOM':'Dominican Rep.','TTO':'Trinidad & Tobago','GBR':'UK','FLK':'Falklands / Malvinas','CYN':'N. Cyprus','PSX':'Palestine'}
 out=[]
 for f in geo['features']:
     p=f['properties']; code=p['ADM0_A3']
     name = SHORT.get(code) or p.get('NAME_ZH') or p['NAME']
     m=float(p['MIN_LABEL'])
-    out.append({'id':code,'name':name,'en':p['NAME'],'position':[round(p['LABEL_Y'],3),round(p['LABEL_X'],3)],
+    out.append({'id':code,'name':name,'en':EN_SHORT.get(code,p['NAME']),'position':[round(p['LABEL_Y'],3),round(p['LABEL_X'],3)],
       'minZoom':round(max(0,m-2.2),2),'priority':round(m*10+p['LABELRANK'],1),'major':m<=2,
       **({'disputed':DISPUTED[code]} if code in DISPUTED else {})})
 out.sort(key=lambda x:(x['priority'],x['id']))

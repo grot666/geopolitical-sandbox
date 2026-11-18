@@ -1,0 +1,68 @@
+[
+  {
+    "id": "wm-ee",
+    "title": "东欧大平原",
+    "sub": "缺乏高山屏障的陆上走廊",
+    "position": [
+      55.5,
+      37.5
+    ],
+    "minZoom": 2.5,
+    "maxZoom": 5.5
+  },
+  {
+    "id": "wm-me",
+    "title": "中东双海峡",
+    "sub": "霍尔木兹 + 曼德 · 能源与航运十字路口",
+    "position": [
+      22.5,
+      49
+    ],
+    "minZoom": 2.5,
+    "maxZoom": 5.5
+  },
+  {
+    "id": "wm-fic",
+    "title": "第一岛链",
+    "sub": "东海—台海—南海 · 西太平洋出海口",
+    "position": [
+      21,
+      128.5
+    ],
+    "minZoom": 2.5,
+    "maxZoom": 5.5
+  },
+  {
+    "id": "wm-nea",
+    "title": "东北亚核威慑前沿",
+    "sub": "朝鲜半岛 · 同盟与核威慑交汇",
+    "position": [
+      43,
+      133
+    ],
+    "minZoom": 3,
+    "maxZoom": 6
+  },
+  {
+    "id": "wm-car",
+    "title": "加勒比与巴拿马",
+    "sub": "两洋航运转换枢纽",
+    "position": [
+      17.5,
+      -74
+    ],
+    "minZoom": 2.5,
+    "maxZoom": 5.5
+  },
+  {
+    "id": "wm-sa",
+    "title": "南美资源腹地",
+    "sub": "锂、铜与粮食出口带",
+    "position": [
+      -22,
+      -58
+    ],
+    "minZoom": 2.5,
+    "maxZoom": 5.5
+  }
+]

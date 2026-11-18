@@ -22,6 +22,20 @@ npm run preview
 
 ## 功能
 
+### V3「一眼洞察」升级（2026-11-18）
+
+- **一眼看穿当前世界**：页首摘要由 `events.json` 与当前权重自动生成（现行危机列表、结构性风险最高的未爆点、综合第一），每个名称可点击打开档案；切换权重即时变化。
+- **第一名主卡**：一句话本质、地理宿命、核心筹码；其余 Top 2–5 以紧凑卡片呈现。
+- **区域快速切换**：全球总览 / 中东双海峡 / 东欧大平原 / 第一岛链·台海 / 美洲与加勒比；按区域边界自适应缩放（手机上同样完整显示区域）。
+- **大感应半径**：每个焦点下方有 26px 透明感应圈，悬停即在地图右上角显示速览卡，点击打开档案。
+- **双语国家标注**（中文 + English，可关闭）与**战略大区水印**（放大后显示、让位于国家名）。
+- **能源 / 芯片 / 矿产走廊**：`corridors.json` 5 条示意走廊，每条均附来源与日期（见下文核实情况），标签参与标注避让。
+- **派系投射驾驶舱**：美欧各 4 类政治力量（`factions.json`）。悬停/键盘聚焦预览、点击固定；在地图上从起点画出到相关热点的投射弧线与“倾向”标签（屏幕空间避让，不互相遮挡），其余节点变暗；一键重置；可折叠（手机默认折叠）。档案第 4 节列出指向该热点的派系倾向并可一键投射。
+- **档案第 5 节「多方底层生存焦虑对撞」**：对称呈现各方焦虑与目标；“目标”尽量引用公开表态，其余标为分析重构。档案顶部显示当前排名。
+- **权重弹窗预设**：紧迫度 45/25/20/10、结构 10/40/25/25、等权 25/25/25/25。
+- **可选底图**：默认始终是本地矢量（离线、中文标注、零第三方请求）；可手动切换到 OpenStreetMap 标准瓦片（显示 © OpenStreetMap contributors 署名）。连续加载失败自动切回本地并提示；选择不持久化，每次打开都恢复本地。
+- **AI 情报扩展（本地注入）**：复制提示词 → 在你自己的 AI 工具中生成 → 粘贴 JSON → 严格校验后仅在本浏览器显示。详见“注入安全”。
+
 - 自动 Top 5、紧迫度 / 结构影响双权重、四维自定义权重实验。
 - 地图点位尺寸与置顶顺序随得分变化；现行危机红色脉冲、潜伏点琥珀静态光环、资源通道青绿色。
 - 全球与区域 FlyTo、本地战略地形示意与海峡、战略资源、精选同盟网络、贸易路径开关。
@@ -34,12 +48,21 @@ npm run preview
 ## 架构与数据维护
 
 ```
-src/main.jsx           界面、地图交互和展示组件
+src/main.jsx           页面布局与状态
+src/components/MapView.jsx  地图、图层、标注层、感应圈、派系投射、可选 OSM 底图
+src/components/Cockpit.jsx  派系投射驾驶舱
+src/components/Drawer.jsx   深度档案（含第 5 节多方视角）
+src/components/Injector.jsx AI 情报扩展弹窗
+src/injector.js        注入 JSON 严格校验（纯函数，已单测）
+src/summary.js         “一眼看穿”摘要生成（纯函数，已单测）
+src/data/corridors.json 供应链走廊（带来源）
+src/data/factions.json 美欧派系与投射（分析判断）
+src/data/watermarks.json 战略大区水印
 src/engine.js          纯函数评分 / 排序 / 尺寸
 src/style.css          Tailwind 入口与响应式视觉系统
 src/data/engine.json   维度、权重、锚点、状态与免责声明
 src/data/events.json   9 个主焦点（独立评分与分析）
-src/data/regions.json  区域视角
+src/data/regions.json  5 个区域快速视角（含自适应边界）
 src/data/resources.json 战略资源点（继承关联地区评分，非单设施风险）
 src/data/chokepoints.json 海峡/运河点（继承关联地区评分）
 src/data/routes.json   航线示意
@@ -51,7 +74,8 @@ src/data/politics.json 美欧机构与派系分析
 src/data/sources.json  日期、URL、核验方式、证据摘要
 public/world.geojson  本地公共领域底图轮廓
 scripts/engine.test.js 评分与数据验证测试
-tests/app.spec.js     桌面 / 移动 / 瓦片失败交互测试
+tests/app.spec.js     桌面 / 移动 / 感应圈 / 派系投射 / 注入器 / 底图交互测试
+tests/labels.spec.js  四个视角的标注不重叠测试（桌面 + 手机）
 ```
 
 数据与组件分离；新增节点只需修改 JSON。每次修改数据，更新 `asOf`（资料事实截止日期）、`retrievedAt`（检索日期）、`sources`、`confidence`、逐维 `rationale` 及分析段落，再运行测试。不要仅更新检索日期就声称事实已更新。派系和资源点也是分析简化，应保留争议与信心说明。
@@ -85,11 +109,37 @@ tests/app.spec.js     桌面 / 移动 / 瓦片失败交互测试
 
 ## 地图与许可
 
-地图**完全本地渲染，不加载任何第三方瓦片**：Natural Earth 国家轮廓（`public/world.geojson`）、经纬网、本地 `src/data/terrain.json`（山脉屏障、平原走廊、海峡与岛链示意线）及咽喉节点。曾使用的 Esri 晕渲与 CARTO 暗色瓦片均已移除：两者在部分环境会以 HTTP 200 返回“API key required”水印图，无法可靠检测。项目不使用 Esri/ArcGIS、CARTO、Mapbox、MapTiler、Stadia、Thunderforest、Google 等可能需要密钥的服务。若本地轮廓加载失败，界面提示，研究点位、航线与分析仍可使用。提供商不可达不影响本地研究数据；不是为高并发瓦片抓取设计。
+默认地图**完全本地渲染，不加载任何第三方瓦片**：Natural Earth 国家轮廓（`public/world.geojson`）、经纬网、本地 `src/data/terrain.json`（山脉屏障、平原走廊、海峡与岛链示意线）及咽喉节点。
+
+底图选择经过逐一实测（下载瓦片并查看图像与响应头）：
+
+| 提供商 | 实测 | 结论 |
+|---|---|---|
+| OpenStreetMap 标准瓦片 | 正常渲染、无水印 | **作为可选项**。遵守 [OSMF 瓦片政策](https://operations.osmfoundation.org/policies/tiles/)：仅人类交互浏览、显示署名、浏览器默认 Referer、无预取/离线/批量下载；默认关闭，失败自动回退本地。自动化测试中 OSM 请求被本地桩替换，不访问其服务器。 |
+| CARTO 暗色瓦片 | HTTP 200 但图像带“API KEY REQUIRED”水印 | 不提供 |
+| Esri（暗灰、影像、晕渲等） | 图像正常 | 不提供：Esri 条款要求使用 Esri 软件或 ArcGIS 订阅/密钥，本项目不满足 |
+
+项目不使用 Esri/ArcGIS、CARTO、Mapbox、MapTiler、Stadia、Thunderforest、Google 等需要密钥或订阅的服务（单元测试会扫描源码确认）。若本地轮廓加载失败，界面提示，研究点位、航线与分析仍可使用。
 
 本地轮廓来自 [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/)（公共领域），下载自 nvkelso/natural-earth-vector 的 ne_110m_admin_0_countries.geojson。轮廓仅为低分辨率研究参照；边界、点位、首都连接与航线不构成主权主张、势力范围、基地位置、当前部署或法律承诺。欧盟机构点位不表示欧盟整体是北约成员；图中相应关系仅表示跨大西洋成员合作。
 
 应用原创代码采用 MIT；第三方统计、报道与地图版权归各权利人，链接不代表背书。
+
+## 注入安全（AI 情报扩展）
+
+- 页面**不调用任何 AI 或网络接口**，也没有后端或密钥；提示词由你复制到自己的工具中使用。
+- 只接受 `JSON.parse` 能解析的对象或数组；**从不执行**粘贴内容（无 `eval`/`Function`/`innerHTML`），所有文本经 React 按纯文本渲染，地图标签另行 HTML 转义。
+- 严格模式：只允许规定字段（含嵌套对象，原型链键如 `__proto__` 也会被拒），类型、长度、id 格式、状态枚举、坐标范围、0–100 整数评分、`YYYY-MM-DD` 日期、仅 `https://` 且不含账号的来源链接、≤4 个视角、≤8 条来源、≤30000 字符、本机最多 12 个节点。
+- 注入节点 id 自动加 `user-` 前缀，**不能覆盖或替换已核实节点**；地图上为紫色虚线标记，档案与清单标注“用户注入·未核实”，默认不参与 Top 5 与摘要（可手动开启）。
+- 仅保存在本浏览器 `localStorage`；每次加载都会重新校验，被篡改的数据会被丢弃；“清除全部注入”一键删除。
+
+## 参考稿中刻意未采用的内容
+
+- 未核实或过时的数字：霍尔木兹“39 公里”、马六甲“2.8 公里”、红海“12% / 30%”、南美锂“58%”、稀土“85%”、民调百分比、“130–150 美元”油价冲击预测。改用 EIA、USGS、IEA 的带日期数据；“台湾 92% 先进产能”仅以 SIA/BCG 2021 报告（2019 年产能、10nm 以下）的历史基线形式出现。
+- 点名个人的派系判断（含已因选举变化的政府首脑）与民调份额：派系改为分析类型，并写明内部分歧与局限。
+- 参考稿的弱校验注入器（仅检查 id/坐标/评分）及“注入即替换核实数据”的做法。
+- CDN Tailwind、Google Fonts、unpkg 等第三方请求；Esri 与 CARTO 底图（原因见上表）。
+- `user-select:none` 与 `body{overflow:hidden}`（影响复制、无障碍和手机滚动）；800 公里地理圆（改为像素感应圈，缩放时手感一致）。
 
 ## GitHub Pages 部署
 

@@ -1,0 +1,260 @@
+{
+  "note": "派系是分析类型，不是统一组织；每条投射代表“倾向/关注”，为分析判断而非已证实的政策决定。",
+  "US": [
+    {
+      "id": "us-hawks",
+      "name": "传统安全鹰派",
+      "rep": "跨党派安全建制（以共和党为主）",
+      "color": "#f07a7a",
+      "origins": [
+        [
+          38.9,
+          -77.0
+        ]
+      ],
+      "summary": "重视前沿威慑、军力与联盟信誉，倾向对对手施压。",
+      "caveat": "并非所有共和党人；民主党内也有安全鹰派。",
+      "projections": [
+        {
+          "target": "iran",
+          "stance": "倾向维持强力施压与可信军事选项"
+        },
+        {
+          "target": "taiwan",
+          "stance": "倾向强化威慑与安全合作"
+        },
+        {
+          "target": "korea",
+          "stance": "重视同盟延伸威慑"
+        },
+        {
+          "target": "ukraine",
+          "stance": "部分成员支持援乌以维持威慑"
+        }
+      ]
+    },
+    {
+      "id": "us-maga",
+      "name": "MAGA 交易与克制路线",
+      "rep": "共和党民粹—优先派",
+      "color": "#e8b25f",
+      "origins": [
+        [
+          38.9,
+          -77.0
+        ]
+      ],
+      "summary": "强调负担分担、关税与产业回流，警惕长期海外战争。",
+      "caveat": "内部对不同战区立场不一，并非一概反对使用武力。",
+      "projections": [
+        {
+          "target": "iran",
+          "stance": "警惕长期战争，但保留强硬交易手段"
+        },
+        {
+          "target": "ukraine",
+          "stance": "主张欧洲承担更多负担"
+        },
+        {
+          "target": "taiwan",
+          "stance": "以交易视角看待军售与产业回流"
+        },
+        {
+          "target": "panama",
+          "stance": "关注西半球通道与供应链"
+        }
+      ]
+    },
+    {
+      "id": "us-dems",
+      "name": "民主党多边联盟派",
+      "rep": "民主党温和派与进步派（存在分歧）",
+      "color": "#7ea6f0",
+      "origins": [
+        [
+          38.9,
+          -77.0
+        ]
+      ],
+      "summary": "倾向盟友协调、制度合作与国会战争权力；进步派更反对军事行动。路透报道民主党将于明年1月掌控国会。",
+      "caveat": "温和派与进步派在援助、战争权力上意见不一。",
+      "projections": [
+        {
+          "target": "ukraine",
+          "stance": "总体支持援乌与盟友协调"
+        },
+        {
+          "target": "iran",
+          "stance": "倾向外交途径并强调国会战争权力"
+        },
+        {
+          "target": "taiwan",
+          "stance": "维持联盟威慑与危机管控"
+        }
+      ],
+      "sources": [
+        "reuters-iran"
+      ]
+    },
+    {
+      "id": "us-interests",
+      "name": "产业与倡议团体",
+      "rep": "军工 / 能源 / 科技 / 外交倡议组织",
+      "color": "#b796e6",
+      "origins": [
+        [
+          38.9,
+          -77.0
+        ]
+      ],
+      "summary": "通过合法游说、采购与选民动员影响议程。",
+      "caveat": "利益团体不是政策的充分原因；任何族裔或宗教社群都不是统一行为者。",
+      "projections": [
+        {
+          "target": "ukraine",
+          "stance": "军工：产能与采购需求"
+        },
+        {
+          "target": "taiwan",
+          "stance": "科技：芯片供应链与出口管制"
+        },
+        {
+          "target": "iran",
+          "stance": "能源：价格与供应安全"
+        },
+        {
+          "target": "latam",
+          "stance": "电池与矿业：关键矿产合同"
+        }
+      ]
+    }
+  ],
+  "EU": [
+    {
+      "id": "eu-core",
+      "name": "法德工业核心",
+      "rep": "法国 / 德国（政府与产业界）",
+      "color": "#6fc7e8",
+      "origins": [
+        [
+          48.86,
+          2.35
+        ],
+        [
+          52.52,
+          13.4
+        ]
+      ],
+      "summary": "兼顾战略自主、产业竞争力与联盟安全。",
+      "caveat": "两国内部政党与产业界同样存在分歧。",
+      "projections": [
+        {
+          "target": "iran",
+          "stance": "能源价格冲击产业，倾向降温"
+        },
+        {
+          "target": "ukraine",
+          "stance": "支持防空与财政援助，对直接卷入谨慎"
+        },
+        {
+          "target": "taiwan",
+          "stance": "重视贸易与供应链稳定"
+        },
+        {
+          "target": "brazil",
+          "stance": "对南共市贸易安排存在工业与农业利益张力"
+        }
+      ]
+    },
+    {
+      "id": "eu-east",
+      "name": "东欧与波罗的海前线",
+      "rep": "波兰 / 波罗的海国家 / 芬兰等",
+      "color": "#f07a7a",
+      "origins": [
+        [
+          52.23,
+          21.0
+        ],
+        [
+          59.44,
+          24.75
+        ]
+      ],
+      "summary": "将俄罗斯视为直接安全威胁，支持持续援乌与北约前沿部署。",
+      "caveat": "在农业、财政与采购上利益并不一致。",
+      "projections": [
+        {
+          "target": "ukraine",
+          "stance": "视为直接安全问题，主张持续支持"
+        },
+        {
+          "target": "iran",
+          "stance": "关注能源价格与美国安全资源分配"
+        }
+      ]
+    },
+    {
+      "id": "eu-sovereign",
+      "name": "主权优先与对俄务实路线",
+      "rep": "部分成员国政府（随选举变化）",
+      "color": "#e8d25f",
+      "origins": [
+        [
+          47.5,
+          19.04
+        ]
+      ],
+      "summary": "强调国家主权与能源价格，对援乌和制裁持保留态度。",
+      "caveat": "组成随各国选举变化，本工具未核实当前各国政府立场。",
+      "projections": [
+        {
+          "target": "ukraine",
+          "stance": "在需一致同意的外交安全决策中可能形成阻碍"
+        },
+        {
+          "target": "iran",
+          "stance": "关注能源价格与移民压力"
+        }
+      ],
+      "sources": [
+        "eu"
+      ]
+    },
+    {
+      "id": "eu-uktr",
+      "name": "英国 · 土耳其（非欧盟北约成员）",
+      "rep": "独立于欧盟决策的安全行为者",
+      "color": "#5fd0a5",
+      "origins": [
+        [
+          51.5,
+          -0.12
+        ],
+        [
+          39.93,
+          32.86
+        ]
+      ],
+      "summary": "英国是海上安全与情报合作伙伴；土耳其控制土耳其海峡并有自主地区议程。",
+      "caveat": "二者均不参加欧盟理事会表决。",
+      "projections": [
+        {
+          "target": "redsea",
+          "stance": "英国：海上安全合作（分析判断）"
+        },
+        {
+          "target": "ukraine",
+          "stance": "土耳其：依《蒙特勒公约》管理海峡军舰通行"
+        },
+        {
+          "target": "iran",
+          "stance": "土耳其：关注边境与难民外溢"
+        }
+      ],
+      "sources": [
+        "nato"
+      ]
+    }
+  ]
+}

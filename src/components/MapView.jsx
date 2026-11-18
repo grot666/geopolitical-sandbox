@@ -1,0 +1,69 @@
+import React,{useEffect,useMemo,useRef,useState} from 'react';
+import {MapContainer,Marker,Polyline,Tooltip,GeoJSON,Pane,CircleMarker,TileLayer,useMap} from 'react-leaflet';
+import L from 'leaflet';
+import resources from '../data/resources.json';import chokepoints from '../data/chokepoints.json';import routes from '../data/routes.json';import alliances from '../data/alliances.json';import terrain from '../data/terrain.json';import mapLabels from '../data/mapLabels.json';import corridors from '../data/corridors.json';import watermarks from '../data/watermarks.json';
+import {orderLabels,placeLabels,labelStyle,charWidth} from '../labels';
+export const corridorPills=corridors.map(c=>({id:c.id,label:c.label,color:c.color,position:c.positions[Math.floor(c.positions.length/2)]}));
+import {score,markerSize} from '../engine';
+const NONE=[];
+const graticule=[...[-60,-30,0,30,60].map(lat=>Array.from({length:37},(_,i)=>[lat,-180+i*10])),...Array.from({length:13},(_,i)=>-180+i*30).map(lon=>Array.from({length:17},(_,i)=>[-80+i*10,lon]))];
+const terrainStyle={mountain:{color:'#c4a676',weight:2,opacity:.8,dashArray:'6 4',lineCap:'butt'},plain:{color:'#7fa37a',weight:7,opacity:.22,lineCap:'round'},sea:{color:'#5fb2d1',weight:2,opacity:.7,dashArray:'8 6'},line:{color:'#e2876f',weight:2.5,opacity:.85,dashArray:'4 4'}};
+const resourceLabels={oil:'油',gas:'气',chips:'芯',minerals:'矿',grain:'粮',fertilizer:'肥'};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const OSM={url:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',host:'tile.openstreetmap.org'};
+// Gentle arc between two points (lat/lon space) so overlapping projections stay readable.
+export function arc(a,b,bend=.18,n=24){const [y1,x1]=a,[y2,x2]=b,dx=x2-x1,dy=y2-y1,cx=(x1+x2)/2-dy*bend,cy=(y1+y2)/2+dx*bend;return Array.from({length:n+1},(_,i)=>{const t=i/n,u=1-t;return [u*u*y1+2*u*t*cy+t*t*y2,u*u*x1+2*u*t*cx+t*t*x2];});}
+function Fly({target}){const map=useMap();useEffect(()=>{if(!target||target.id==='world'){map.fitBounds([[-56,-170],[74,180]],{padding:[12,30],maxZoom:2,animate:!!target});}else if(target.bounds)map.flyToBounds(target.bounds,{padding:[16,16],duration:1.2,maxZoom:5});else map.flyTo(target.center,target.zoom,{duration:1.2});},[target,map]);return null;}
+function LabelLayer({markers,pills=[],bilingual,showWatermarks,layoutKey}){const map=useMap();useEffect(()=>{if(!map.getPane('labels')){const pane=map.createPane('labels');pane.style.zIndex=450;pane.style.pointerEvents='none';}
+ const group=L.layerGroup().addTo(map);let frame;
+ const draw=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{group.clearLayers();const z=map.getZoom(),size=map.getSize();const proj=ll=>map.latLngToContainerPoint(ll);
+  const c=map.getContainer(),cr=c.getBoundingClientRect();const reserved=[...c.parentElement.querySelectorAll('.map-label,.map-legend,.terrain-legend,.resource-legend,.map-attribution,.tile-warning,.leaflet-control-zoom')].map(e=>{const r=e.getBoundingClientRect();return {x:r.x-cr.x-4,y:r.y-cr.y-4,w:r.width+8,h:r.height+8}}).filter(b=>b.w>8);
+  const placed=placeLabels(orderLabels(mapLabels.countries,mapLabels.geo,z,showWatermarks?watermarks:[]),proj,size,[...markers.map(m=>({...proj(m.position),r:m.r*(z<1.25?.68:1),top:12,right:14})),...(z>=PILL_ZOOM?pills:[]).map(q=>({...proj(q.position),w:charWidth(q.label,9)+18,h:18}))],3,reserved,bilingual);
+  c.dataset.labelCount=placed.length;c.dataset.zoomBand=z<1.25?'low':'normal';c.dataset.watermarks=placed.filter(p=>p.kind==='watermark').length;c.dataset.bilingual=placed.filter(p=>p.sub&&p.kind==='country').length;
+  for(const it of placed){const st=labelStyle(it);const sub=it.sub?`<small>${esc(it.sub)}</small>`:'';const el=`<span class="${st.cls}${it.sub?' has-sub':''}" style="font-size:${st.fs}px;letter-spacing:${st.ls}px;transform:translate(calc(-50% + ${it.dx}px),calc(-50% + ${it.dy}px))" data-label="${esc(it.name)}"${it.disputed?` title="${esc(it.disputed)}"`:''}>${esc(it.name)}${sub}</span>`;
+   L.marker(it.position,{pane:'labels',interactive:false,keyboard:false,icon:L.divIcon({className:'label-anchor',html:el,iconSize:[0,0]})}).addTo(group);}
+ });};
+ draw();map.on('zoomend moveend resize',draw);return()=>{cancelAnimationFrame(frame);map.off('zoomend moveend resize',draw);group.remove();};},[map,markers,pills,bilingual,showWatermarks,layoutKey]);return null;}
+const PILL_ZOOM=1.5;
+function CorridorPills(){const map=useMap();const [z,setZ]=useState(map.getZoom());useEffect(()=>{const f=()=>setZ(map.getZoom());map.on('zoomend',f);return()=>map.off('zoomend',f)},[map]);
+ if(z<PILL_ZOOM)return null;return corridorPills.map(c=><Marker key={c.id+'l'} position={c.position} interactive={false} keyboard={false} icon={L.divIcon({className:'corridor-anchor',iconSize:[0,0],html:`<span class="corridor-pill" style="--c:${c.color}">${esc(c.label)}</span>`})}/>);}
+function Resize({k}){const map=useMap();useEffect(()=>{const t=setTimeout(()=>map.invalidateSize(),60);return()=>clearTimeout(t)},[k,map]);return null;}
+// Screen-space placement of stance pills so pills for nearby targets do not cover each other.
+export function placePills(items,gap=4){const out=[];for(const it of items){const cands=[-it.h-14,14,-2*it.h-20,it.h+20,-3*it.h-26,2*it.h+26];let best=null;
+ for(const dy of cands){const b={x:it.x-it.w/2,y:it.y+dy,w:it.w,h:it.h};const ov=out.reduce((a,o)=>a+Math.max(0,Math.min(b.x+b.w,o.b.x+o.b.w)-Math.max(b.x,o.b.x)+gap)*Math.max(0,Math.min(b.y+b.h,o.b.y+o.b.h)-Math.max(b.y,o.b.y)+gap),0);if(!best||ov<best.ov)best={dy,b,ov};if(!ov)break;}
+ out.push({...it,dy:best.dy,b:best.b});}return out;}
+function Projection({faction,nodes}){
+ const map=useMap();const [,tick]=useState(0);useEffect(()=>{const f=()=>tick(x=>x+1);map.on('zoomend moveend',f);return()=>map.off('zoomend moveend',f)},[map]);
+ if(!faction)return null;const byId=Object.fromEntries(nodes.map(n=>[n.id,n]));const compact=map.getSize().x<560;
+ const pills=placePills(faction.projections.filter(p=>byId[p.target]).map(p=>{const t=byId[p.target],pt=map.latLngToContainerPoint(t.position);return {p,t,x:pt.x,y:pt.y,w:compact?charWidth(t.name,10)+20:Math.min(240,charWidth(t.name,10)+charWidth(p.stance,10)+24),h:22};}));
+ return <>{faction.projections.flatMap((p,i)=>{const t=byId[p.target];if(!t)return [];return faction.origins.map((o,j)=><Polyline key={p.target+j} className="projection-line" interactive={false} positions={arc(o,t.position,(i%2?-1:1)*.16)} pathOptions={{color:faction.color,weight:2.4,opacity:.95,dashArray:'7 6'}}/>);})}
+ {faction.origins.map((o,j)=><CircleMarker key={'o'+j} center={o} radius={6} interactive={false} pathOptions={{color:faction.color,fillColor:faction.color,fillOpacity:.9,weight:2}}/>)}
+ {pills.map(({p,t,dy})=><Marker key={'pill'+p.target+dy} position={t.position} interactive={false} keyboard={false} zIndexOffset={5000} icon={L.divIcon({className:'stance-anchor',iconSize:[0,0],html:`<span class="stance-pill" style="--c:${faction.color};transform:translate(-50%,${dy}px)"><b>${esc(t.name)}</b>${compact?'':esc(p.stance)}</span>`})}/>)}</>;
+}
+export default function MapView({nodes,weights,selected,choose,target,layers,display,basemap,onBasemapError,land,setHover,faction,layoutKey,children}){
+ const errors=useRef(0);useEffect(()=>{errors.current=0},[basemap]);
+ const markerPoints=useMemo(()=>nodes.map(e=>({position:e.position,r:Math.max(13,markerSize(score(e.scores,weights))/2+3)})),[nodes,weights]);
+ const targets=new Set(faction?faction.projections.map(p=>p.target):[]);
+ const osm=basemap==='osm';
+ return <MapContainer attributionControl={false} center={[22,25]} zoom={2} minZoom={0} zoomSnap={0.25} maxZoom={9} scrollWheelZoom={true} worldCopyJump={false} maxBounds={[[-80,-200],[85,200]]} zoomControl={true}>
+  <Fly target={target}/><Resize k={layoutKey}/>
+  <LabelLayer markers={markerPoints} pills={layers.corridors?corridorPills:NONE} bilingual={display.bilingual} showWatermarks={display.watermarks} layoutKey={layoutKey}/>
+  {osm&&<TileLayer url={OSM.url} className="osm-tiles" maxNativeZoom={19} eventHandlers={{tileerror:()=>{errors.current++;if(errors.current>=4)onBasemapError();}}}/>}
+  {land&&<Pane name="fallback-land" style={{zIndex:150}}><GeoJSON key={basemap} pane="fallback-land" data={land} interactive={false} style={{color:osm?'#6f8ea3':'#3b5568',weight:osm?.6:.8,fillColor:'#17262f',fillOpacity:osm?0:1}}/></Pane>}
+  {!osm&&graticule.map((g,i)=><Polyline key={'g'+i} positions={g} interactive={false} pathOptions={{color:'#1d3344',weight:.6,opacity:.7}}/>)}
+  {layers.terrain&&terrain.features.map(f=><Polyline key={f.id} positions={f.positions} pathOptions={terrainStyle[f.kind]}><Tooltip sticky>{f.name}<br/>{f.note}<br/><small>本地示意，非高程数据</small></Tooltip></Polyline>)}
+  {layers.routes&&routes.map(r=><Polyline key={r.id} positions={r.positions} pathOptions={{color:'#4e939b',weight:1.4,dashArray:'5 7',opacity:.6}}><Tooltip>{r.name}<br/>{r.note}</Tooltip></Polyline>)}
+  {layers.corridors&&corridors.map(c=><Polyline key={c.id} className={'corridor corridor-'+c.kind} positions={c.positions} pathOptions={{color:c.color,weight:2.6,opacity:.8,dashArray:c.kind==='energy'?null:'2 7',lineCap:'round'}}><Tooltip sticky><b>{c.name}</b><br/>{c.fact}<br/><small>{c.asOf} · 示意走向，非精确航迹</small></Tooltip></Polyline>)}
+  {layers.corridors&&<CorridorPills/>}
+  {layers.alliances&&alliances.edges.map((e,i)=><Polyline key={i} positions={[alliances.nodes.find(n=>n.id===e.from).position,alliances.nodes.find(n=>n.id===e.to).position]} pathOptions={{color:e.from==='cn'?'#c395dd':'#7b96df',weight:1.8,dashArray:'3 6'}}><Tooltip>{e.label} · 示意关系</Tooltip></Polyline>)}
+  {layers.alliances&&alliances.nodes.map(n=><Marker key={n.id} position={n.position} icon={L.divIcon({className:'power-marker',html:'<span>◆</span>',iconSize:[20,20]})}><Tooltip>{n.name} · 首都示意点</Tooltip></Marker>)}
+  {layers.terrain&&chokepoints.map(n=><Marker key={n.id} position={n.position} icon={L.divIcon({className:'choke-marker',html:'<span>⌁</span>',iconSize:[22,22]})} eventHandlers={{click:()=>choose(n)}}><Tooltip>{n.name} · 地理咽喉</Tooltip></Marker>)}
+  {layers.resources&&resources.map(n=><Marker key={n.id} position={n.position} zIndexOffset={1000} icon={L.divIcon({className:'resource-marker',html:`<span>${resourceLabels[n.category]}</span>`,iconSize:[25,25]})} eventHandlers={{click:()=>choose(n)}}><Tooltip>{n.name}</Tooltip></Marker>)}
+  <Projection faction={faction} nodes={nodes}/>
+  {/* Large invisible sensing radius: easier hover/tap than the small visual dot. */}
+  {nodes.map(n=><CircleMarker key={'hit'+n.id} className="hit-area" center={n.position} radius={26} pathOptions={{stroke:false,fillColor:'#fff',fillOpacity:0}} eventHandlers={{mouseover:()=>setHover(n),mouseout:()=>setHover(null),click:()=>choose(n)}}/>)}
+  {nodes.map(n=>{const val=score(n.scores,weights),size=markerSize(val);const cls='gravity-marker '+n.status+(n.user?' user':'')+(selected?.id===n.id?' is-selected':'')+(targets.has(n.id)?' is-projected':'')+(faction&&!targets.has(n.id)?' is-dimmed':'');
+   return <Marker key={n.id} position={n.position} title={n.name+(n.user?'（用户注入·未核实）':'')} alt={n.name} zIndexOffset={Math.round(val*10)} icon={L.divIcon({className:cls,html:`<span style="--size:${size}px"><i></i><b>${Math.round(val)}</b></span>`,iconSize:[size,size],iconAnchor:[size/2,size/2]})} eventHandlers={{click:()=>choose(n),mouseover:()=>setHover(n),mouseout:()=>setHover(null)}}/>})}
+  {children}
+ </MapContainer>;
+}
