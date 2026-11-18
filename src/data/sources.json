@@ -1,0 +1,83 @@
+[
+  {
+    "id": "reuters-iran",
+    "title": "Reuters · 美伊战争僵局",
+    "url": "https://www.investing.com/news/commodities-news/trump-and-tehran-gamble-on-time-as-iran-war-stalemate-deepens-5033542",
+    "asOf": "2026-11-17",
+    "evidence": "美方暂缓新一轮轰炸、维持海上封锁；间接谈判陷于先后顺序争议。",
+    "retrievedAt": "2026-11-18",
+    "verification": "本轮打开正文"
+  },
+  {
+    "id": "un-ukraine",
+    "title": "联合国 · 乌克兰平民与能源设施",
+    "url": "https://news.un.org/en/story/2026/11/1168828",
+    "asOf": "2026-11-17",
+    "evidence": "联合国报告持续交火与能源设施损毁；不是战线控制地图。",
+    "retrievedAt": "2026-11-18",
+    "verification": "本轮打开正文"
+  },
+  {
+    "id": "eia",
+    "title": "EIA · 全球能源安全数据",
+    "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+    "asOf": "2026-11-16",
+    "evidence": "2026Q3 霍尔木兹油流量9.1、曼德6.3、马六甲19.4百万桶/日。AIS存在失真与修订。",
+    "retrievedAt": "2026-11-18",
+    "verification": "本轮打开正文"
+  },
+  {
+    "id": "taiwan",
+    "title": "Reuters · 西太平洋军演",
+    "url": "https://www.investing.com/news/world-news/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific-5013944",
+    "asOf": "2026-11-10",
+    "evidence": "报道台湾防务部门对演训的评估；中方称航母训练例行且不针对特定国家。",
+    "retrievedAt": "2026-11-18",
+    "verification": "本轮打开正文"
+  },
+  {
+    "id": "korea",
+    "title": "Reuters · 美韩演习与朝鲜威慑",
+    "url": "https://www.investing.com/news/world-news/north-korea-says-ussouth-korea-nuclear-drill-shows-need-for-stronger-nuclear-deterrent-4989815",
+    "asOf": "2026-11-02",
+    "evidence": "报道Iron Mace演习与朝鲜回应；不能据此认定全面战争。",
+    "retrievedAt": "2026-11-18",
+    "verification": "本轮打开正文"
+  },
+  {
+    "id": "usgs",
+    "title": "USGS · 矿产年度摘要2026",
+    "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+    "asOf": "2026-05",
+    "evidence": "2025年矿产产量估计与储量；资源量、储量、产量不可互换。",
+    "retrievedAt": "2026-11-18",
+    "verification": "本轮读取官方锂矿PDF及矿产检索摘要"
+  },
+  {
+    "id": "eu",
+    "title": "欧盟理事会 · 一致同意规则",
+    "url": "https://www.consilium.europa.eu/en/council-eu/how-does-the-council-vote/unanimity/",
+    "asOf": "长期制度基线",
+    "evidence": "共同外交安全政策通常要求一致同意，存在条约例外。",
+    "retrievedAt": "2026-11-18",
+    "verification": "官方检索摘要；正文抓取超时"
+  },
+  {
+    "id": "us",
+    "title": "美国国会研究处 · 总统军事权力",
+    "url": "https://www.congress.gov/crs-product/IF10534",
+    "asOf": "长期制度基线",
+    "evidence": "IF10534讨论总统军事宪法权力；战争权力决议另见国会IF13134。非当届票数预测。",
+    "retrievedAt": "2026-11-18",
+    "verification": "检索摘要；官方正文抓取超时"
+  },
+  {
+    "id": "nato",
+    "title": "北约 · 成员国",
+    "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
+    "asOf": "长期制度基线",
+    "evidence": "同盟示意关系，不代表前线、军事基地、部署位置或条约自动参战承诺。",
+    "retrievedAt": "2026-11-18",
+    "verification": "本轮打开正文"
+  }
+]

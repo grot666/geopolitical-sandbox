@@ -1,0 +1,56 @@
+[
+  {
+    "id": "world",
+    "name": "全球",
+    "center": [
+      22,
+      25
+    ],
+    "zoom": 2
+  },
+  {
+    "id": "europe",
+    "name": "欧洲 / 黑海",
+    "center": [
+      51,
+      25
+    ],
+    "zoom": 4
+  },
+  {
+    "id": "mideast",
+    "name": "中东 / 红海",
+    "center": [
+      25,
+      46
+    ],
+    "zoom": 4
+  },
+  {
+    "id": "asia",
+    "name": "印太 / 东亚",
+    "center": [
+      24,
+      119
+    ],
+    "zoom": 4
+  },
+  {
+    "id": "africa",
+    "name": "非洲",
+    "center": [
+      2,
+      23
+    ],
+    "zoom": 3
+  },
+  {
+    "id": "latam",
+    "name": "拉美",
+    "center": [
+      -16,
+      -65
+    ],
+    "zoom": 3
+  }
+]

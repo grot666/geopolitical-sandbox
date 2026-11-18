@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests',workers:1,use:{baseURL:process.env.LIVE_URL||'http://127.0.0.1:4197/geopolitical-sandbox/',headless:true,launchOptions:{executablePath:process.env.CHROME_PATH,args:['--no-sandbox']}},webServer:process.env.LIVE_URL?undefined:{command:'npm run dev -- --port 4197',url:'http://127.0.0.1:4197/geopolitical-sandbox/',reuseExistingServer:true}});

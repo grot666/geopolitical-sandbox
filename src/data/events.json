@@ -1,0 +1,320 @@
+[
+  {
+    "id": "iran",
+    "name": "美以伊战争与海湾危机",
+    "subtitle": "MIDDLE EAST · ENERGY SECURITY",
+    "position": [
+      29,
+      51
+    ],
+    "status": "crisis",
+    "scores": {
+      "kineticIntensity": 72,
+      "systemicSpillover": 97,
+      "greatPowerInvolvement": 96,
+      "geographicLeverage": 99
+    },
+    "rationale": {
+      "kineticIntensity": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
+      "systemicSpillover": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
+      "greatPowerInvolvement": "美国、以色列与伊朗拥有不同目标；伊朗核项目不等于已拥有核武器。海湾国家也通过外交抑制升级。",
+      "geographicLeverage": "波斯湾出口集中于霍尔木兹；伊朗沿岸与阿曼半岛夹持狭窄出海口。地理约束提高封锁成本，但不决定政治结果。"
+    },
+    "analysis": {
+      "what": "11月17日路透报道：战争未获最终解决；美国暂缓新轰炸并维持海上封锁，谈判僵持。红色表示仍在延续的爆发危机，不表示每时每刻都在空袭。",
+      "geography": "波斯湾出口集中于霍尔木兹；伊朗沿岸与阿曼半岛夹持狭窄出海口。地理约束提高封锁成本，但不决定政治结果。",
+      "resources": "EIA估计2026Q3霍尔木兹油流量9.1百万桶/日，低于2025Q4的21.6；AIS不完整，数值会修订。油气、保险与运输共同传导冲击。",
+      "politics": "美国、以色列与伊朗拥有不同目标；伊朗核项目不等于已拥有核武器。海湾国家也通过外交抑制升级。"
+    },
+    "sources": [
+      "reuters-iran",
+      "eia"
+    ],
+    "asOf": "2026-11-17",
+    "retrievedAt": "2026-11-18",
+    "confidence": "中",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "ukraine",
+    "name": "俄乌战争",
+    "subtitle": "EUROPE · CONTINENTAL SECURITY",
+    "position": [
+      48.5,
+      35
+    ],
+    "status": "crisis",
+    "scores": {
+      "kineticIntensity": 96,
+      "systemicSpillover": 81,
+      "greatPowerInvolvement": 95,
+      "geographicLeverage": 68
+    },
+    "rationale": {
+      "kineticIntensity": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
+      "systemicSpillover": "电网、粮食、化肥与黑海物流构成主要外溢渠道。欧洲能源结构调整并未消除冲击。",
+      "greatPowerInvolvement": "俄罗斯为核武国家；欧美援助与制裁、乌克兰自主决策共同作用。北约援助不等于所有成员直接参战。",
+      "geographicLeverage": "东欧平原、河流与黑海港口塑造补给、防御纵深和出口通道。"
+    },
+    "analysis": {
+      "what": "联合国11月17日报告交火持续，平民伤亡与能源设施受损加剧。该点是区域分析锚点，不是即时战线。",
+      "geography": "东欧平原、河流与黑海港口塑造补给、防御纵深和出口通道。",
+      "resources": "电网、粮食、化肥与黑海物流构成主要外溢渠道。欧洲能源结构调整并未消除冲击。",
+      "politics": "俄罗斯为核武国家；欧美援助与制裁、乌克兰自主决策共同作用。北约援助不等于所有成员直接参战。"
+    },
+    "sources": [
+      "un-ukraine",
+      "eia"
+    ],
+    "asOf": "2026-11-17",
+    "retrievedAt": "2026-11-18",
+    "confidence": "高",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "redsea",
+    "name": "红海与曼德海峡",
+    "subtitle": "MARITIME · TRADE ARTERIES",
+    "position": [
+      13.5,
+      43.1
+    ],
+    "status": "crisis",
+    "scores": {
+      "kineticIntensity": 58,
+      "systemicSpillover": 85,
+      "greatPowerInvolvement": 79,
+      "geographicLeverage": 98
+    },
+    "rationale": {
+      "kineticIntensity": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+      "systemicSpillover": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
+      "greatPowerInvolvement": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。",
+      "geographicLeverage": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。"
+    },
+    "analysis": {
+      "what": "红海航运受地区战争与胡塞相关威胁影响；不将过去袭击推定为今日已发生的新事件。",
+      "geography": "曼德海峡连接印度洋与红海，北接苏伊士；绕行好望角增加航程。",
+      "resources": "EIA 2026Q3曼德油流量6.3百万桶/日；能源改道可能增加部分流量，不能只凭油轮流量代表全部集装箱贸易。",
+      "politics": "也门地方行动者、美国及地区国家各有利益，不能把所有行动简化为同一指挥链。"
+    },
+    "sources": [
+      "eia",
+      "reuters-iran"
+    ],
+    "asOf": "2026-11-17",
+    "retrievedAt": "2026-11-18",
+    "confidence": "中",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "taiwan",
+    "name": "台湾海峡",
+    "subtitle": "INDO-PACIFIC · TECHNOLOGY",
+    "position": [
+      24,
+      121
+    ],
+    "status": "latent",
+    "scores": {
+      "kineticIntensity": 38,
+      "systemicSpillover": 98,
+      "greatPowerInvolvement": 98,
+      "geographicLeverage": 94
+    },
+    "rationale": {
+      "kineticIntensity": "11月10日路透报道西太平洋演训。当前数据未证明海峡全面热战；高结构评分不是战争发生概率。",
+      "systemicSpillover": "先进晶圆制造与电子供应链高度集中；此处未把未经核验的先进制程百分比当作当前实测值。",
+      "greatPowerInvolvement": "北京坚持其主权主张，台湾政府拒绝；美国政策、地区盟友与当地政治影响威慑和误判风险。",
+      "geographicLeverage": "台湾海峡与第一岛链影响跨海作战和外部介入；海况、港口与补给限制重要。"
+    },
+    "analysis": {
+      "what": "11月10日路透报道西太平洋演训。当前数据未证明海峡全面热战；高结构评分不是战争发生概率。",
+      "geography": "台湾海峡与第一岛链影响跨海作战和外部介入；海况、港口与补给限制重要。",
+      "resources": "先进晶圆制造与电子供应链高度集中；此处未把未经核验的先进制程百分比当作当前实测值。",
+      "politics": "北京坚持其主权主张，台湾政府拒绝；美国政策、地区盟友与当地政治影响威慑和误判风险。"
+    },
+    "sources": [
+      "taiwan"
+    ],
+    "asOf": "2026-11-10",
+    "retrievedAt": "2026-11-18",
+    "confidence": "中",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "korea",
+    "name": "朝鲜半岛",
+    "subtitle": "NORTHEAST ASIA · NUCLEAR DETERRENCE",
+    "position": [
+      38.2,
+      127
+    ],
+    "status": "latent",
+    "scores": {
+      "kineticIntensity": 32,
+      "systemicSpillover": 69,
+      "greatPowerInvolvement": 96,
+      "geographicLeverage": 66
+    },
+    "rationale": {
+      "kineticIntensity": "11月2日报道朝鲜对美韩Iron Mace演习的回应。核威慑与军事演习不等于已爆发全面战争。",
+      "systemicSpillover": "韩国芯片、工业出口与东北亚航运面临潜在冲击，属于结构脆弱性而非已发生损失。",
+      "greatPowerInvolvement": "朝鲜核能力、美韩延伸威慑、中国及俄罗斯利益构成多边升级约束。",
+      "geographicLeverage": "人口与产业密集区接近军事分界线；半岛陆海接合限制战略纵深。"
+    },
+    "analysis": {
+      "what": "11月2日报道朝鲜对美韩Iron Mace演习的回应。核威慑与军事演习不等于已爆发全面战争。",
+      "geography": "人口与产业密集区接近军事分界线；半岛陆海接合限制战略纵深。",
+      "resources": "韩国芯片、工业出口与东北亚航运面临潜在冲击，属于结构脆弱性而非已发生损失。",
+      "politics": "朝鲜核能力、美韩延伸威慑、中国及俄罗斯利益构成多边升级约束。"
+    },
+    "sources": [
+      "korea"
+    ],
+    "asOf": "2026-11-02",
+    "retrievedAt": "2026-11-18",
+    "confidence": "中",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "latam",
+    "name": "拉美关键矿产",
+    "subtitle": "LATIN AMERICA · CRITICAL MINERALS",
+    "position": [
+      -23,
+      -67
+    ],
+    "status": "structural",
+    "scores": {
+      "kineticIntensity": 8,
+      "systemicSpillover": 76,
+      "greatPowerInvolvement": 48,
+      "geographicLeverage": 43
+    },
+    "rationale": {
+      "kineticIntensity": "USGS 2026年度摘要提供2025年矿产估计。锂三角是资源竞争节点，不是热战标签。",
+      "systemicSpillover": "锂、铜的矿权、水资源、精炼能力与长期合同共同决定供应，不可将地下资源量直接当出口能力。",
+      "greatPowerInvolvement": "当地政府、社区、企业与中美欧投资者共同谈判；不假定拉美国家必然选边站队。",
+      "geographicLeverage": "安第斯高原、盐湖水文与跨山交通限制项目开发；不同国家治理制度不应混同。"
+    },
+    "analysis": {
+      "what": "USGS 2026年度摘要提供2025年矿产估计。锂三角是资源竞争节点，不是热战标签。",
+      "geography": "安第斯高原、盐湖水文与跨山交通限制项目开发；不同国家治理制度不应混同。",
+      "resources": "锂、铜的矿权、水资源、精炼能力与长期合同共同决定供应，不可将地下资源量直接当出口能力。",
+      "politics": "当地政府、社区、企业与中美欧投资者共同谈判；不假定拉美国家必然选边站队。"
+    },
+    "sources": [
+      "usgs"
+    ],
+    "asOf": "2026-05",
+    "retrievedAt": "2026-11-18",
+    "confidence": "中",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "brazil",
+    "name": "巴西资源与粮食走廊",
+    "subtitle": "SOUTH AMERICA · DIVERSIFICATION",
+    "position": [
+      -15,
+      -48
+    ],
+    "status": "structural",
+    "scores": {
+      "kineticIntensity": 5,
+      "systemicSpillover": 72,
+      "greatPowerInvolvement": 40,
+      "geographicLeverage": 40
+    },
+    "rationale": {
+      "kineticIntensity": "USGS年度基线显示巴西具有多种关键矿产；此节点不表示已发生军事危机。",
+      "systemicSpillover": "稀土的储量不等于现有精炼产能；大豆与化肥供应构成相互依赖。",
+      "greatPowerInvolvement": "巴西国内监管、环境许可与多元贸易伙伴影响投资；外部资本不是唯一驱动因素。",
+      "geographicLeverage": "内陆矿区与农区依赖长距离公路、铁路和港口，地理距离影响出口成本。"
+    },
+    "analysis": {
+      "what": "USGS年度基线显示巴西具有多种关键矿产；此节点不表示已发生军事危机。",
+      "geography": "内陆矿区与农区依赖长距离公路、铁路和港口，地理距离影响出口成本。",
+      "resources": "稀土的储量不等于现有精炼产能；大豆与化肥供应构成相互依赖。",
+      "politics": "巴西国内监管、环境许可与多元贸易伙伴影响投资；外部资本不是唯一驱动因素。"
+    },
+    "sources": [
+      "usgs"
+    ],
+    "asOf": "2026-05",
+    "retrievedAt": "2026-11-18",
+    "confidence": "中",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "malacca",
+    "name": "马六甲海峡",
+    "subtitle": "SOUTHEAST ASIA · ENERGY CORRIDOR",
+    "position": [
+      2,
+      102
+    ],
+    "status": "latent",
+    "scores": {
+      "kineticIntensity": 9,
+      "systemicSpillover": 93,
+      "greatPowerInvolvement": 71,
+      "geographicLeverage": 100
+    },
+    "rationale": {
+      "kineticIntensity": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
+      "systemicSpillover": "东亚油气进口与全球集装箱航运叠加；不能把过境量等同于当地消费量。",
+      "greatPowerInvolvement": "沿岸国主权与航行安全合作、大国海军存在构成复杂网络。",
+      "geographicLeverage": "狭窄水道连接印度洋与南海；替代航道通常距离更长。"
+    },
+    "analysis": {
+      "what": "EIA 2026Q3估计油流量19.4百万桶/日。高流量意味着结构权重，不代表正在发生封锁。",
+      "geography": "狭窄水道连接印度洋与南海；替代航道通常距离更长。",
+      "resources": "东亚油气进口与全球集装箱航运叠加；不能把过境量等同于当地消费量。",
+      "politics": "沿岸国主权与航行安全合作、大国海军存在构成复杂网络。"
+    },
+    "sources": [
+      "eia"
+    ],
+    "asOf": "2026-11-16",
+    "retrievedAt": "2026-11-18",
+    "confidence": "高",
+    "epistemic": "分析师估计 · 非实测指数"
+  },
+  {
+    "id": "panama",
+    "name": "巴拿马运河",
+    "subtitle": "AMERICAS · INTEROCEANIC TRADE",
+    "position": [
+      9,
+      -79.6
+    ],
+    "status": "structural",
+    "scores": {
+      "kineticIntensity": 4,
+      "systemicSpillover": 66,
+      "greatPowerInvolvement": 51,
+      "geographicLeverage": 94
+    },
+    "rationale": {
+      "kineticIntensity": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
+      "systemicSpillover": "粮食、集装箱与能源货物依赖通航能力；油品统计不能替代总贸易。",
+      "greatPowerInvolvement": "巴拿马主管机构、航运公司及贸易大国利益交织，主权与商业运营须区分。",
+      "geographicLeverage": "船闸、湖泊与水资源制约通航；运河是两洋捷径而非天然海峡。"
+    },
+    "analysis": {
+      "what": "EIA估计2026Q3运河油品流量3.0百万桶/日。此处关注贸易通道，不标示当前军事冲突。",
+      "geography": "船闸、湖泊与水资源制约通航；运河是两洋捷径而非天然海峡。",
+      "resources": "粮食、集装箱与能源货物依赖通航能力；油品统计不能替代总贸易。",
+      "politics": "巴拿马主管机构、航运公司及贸易大国利益交织，主权与商业运营须区分。"
+    },
+    "sources": [
+      "eia"
+    ],
+    "asOf": "2026-11-16",
+    "retrievedAt": "2026-11-18",
+    "confidence": "中",
+    "epistemic": "分析师估计 · 非实测指数"
+  }
+]
