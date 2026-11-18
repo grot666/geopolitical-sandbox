@@ -24,11 +24,11 @@ npm run preview
 
 - 自动 Top 5、紧迫度 / 结构影响双权重、四维自定义权重实验。
 - 地图点位尺寸与置顶顺序随得分变化；现行危机红色脉冲、潜伏点琥珀静态光环、资源通道青绿色。
-- 全球与区域 FlyTo、地形晕渲与海峡、战略资源、精选同盟网络、贸易路径开关。
+- 全球与区域 FlyTo、本地战略地形示意与海峡、战略资源、精选同盟网络、贸易路径开关。
 - 所有主焦点、资源、海峡均可点击，查看四维依据与 What / Geography / Resources / Politics 四段分析。
 - 美国行政/两院/党内路线/产业及外交倡议组织，欧盟机构/成员国分歧/英国/土耳其制度面板。
 - 观察清单检索、状态筛选、研究 JSON 导出、来源档案、移动端布局、键盘关闭与焦点约束、减少动画偏好。
-- 地图瓦片失败时显示提示，并保留本地 Natural Earth 轮廓、研究点位和全部分析数据。首次打开网页本身仍需要网络；不是完整 PWA 离线缓存。
+- 无第三方地图依赖：同源加载本地轮廓；轮廓失败时提示并保留研究点位和全部分析数据。首次打开网页本身仍需要网络；不是完整 PWA 离线缓存。
 
 ## 架构与数据维护
 
@@ -42,6 +42,7 @@ src/data/regions.json  区域视角
 src/data/resources.json 战略资源点（继承关联地区评分，非单设施风险）
 src/data/chokepoints.json 海峡/运河点（继承关联地区评分）
 src/data/routes.json   航线示意
+src/data/terrain.json  本地战略地形示意线（非高程）
 src/data/alliances.json 精选首都关系网络，非完整成员名册
 src/data/politics.json 美欧机构与派系分析
 src/data/sources.json  日期、URL、核验方式、证据摘要
@@ -81,7 +82,7 @@ tests/app.spec.js     桌面 / 移动 / 瓦片失败交互测试
 
 ## 地图与许可
 
-瓦片 © OpenStreetMap contributors / CARTO；地形晕渲 Esri / USGS，无密钥公共图层，受第三方可用性、条款和速率限制。提供商不可达不影响本地研究数据；不是为高并发瓦片抓取设计。
+地图**完全本地渲染，不加载任何第三方瓦片**：Natural Earth 国家轮廓（`public/world.geojson`）、经纬网、本地 `src/data/terrain.json`（山脉屏障、平原走廊、海峡与岛链示意线）及咽喉节点。曾使用的 Esri 晕渲与 CARTO 暗色瓦片均已移除：两者在部分环境会以 HTTP 200 返回“API key required”水印图，无法可靠检测。项目不使用 Esri/ArcGIS、CARTO、Mapbox、MapTiler、Stadia、Thunderforest、Google 等可能需要密钥的服务。若本地轮廓加载失败，界面提示，研究点位、航线与分析仍可使用。提供商不可达不影响本地研究数据；不是为高并发瓦片抓取设计。
 
 本地轮廓来自 [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/)（公共领域），下载自 nvkelso/natural-earth-vector 的 ne_110m_admin_0_countries.geojson。轮廓仅为低分辨率研究参照；边界、点位、首都连接与航线不构成主权主张、势力范围、基地位置、当前部署或法律承诺。欧盟机构点位不表示欧盟整体是北约成员；图中相应关系仅表示跨大西洋成员合作。
 
